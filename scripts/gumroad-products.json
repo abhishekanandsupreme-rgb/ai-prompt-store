@@ -1,0 +1,192 @@
+[
+  {
+    "name": "AI Content Creator Pack - 50 Expert Prompts for YouTube, Social Media, Blogs & Email",
+    "slug": "ai-content-creator-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Education / Productivity",
+    "tags": [
+      "AI",
+      "ChatGPT",
+      "prompts",
+      "content creation",
+      "social media",
+      "YouTube",
+      "marketing",
+      "copywriting"
+    ],
+    "description": "Get 50+ expertly crafted AI prompts for content creators. Copy, paste, and create better content in half the time.\n\nWhat's inside:\n- 10 YouTube script templates with hooks and CTAs\n- 30+ social media caption frameworks\n- 5 email marketing sequences\n- Blog post outlines and SEO prompts\n- Product description templates for Amazon, Shopify, Etsy\n- Ad copy formulas for Facebook and Google\n\nPerfect for:\n- YouTubers and content creators\n- Social media managers\n- Bloggers and copywriters\n- Marketing teams\n- Small business owners\n\nWorks with: ChatGPT, Claude, Gemini, and any AI writing tool\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-1/prompts.md"
+  },
+  {
+    "name": "AI Business Builder Pack - 50 Prompts for Strategy, Planning & Growth",
+    "slug": "ai-business-builder-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Business / Education",
+    "tags": [
+      "AI",
+      "business",
+      "startup",
+      "strategy",
+      "planning",
+      "entrepreneurship"
+    ],
+    "description": "50+ prompts to help you plan, analyze, and grow any business. From startup ideas to market research.\n\nWhat's inside:\n- Business plan executive summary templates\n- SWOT and competitor analysis prompts\n- Market research frameworks\n- Pitch deck outlines\n- Financial projection templates\n- Customer persona generators\n- Business model canvas prompts\n- Go-to-market strategy templates\n\nPerfect for:\n- Startup founders\n- Small business owners\n- Consultants and coaches\n- MBA students\n- Aspiring entrepreneurs\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-2/prompts.md"
+  },
+  {
+    "name": "AI Coding Assistant Pack - 50 Prompts for Developers",
+    "slug": "ai-coding-assistant-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Education / Technology",
+    "tags": [
+      "AI",
+      "coding",
+      "programming",
+      "development",
+      "debugging",
+      "documentation"
+    ],
+    "description": "50+ prompts to supercharge your coding workflow. From debugging to documentation to deployment.\n\nWhat's inside:\n- Code generation templates\n- Debugging and optimization prompts\n- Unit test generators\n- API documentation templates\n- Docker and CI/CD configs\n- Git commit message generators\n- Code review frameworks\n- README templates\n\nPerfect for:\n- Software developers\n- DevOps engineers\n- Technical writers\n- CS students\n- Freelance developers\n\nWorks with: Any programming language\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-3/prompts.md"
+  },
+  {
+    "name": "AI Marketing Master Pack - 50 Prompts for Copywriting & Campaigns",
+    "slug": "ai-marketing-master-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Business / Marketing",
+    "tags": [
+      "AI",
+      "marketing",
+      "copywriting",
+      "advertising",
+      "campaigns",
+      "sales"
+    ],
+    "description": "50+ prompts to create high-converting marketing copy and campaigns in minutes.\n\nWhat's inside:\n- Facebook and Instagram ad copy\n- Email subject line generators\n- Brand positioning statements\n- Sales page copy templates\n- Content marketing calendars\n- Social media growth strategies\n- Press release templates\n- Affiliate program structures\n\nPerfect for:\n- Marketers and copywriters\n- Small business owners\n- E-commerce stores\n- Agency owners\n- Content creators\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-4/prompts.md"
+  },
+  {
+    "name": "AI Writing Assistant Pack - 50 Prompts for Fiction & Creative Writing",
+    "slug": "ai-writing-assistant-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Education / Creative",
+    "tags": [
+      "AI",
+      "writing",
+      "creative writing",
+      "fiction",
+      "novels",
+      "screenwriting"
+    ],
+    "description": "50+ prompts to help you write novels, short stories, screenplays, and more.\n\nWhat's inside:\n- Novel chapter outlines\n- Character profile generators\n- Dialogue writing prompts\n- Plot twist generators\n- Writing style guides\n- Book proposal templates\n- Screenplay format examples\n- Poetry theme ideas\n\nPerfect for:\n- Novelists and authors\n- Screenwriters\n- Creative writing students\n- Content creators\n- Bloggers\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-5/prompts.md"
+  },
+  {
+    "name": "AI Productivity Pack - 50 Prompts for Time Management & Planning",
+    "slug": "ai-productivity-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Productivity / Business",
+    "tags": [
+      "AI",
+      "productivity",
+      "time management",
+      "planning",
+      "organization"
+    ],
+    "description": "50+ prompts to help you plan, organize, and execute projects efficiently.\n\nWhat's inside:\n- Daily schedule templates\n- Weekly review frameworks\n- Project management plans\n- Meeting agenda templates\n- Goal-setting systems\n- Time-blocking schedules\n- Habit tracker designs\n- Delegation checklists\n- Decision matrices\n\nPerfect for:\n- Entrepreneurs and founders\n- Project managers\n- Freelancers\n- Students\n- Anyone wanting to get more done\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-6/prompts.md"
+  },
+  {
+    "name": "AI Social Media Manager Pack - 50 Prompts for Strategy & Content",
+    "slug": "ai-social-media-manager-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Marketing / Social Media",
+    "tags": [
+      "AI",
+      "social media",
+      "Instagram",
+      "TikTok",
+      "Twitter",
+      "LinkedIn",
+      "marketing"
+    ],
+    "description": "50+ prompts to manage social media accounts, create content calendars, and grow audiences.\n\nWhat's inside:\n- 30-day content calendar templates\n- Instagram caption generators\n- TikTok script ideas\n- Twitter/X thread frameworks\n- LinkedIn content strategies\n- Pinterest pin descriptions\n- Social media policy templates\n- Crisis response plans\n- Influencer outreach templates\n\nPerfect for:\n- Social media managers\n- Small business owners\n- Influencers\n- Marketing agencies\n- Content creators\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-7/prompts.md"
+  },
+  {
+    "name": "AI SEO Expert Pack - 50 Prompts for Search Engine Optimization",
+    "slug": "ai-seo-expert-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Marketing / SEO",
+    "tags": [
+      "AI",
+      "SEO",
+      "search engine optimization",
+      "keywords",
+      "traffic",
+      "ranking"
+    ],
+    "description": "50+ prompts to help you rank higher, get more organic traffic, and optimize your website.\n\nWhat's inside:\n- Keyword research strategies\n- SEO content outlines\n- Meta description generators\n- Link building outreach templates\n- SEO audit checklists\n- Technical SEO reports\n- Local SEO strategies\n- Schema markup templates\n- Competitor analysis prompts\n\nPerfect for:\n- SEO specialists\n- Bloggers and content creators\n- Small business owners\n- Marketing teams\n- Web developers\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-8/prompts.md"
+  },
+  {
+    "name": "AI Entrepreneur Pack - 50 Prompts for Startups & Growth Hacking",
+    "slug": "ai-entrepreneur-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Business / Entrepreneurship",
+    "tags": [
+      "AI",
+      "startup",
+      "entrepreneur",
+      "growth hacking",
+      "MVP",
+      "fundraising"
+    ],
+    "description": "50+ prompts to validate ideas, build MVPs, and grow your startup.\n\nWhat's inside:\n- Startup idea validation frameworks\n- MVP planning templates\n- Customer interview scripts\n- Pricing strategy tools\n- Growth hacking experiments\n- Fundraising pitch decks\n- Partnership proposals\n- Revenue model canvases\n- Startup metrics dashboards\n\nPerfect for:\n- Startup founders\n- Aspiring entrepreneurs\n- Small business owners\n- Consultants\n- Investors\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-9/prompts.md"
+  },
+  {
+    "name": "AI Education Pack - 50 Prompts for Teaching & Course Creation",
+    "slug": "ai-education-pack",
+    "price": 9.99,
+    "product_type": "Digital Product",
+    "category": "Education / Teaching",
+    "tags": [
+      "AI",
+      "education",
+      "teaching",
+      "learning",
+      "courses",
+      "training"
+    ],
+    "description": "50+ prompts for educators, course creators, and students.\n\nWhat's inside:\n- Lesson plan templates\n- Study guide generators\n- Quiz question banks\n- Course outlines\n- Teaching rubrics\n- Student feedback templates\n- Homework assignments\n- Lecture transcript outlines\n- Training manuals\n\nPerfect for:\n- Teachers and professors\n- Online course creators\n- Students\n- Corporate trainers\n- Tutors\n\nInstant download. Lifetime access. Free updates.",
+    "file_upload": "products/prompt-pack-10/prompts.md"
+  },
+  {
+    "name": "Complete AI Prompt Bundle - All 10 Packs (500+ Prompts)",
+    "slug": "complete-ai-prompt-bundle",
+    "price": 27.99,
+    "original_price": 99.99,
+    "product_type": "Digital Product",
+    "category": "Education / Productivity",
+    "tags": [
+      "AI",
+      "prompts",
+      "bundle",
+      "all-in-one",
+      "creators",
+      "entrepreneurs"
+    ],
+    "description": "Get all 10 prompt packs at once and save 70%. That's 500+ expert prompts covering content creation, business, coding, marketing, writing, productivity, social media, SEO, entrepreneurship, and education.\n\nInstant download. Lifetime access. Free updates.\n\n**Files to upload:** All products/prompt-pack-*/prompts.md combined into one ZIP",
+    "files_upload": "All products/prompt-pack-*/prompts.md combined into one ZIP"
+  }
+]
