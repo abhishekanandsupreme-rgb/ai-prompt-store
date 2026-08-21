@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Prompt Store - 50+ Prompt Packs for Creators & Entrepreneurs</title>
+    <meta name="description" content="Download 500+ expert AI prompts for content creation, marketing, coding, business, and more. Boost your productivity with our curated prompt collections.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #667eea;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.95;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .products {
+            background: white;
+            padding: 4rem 0;
+        }
+        
+        .products h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #333;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .product-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            background: white;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .product-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .product-card .price {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+            margin: 1rem 0;
+        }
+        
+        .product-card .original-price {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1rem;
+            margin-left: 0.5rem;
+        }
+        
+        .product-card ul {
+            list-style: none;
+            margin: 1rem 0;
+        }
+        
+        .product-card li {
+            padding: 0.3rem 0;
+            color: #666;
+        }
+        
+        .product-card li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        .buy-button {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+        
+        .buy-button:hover {
+            opacity: 0.9;
+        }
+        
+        .bundle {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 3rem;
+            border-radius: 16px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+        
+        .bundle h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .bundle .price {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+        
+        .bundle .original-price {
+            text-decoration: line-through;
+            opacity: 0.8;
+            font-size: 1.5rem;
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: #f8f9fa;
+        }
+        
+        .features h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">AI Prompt Store</div>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#bundle">Bundle Deal</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>500+ Expert AI Prompts</h1>
+            <p>Supercharge your content creation, marketing, coding, and business with professionally crafted prompts. Download instantly and start creating today.</p>
+            <a href="#products" class="cta-button">Browse Prompt Packs</a>
+        </div>
+    </section>
+    
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Prompt Collections</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <h3>AI Content Creator Pack</h3>
+                    <p>50+ prompts for YouTube, social media, blogs, and email marketing</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>YouTube scripts & titles</li>
+                        <li>Social media captions</li>
+                        <li>Blog post outlines</li>
+                        <li>Email sequences</li>
+                        <li>Product descriptions</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-1" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Business Builder Pack</h3>
+                    <p>50+ prompts for business planning, strategy, and growth</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Business plans</li>
+                        <li>SWOT analysis</li>
+                        <li>Market research</li>
+                        <li>Pitch decks</li>
+                        <li>Financial projections</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-2" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Coding Assistant Pack</h3>
+                    <p>50+ prompts for developers, debugging, and documentation</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Code generation</li>
+                        <li>Debugging help</li>
+                        <li>API documentation</li>
+                        <li>Testing frameworks</li>
+                        <li>CI/CD pipelines</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-3" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Marketing Master Pack</h3>
+                    <p>50+ prompts for advertising, copywriting, and campaigns</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Ad copywriting</li>
+                        <li>Email sequences</li>
+                        <li>Brand positioning</li>
+                        <li>Sales pages</li>
+                        <li>Campaign strategy</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-4" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Writing Assistant Pack</h3>
+                    <p>50+ prompts for fiction, non-fiction, and creative writing</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Novel outlines</li>
+                        <li>Character development</li>
+                        <li>Dialogue writing</li>
+                        <li>Screenplay format</li>
+                        <li>Poetry themes</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-5" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Productivity Pack</h3>
+                    <p>50+ prompts for time management, planning, and organization</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Daily schedules</li>
+                        <li>Project plans</li>
+                        <li>Meeting agendas</li>
+                        <li>Goal frameworks</li>
+                        <li>Habit trackers</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-6" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Social Media Manager Pack</h3>
+                    <p>50+ prompts for social media strategy and content creation</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Content calendars</li>
+                        <li>Instagram captions</li>
+                        <li>TikTok scripts</li>
+                        <li>Twitter threads</li>
+                        <li>Community management</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-7" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI SEO Expert Pack</h3>
+                    <p>50+ prompts for search engine optimization and organic traffic</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Keyword research</li>
+                        <li>SEO content outlines</li>
+                        <li>Link building</li>
+                        <li>Technical SEO</li>
+                        <li>Competitor analysis</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-8" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Entrepreneur Pack</h3>
+                    <p>50+ prompts for startups, validation, and growth hacking</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Startup validation</li>
+                        <li>MVP planning</li>
+                        <li>Customer interviews</li>
+                        <li>Growth experiments</li>
+                        <li>Fundraising pitches</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-9" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+                
+                <div class="product-card">
+                    <h3>AI Education Pack</h3>
+                    <p>50+ prompts for teaching, course creation, and learning</p>
+                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
+                    <ul>
+                        <li>Lesson plans</li>
+                        <li>Study guides</li>
+                        <li>Quiz questions</li>
+                        <li>Course outlines</li>
+                        <li>Assessment rubrics</li>
+                    </ul>
+                    <a href="https://gum.co/prompt-pack-10" class="buy-button" target="_blank">Buy Now</a>
+                </div>
+            </div>
+            
+            <div class="bundle" id="bundle">
+                <h2>🔥 Complete Bundle - All 10 Packs</h2>
+                <p>Get all 500+ prompts at once and save 70%</p>
+                <div class="price">$27<span style="font-size: 1.5rem; opacity: 0.8;">.99</span> <span class="original-price">$99.99</span></div>
+                <p style="margin: 1rem 0; opacity: 0.9;">Instant download • Lifetime access • Free updates</p>
+                <a href="https://gum.co/prompt-bundle" class="cta-button" target="_blank" style="background: white; color: #f5576c;">Get All 10 Packs</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose Our Prompts?</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Download</h3>
+                    <p>Get immediate access to all prompts after purchase</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Expertly Crafted</h3>
+                    <p>Each prompt is tested and optimized for best results</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Free Updates</h3>
+                    <p>We regularly add new prompts to all packs</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">💼</div>
+                    <h3>Commercial Use</h3>
+                    <p>Use prompts for client work and commercial projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI Prompt Store. All rights reserved.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.8;">Made with ❤️ for creators and entrepreneurs</p>
+        </div>
+    </footer>
+</body>
+</html>
