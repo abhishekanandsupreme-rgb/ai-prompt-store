@@ -55,8 +55,8 @@ fi
 echo ""
 echo "All 11 product files validated successfully."
 
-# Create manifests for each product
-python3 - <<'PY' > "$MANIFEST_DIR/upload-manifests.json"
+# Create manifests for each product using a helper script
+cat > "$MANIFEST_DIR/_gen_manifest.py" <<PY
 import json, os, datetime
 
 BASE = "C:/Users/asus/ai-prompt-store"
@@ -68,7 +68,6 @@ with open(PAYLOADS, "r", encoding="utf-8") as f:
 manifests = []
 for p in products:
     rel = p.get("file_upload_path") or p.get("files_upload") or ""
-    # Determine primary local file path
     if rel.startswith("All products/"):
         local_path = os.path.join(BASE, "products", "bundle-all-10-packs.zip")
     elif rel:
@@ -91,9 +90,12 @@ for p in products:
     }
     manifests.append(entry)
 
-with open("$MANIFEST_DIR/upload-manifests.json", "w", encoding="utf-8") as f:
+with open(os.path.join("$MANIFEST_DIR", "upload-manifests.json"), "w", encoding="utf-8") as f:
     json.dump(manifests, f, indent=2)
 PY
+
+python "$MANIFEST_DIR/_gen_manifest.py"
+rm -f "$MANIFEST_DIR/_gen_manifest.py"
 
 echo ""
 echo "Upload manifests written to: $MANIFEST_DIR/upload-manifests.json"
