@@ -212,7 +212,7 @@ Send Me the Free Prompts ↓
 - Email input and button stacked
 
 **Integrations:**
-- Email provider: Buttondown / Beehiiv / ConvertKit
+- Email provider: Email provider setup pending
 - Thank you page: Redirect to download page with PDF
 - Thank you email: Send immediately with download link
 - Welcome sequence: 5-email drip over 2 weeks

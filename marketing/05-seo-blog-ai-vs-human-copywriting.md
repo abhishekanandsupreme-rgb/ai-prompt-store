@@ -161,4 +161,4 @@ The teams that win are the ones that stop arguing about "AI vs. human" and start
 
 ---
 
-**Want prompts that combine AI speed with human-quality results?** The [AI Content Creator Pack](https://ai-prompt-store.example.com) includes 50+ copywriting prompts for landing pages, email sequences, social media, and video scripts—all tested and ready to use.
+**Want prompts that combine AI speed with human-quality results?** The [AI Content Creator Pack](https://github.com/abhishekanandsupreme-rgb/ai-prompt-store) includes 50+ copywriting prompts for landing pages, email sequences, social media, and video scripts—all tested and ready to use.
