@@ -181,4 +181,4 @@ These prompts work with ChatGPT, Claude, Gemini, and any other major AI writing 
 
 ---
 
-**Want the full library?** These 50 prompts are part of the [AI Content Creator Pack](https://ai-prompt-store.example.com) which includes 50+ tested templates for YouTube, social media, blogs, and email—plus a guide on how to customize them for your niche.
+**Want the full library?** These 50 prompts are part of the [AI Content Creator Pack](https://https://github.com/abhishekanandsupreme-rgb/ai-prompt-store) which includes 50+ tested templates for YouTube, social media, blogs, and email—plus a guide on how to customize them for your niche.

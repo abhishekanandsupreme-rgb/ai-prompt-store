@@ -163,4 +163,4 @@ Try this with your next prompt and watch the quality jump immediately.
 
 ---
 
-**Ready to go deeper?** I've built a library of 250+ tested prompts using these exact frameworks. Browse the [AI Prompt Store](https://ai-prompt-store.example.com) to find prompts for content creation, marketing, business strategy, and development.
+**Ready to go deeper?** I've built a library of 250+ tested prompts using these exact frameworks. Browse the [AI Prompt Store](https://https://github.com/abhishekanandsupreme-rgb/ai-prompt-store) to find prompts for content creation, marketing, business strategy, and development.

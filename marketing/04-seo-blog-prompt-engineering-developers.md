@@ -248,4 +248,4 @@ Prompt engineering for developers isn't about fancy syntax—it's about giving t
 
 ---
 
-**Ready to level up your development workflow?** Check out the [AI Developer Pack](https://ai-prompt-store.example.com) for 50+ tested prompts for debugging, refactoring, documentation, and architecture—organized by use case so you can find the right prompt fast.
+**Ready to level up your development workflow?** Check out the [AI Developer Pack](https://https://github.com/abhishekanandsupreme-rgb/ai-prompt-store) for 50+ tested prompts for debugging, refactoring, documentation, and architecture—organized by use case so you can find the right prompt fast.

@@ -17,7 +17,7 @@ This isn't a "get rich quick" story—it's a proof of concept that shows anyone 
 | Product creation | ChatGPT | Free tier |
 | Payment & delivery | Gumroad | Free to start |
 | Website / landing page | GitHub Pages | Free |
-| Email list | Buttondown / Beehiiv | Free tier |
+| Email list | Setup pending — configure email service | Free tier |
 | Graphics | Canva | Free tier |
 | Research | Google Trends + Reddit | Free |
 | Scheduling | Buffer free tier | Free |
@@ -124,7 +124,7 @@ I priced at $9.99. Too low, and people assume low quality. Too high, and you nee
 Once you have a product that sells:
 1. Move from GitHub Pages to a real domain ($10/year).
 2. Switch to Gumroad's paid plan ($10/month) to lower fees to 5%.
-3. Use a real email service (ConvertKit, Beehiiv) when you hit 100+ subscribers.
+3. Use a real email service (email service provider) when you hit 100+ subscribers.
 4. Reinvest early revenue into one paid tool (like Canva Pro or a scheduling app).
 
 ## The Real Takeaway
@@ -139,4 +139,4 @@ I went from idea to first sale in 72 hours. You can too.
 
 ---
 
-**Want to skip the trial and error?** I've packaged everything I learned into [AI Business Builder Pack](https://ai-prompt-store.example.com)—50 tested prompts for strategy, planning, and growth, plus a launch checklist. Perfect for side projects and micro-businesses.
+**Want to skip the trial and error?** I've packaged everything I learned into [AI Business Builder Pack](https://https://github.com/abhishekanandsupreme-rgb/ai-prompt-store)—50 tested prompts for strategy, planning, and growth, plus a launch checklist. Perfect for side projects and micro-businesses.
