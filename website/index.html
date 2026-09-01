@@ -3,485 +3,640 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Prompt Store - 50+ Prompt Packs for Creators & Entrepreneurs</title>
+    <title>AI Prompt Store - 500+ Expert Prompts for Creators & Entrepreneurs</title>
     <meta name="description" content="Download 500+ expert AI prompts for content creation, marketing, coding, business, and more. Boost your productivity with our curated prompt collections.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 1rem 0;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-        
-        .nav-links a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        .nav-links a:hover {
-            color: #667eea;
-        }
-        
-        .hero {
-            text-align: center;
-            padding: 4rem 0;
-            color: white;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            font-weight: 800;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-        
-        .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-            opacity: 0.95;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: white;
-            color: #667eea;
-            padding: 1rem 2.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.1rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-        }
-        
-        .products {
-            background: white;
-            padding: 4rem 0;
-        }
-        
-        .products h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-            color: #333;
-        }
-        
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
-        
-        .product-card {
-            border: 1px solid #e0e0e0;
-            border-radius: 12px;
-            padding: 2rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-            background: white;
-        }
-        
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        
-        .product-card h3 {
-            color: #667eea;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-        
-        .product-card .price {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
-            margin: 1rem 0;
-        }
-        
-        .product-card .original-price {
-            text-decoration: line-through;
-            color: #999;
-            font-size: 1rem;
-            margin-left: 0.5rem;
-        }
-        
-        .product-card ul {
-            list-style: none;
-            margin: 1rem 0;
-        }
-        
-        .product-card li {
-            padding: 0.3rem 0;
-            color: #666;
-        }
-        
-        .product-card li:before {
-            content: "✓ ";
-            color: #667eea;
-            font-weight: bold;
-        }
-        
-        .buy-button {
-            display: block;
-            width: 100%;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 0.8rem;
-            border: none;
-            border-radius: 8px;
-            text-decoration: none;
-            text-align: center;
-            font-weight: bold;
-            transition: opacity 0.3s;
-        }
-        
-        .buy-button:hover {
-            opacity: 0.9;
-        }
-        
-        .bundle {
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-            color: white;
-            padding: 3rem;
-            border-radius: 16px;
-            text-align: center;
-            margin: 3rem 0;
-        }
-        
-        .bundle h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .bundle .price {
-            font-size: 3rem;
-            font-weight: bold;
-            margin: 1rem 0;
-        }
-        
-        .bundle .original-price {
-            text-decoration: line-through;
-            opacity: 0.8;
-            font-size: 1.5rem;
-        }
-        
-        .features {
-            padding: 4rem 0;
-            background: #f8f9fa;
-        }
-        
-        .features h2 {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 3rem;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-        }
-        
-        .feature {
-            text-align: center;
-            padding: 2rem;
-        }
-        
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .feature h3 {
-            color: #667eea;
-            margin-bottom: 0.5rem;
-        }
-        
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-        }
-        
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2rem;
-            }
-            
-            .nav-links {
-                display: none;
-            }
-            
-            .product-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <meta property="og:title" content="AI Prompt Store — 500+ Expert AI Prompts">
+    <meta property="og:description" content="Supercharge your workflow with professionally crafted prompts for ChatGPT, Claude, and Gemini.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <div class="logo">AI Prompt Store</div>
-            <ul class="nav-links">
-                <li><a href="#products">Products</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#bundle">Bundle Deal</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="hero">
+    <!-- Navigation -->
+    <header class="header" id="header">
         <div class="container">
-            <h1>500+ Expert AI Prompts</h1>
-            <p>Supercharge your content creation, marketing, coding, and business with professionally crafted prompts. Download instantly and start creating today.</p>
-            <a href="#products" class="cta-button">Browse Prompt Packs</a>
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">⚡</span>
+                    <span class="logo-text">AI Prompt Store</span>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+                <a href="products.html" class="cta-nav">Browse All Packs</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🚀 Trusted by 2,500+ creators & professionals</span>
+                <h1 class="hero-title">500+ Expert AI Prompts That <span class="gradient-text">10x Your Output</span></h1>
+                <p class="hero-subtitle">Stop wrestling with AI. Start with professionally crafted prompts that deliver consistent, high-quality results — for content, business, coding, marketing, and more.</p>
+                <div class="hero-cta">
+                    <a href="products.html" class="btn btn-primary btn-large">
+                        Browse Prompt Packs
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M7 4l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#features" class="btn btn-ghost btn-large">See What's Inside</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Expert Prompts</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">11</span>
+                        <span class="stat-label">Specialized Packs</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">2,500+</span>
+                        <span class="stat-label">Happy Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Average Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#features">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
         </div>
     </section>
-    
+
+    <!-- Promo Images Strip -->
+    <section class="promo-strip">
+        <div class="container">
+            <div class="promo-grid">
+                <div class="promo-item">
+                    <img src="promo-1.png" alt="AI Prompt Pack Preview" loading="lazy">
+                    <span>Content Creator</span>
+                </div>
+                <div class="promo-item">
+                    <img src="promo-2.png" alt="Business Builder Pack" loading="lazy">
+                    <span>Business Builder</span>
+                </div>
+                <div class="promo-item">
+                    <img src="promo-3.png" alt="Coding Assistant Pack" loading="lazy">
+                    <span>Coding Assistant</span>
+                </div>
+                <div class="promo-item">
+                    <img src="promo-4.png" alt="Marketing Master Pack" loading="lazy">
+                    <span>Marketing Master</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Our Prompts?</span>
+                <h2 class="section-title">Not All Prompts Are Created Equal</h2>
+                <p class="section-subtitle">Every prompt in our store is tested, refined, and optimized for real-world results.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Download</h3>
+                    <p>Get immediate access to all prompts after purchase. No waiting, no approvals — just copy and paste.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Expertly Crafted</h3>
+                    <p>Each prompt is tested and optimized by professionals for consistent, high-quality AI outputs.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Free Updates</h3>
+                    <p>We regularly add new prompts and improve existing ones. Buy once, benefit forever.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💼</div>
+                    <h3>Commercial Use</h3>
+                    <p>Use prompts for client work, agency projects, and commercial products without restrictions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Multi-AI Compatible</h3>
+                    <p>Works with ChatGPT, Claude, Gemini, Copilot, and any major AI assistant out of the box.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3>Copy-Paste Ready</h3>
+                    <p>No setup or configuration needed. Just copy the prompt, paste it, and get results instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
     <section class="products" id="products">
         <div class="container">
-            <h2>Our Prompt Collections</h2>
+            <div class="section-header">
+                <span class="section-badge">Our Products</span>
+                <h2 class="section-title">11 Specialized Prompt Packs</h2>
+                <p class="section-subtitle">Each pack contains 50+ expert prompts tailored to a specific domain.</p>
+            </div>
             <div class="product-grid">
                 <div class="product-card">
+                    <div class="product-badge">Best Seller</div>
+                    <div class="product-icon">🎬</div>
                     <h3>AI Content Creator Pack</h3>
                     <p>50+ prompts for YouTube, social media, blogs, and email marketing</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>YouTube scripts & titles</li>
                         <li>Social media captions</li>
                         <li>Blog post outlines</li>
                         <li>Email sequences</li>
-                        <li>Product descriptions</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-content-creator-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">📊</div>
                     <h3>AI Business Builder Pack</h3>
                     <p>50+ prompts for business planning, strategy, and growth</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
-                        <li>Business plans</li>
-                        <li>SWOT analysis</li>
+                    <ul class="product-features">
+                        <li>Business plans & SWOT</li>
                         <li>Market research</li>
                         <li>Pitch decks</li>
                         <li>Financial projections</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-business-builder-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">💻</div>
                     <h3>AI Coding Assistant Pack</h3>
                     <p>50+ prompts for developers, debugging, and documentation</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Code generation</li>
                         <li>Debugging help</li>
                         <li>API documentation</li>
-                        <li>Testing frameworks</li>
                         <li>CI/CD pipelines</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-coding-assistant-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">📣</div>
                     <h3>AI Marketing Master Pack</h3>
                     <p>50+ prompts for advertising, copywriting, and campaigns</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Ad copywriting</li>
                         <li>Email sequences</li>
                         <li>Brand positioning</li>
                         <li>Sales pages</li>
-                        <li>Campaign strategy</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-marketing-master-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">✍️</div>
                     <h3>AI Writing Assistant Pack</h3>
                     <p>50+ prompts for fiction, non-fiction, and creative writing</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Novel outlines</li>
                         <li>Character development</li>
                         <li>Dialogue writing</li>
                         <li>Screenplay format</li>
-                        <li>Poetry themes</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-writing-assistant-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">⏰</div>
                     <h3>AI Productivity Pack</h3>
                     <p>50+ prompts for time management, planning, and organization</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Daily schedules</li>
                         <li>Project plans</li>
-                        <li>Meeting agendas</li>
                         <li>Goal frameworks</li>
                         <li>Habit trackers</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-productivity-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">📱</div>
                     <h3>AI Social Media Manager Pack</h3>
                     <p>50+ prompts for social media strategy and content creation</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Content calendars</li>
                         <li>Instagram captions</li>
                         <li>TikTok scripts</li>
                         <li>Twitter threads</li>
-                        <li>Community management</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-social-media-manager-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">🔍</div>
                     <h3>AI SEO Expert Pack</h3>
                     <p>50+ prompts for search engine optimization and organic traffic</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Keyword research</li>
                         <li>SEO content outlines</li>
                         <li>Link building</li>
                         <li>Technical SEO</li>
-                        <li>Competitor analysis</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-seo-expert-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">🚀</div>
                     <h3>AI Entrepreneur Pack</h3>
                     <p>50+ prompts for startups, validation, and growth hacking</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Startup validation</li>
                         <li>MVP planning</li>
-                        <li>Customer interviews</li>
                         <li>Growth experiments</li>
                         <li>Fundraising pitches</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-entrepreneur-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
                 </div>
-                
+
                 <div class="product-card">
+                    <div class="product-icon">🎓</div>
                     <h3>AI Education Pack</h3>
                     <p>50+ prompts for teaching, course creation, and learning</p>
-                    <div class="price">$9<span style="font-size: 0.9rem; color: #666;">.99</span></div>
-                    <ul>
+                    <ul class="product-features">
                         <li>Lesson plans</li>
                         <li>Study guides</li>
                         <li>Quiz questions</li>
                         <li>Course outlines</li>
-                        <li>Assessment rubrics</li>
                     </ul>
-                    <a href="https://abhishekanand31.gumroad.com0" class="buy-button" target="_blank">Buy Now</a>
+                    <div class="product-price">
+                        <span class="price-current">$9.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/ai-education-pack" class="btn btn-primary" target="_blank" rel="noopener">Buy Now</a>
+                </div>
+
+                <div class="product-card product-card-bundle">
+                    <div class="product-badge badge-bundle">Best Value — Save 70%</div>
+                    <div class="product-icon">🔥</div>
+                    <h3>Complete AI Prompt Bundle</h3>
+                    <p>All 10 packs — 500+ expert prompts covering every domain</p>
+                    <ul class="product-features">
+                        <li>All 10 specialized packs</li>
+                        <li>500+ expert prompts</li>
+                        <li>Lifetime free updates</li>
+                        <li>Commercial license included</li>
+                    </ul>
+                    <div class="product-price">
+                        <span class="price-current">$27.99</span>
+                        <span class="price-original">$99.99</span>
+                    </div>
+                    <a href="https://abhishekanand31.gumroad.com/l/complete-ai-prompt-bundle" class="btn btn-bundle" target="_blank" rel="noopener">Get All 10 Packs</a>
                 </div>
             </div>
-            
-            <div class="bundle" id="bundle">
-                <h2>🔥 Complete Bundle - All 10 Packs</h2>
-                <p>Get all 500+ prompts at once and save 70%</p>
-                <div class="price">$27<span style="font-size: 1.5rem; opacity: 0.8;">.99</span> <span class="original-price">$99.99</span></div>
-                <p style="margin: 1rem 0; opacity: 0.9;">Instant download • Lifetime access • Free updates</p>
-                <a href="https://abhishekanand31.gumroad.com" class="cta-button" target="_blank" style="background: white; color: #f5576c;">Get All 10 Packs</a>
-            </div>
-        </div>
-    </section>
-    
-    <section class="features" id="features">
-        <div class="container">
-            <h2>Why Choose Our Prompts?</h2>
-            <div class="feature-grid">
-                <div class="feature">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Instant Download</h3>
-                    <p>Get immediate access to all prompts after purchase</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🎯</div>
-                    <h3>Expertly Crafted</h3>
-                    <p>Each prompt is tested and optimized for best results</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">🔄</div>
-                    <h3>Free Updates</h3>
-                    <p>We regularly add new prompts to all packs</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon">💼</div>
-                    <h3>Commercial Use</h3>
-                    <p>Use prompts for client work and commercial projects</p>
-                </div>
+            <div class="products-cta">
+                <a href="products.html" class="btn btn-secondary btn-large">View All Products &rarr;</a>
             </div>
         </div>
     </section>
-    
-    <footer>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
         <div class="container">
-            <p>&copy; 2024 AI Prompt Store. All rights reserved.</p>
-            <p style="margin-top: 0.5rem; opacity: 0.8;">Made with ❤️ for creators and entrepreneurs</p>
+            <div class="section-header">
+                <span class="section-badge">Pricing</span>
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your needs. Every purchase includes lifetime access and free updates.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Single Pack</h3>
+                        <p>Perfect for focused professionals</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">$</span>
+                        <span class="price">9</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 50+ expert prompts</li>
+                        <li><span class="check">✓</span> One specialized domain</li>
+                        <li><span class="check">✓</span> Instant download</li>
+                        <li><span class="check">✓</span> Lifetime access</li>
+                        <li><span class="check">✓</span> Free updates</li>
+                        <li><span class="check">✓</span> Commercial license</li>
+                    </ul>
+                    <a href="products.html" class="btn btn-outline">Choose a Pack</a>
+                </div>
+
+                <div class="pricing-card pricing-popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Complete Bundle</h3>
+                        <p>Best value for serious creators</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">$</span>
+                        <span class="price">27</span>
+                        <span class="cents">.99</span>
+                        <span class="period">$99.99</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> 500+ expert prompts</li>
+                        <li><span class="check">✓</span> All 11 specialized packs</li>
+                        <li><span class="check">✓</span> Instant download</li>
+                        <li><span class="check">✓</span> Lifetime access</li>
+                        <li><span class="check">✓</span> Free updates forever</li>
+                        <li><span class="check">✓</span> Commercial license</li>
+                        <li><span class="check">✓</span> Priority support</li>
+                    </ul>
+                    <a href="https://abhishekanand31.gumroad.com/l/complete-ai-prompt-bundle" class="btn btn-primary" target="_blank" rel="noopener">Get the Bundle</a>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Custom</h3>
+                        <p>For teams and organizations</p>
+                    </div>
+                    <div class="pricing-amount">
+                        <span class="currency">$</span>
+                        <span class="price">99</span>
+                        <span class="cents">.99</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check">✓</span> Everything in Bundle</li>
+                        <li><span class="check">✓</span> Team license (up to 10)</li>
+                        <li><span class="check">✓</span> Custom prompt requests</li>
+                        <li><span class="check">✓</span> Dedicated support</li>
+                        <li><span class="check">✓</span> Quarterly strategy calls</li>
+                        <li><span class="check">✓</span> White-label rights</li>
+                    </ul>
+                    <a href="mailto:abhishekanand31@gmail.com" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">Loved by Creators & Professionals</h2>
+                <p class="section-subtitle">Join thousands who've transformed their AI workflow.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"These prompts cut my content creation time in half. The YouTube scripts alone are worth 10x the price. Absolute game-changer for my channel."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <span class="author-name">Sarah K.</span>
+                            <span class="author-role">YouTuber, 50K subs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"As a developer, the coding assistant pack has saved me hours every week. The debugging prompts are incredibly well-structured."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <span class="author-name">Marcus R.</span>
+                            <span class="author-role">Senior Developer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"I bought the bundle and it's the best $28 I've ever spent. Every prompt works perfectly with ChatGPT and Claude. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JL</div>
+                        <div class="author-info">
+                            <span class="author-name">Jessica L.</span>
+                            <span class="author-role">Marketing Agency Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The SEO pack helped me rank on page 1 for competitive keywords within weeks. These prompts understand search intent perfectly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DP</div>
+                        <div class="author-info">
+                            <span class="author-name">David P.</span>
+                            <span class="author-role">SEO Consultant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally, prompts that actually work! No more guessing or iterating endlessly. Just copy, paste, and get professional results."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AT</div>
+                        <div class="author-info">
+                            <span class="author-name">Anna T.</span>
+                            <span class="author-role">Freelance Writer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The business builder pack helped me create a complete business plan in one afternoon. Incredible value for entrepreneurs."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <span class="author-name">Raj K.</span>
+                            <span class="author-role">Startup Founder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know before purchasing.</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Which AI tools do these prompts work with?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>All prompts work with ChatGPT (GPT-4 & GPT-3.5), Claude, Google Gemini, Microsoft Copilot, and any other major AI assistant. They're designed to be model-agnostic — just copy and paste.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What format are the prompts delivered in?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Prompts are delivered as a beautifully formatted Markdown (.md) file that works with any text editor. You can also open it in Notion, Obsidian, or any Markdown viewer. Each prompt is clearly categorized and ready to copy-paste.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I use these prompts for commercial work?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Every purchase includes a full commercial license. You can use these prompts for client work, agency projects, content you sell, and any commercial purpose. No attribution required.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do I get free updates?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! All purchases include lifetime free updates. We regularly add new prompts and improve existing ones based on user feedback. You'll get notified when new content is available.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What if I'm not satisfied with my purchase?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day money-back guarantee. If you're not completely satisfied, just reach out and we'll refund your purchase — no questions asked. We stand behind the quality of our prompts.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How is the bundle different from buying individually?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7l5 5 5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The Complete Bundle includes all 10 individual packs plus a bonus "All-in-One" combined file for easy reference. At $27.99, you save 70% compared to buying all packs individually ($99.99 total). It's the best value by far.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to 10x Your AI Output?</h2>
+                <p>Join 2,500+ creators and professionals who've transformed their workflow with expert prompts.</p>
+                <div class="cta-buttons">
+                    <a href="products.html" class="btn btn-white btn-large">Browse All Packs</a>
+                    <a href="https://abhishekanand31.gumroad.com/l/complete-ai-prompt-bundle" class="btn btn-white-outline btn-large" target="_blank" rel="noopener">Get the Bundle — $27.99</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">AI Prompt Store</span>
+                    </a>
+                    <p>Professionally crafted AI prompts that deliver consistent, high-quality results. Trusted by 2,500+ creators worldwide.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">All Prompt Packs</a></li>
+                        <li><a href="https://abhishekanand31.gumroad.com/l/complete-ai-prompt-bundle" target="_blank" rel="noopener">Complete Bundle</a></li>
+                        <li><a href="products.html#creator">Content Creator</a></li>
+                        <li><a href="products.html#business">Business Builder</a></li>
+                        <li><a href="products.html#coding">Coding Assistant</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="mailto:abhishekanand31@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#faq">Refund Policy</a></li>
+                        <li><a href="#faq">Commercial License</a></li>
+                        <li><a href="mailto:abhishekanand31@gmail.com">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Prompt Store. All rights reserved.</p>
+                <p>Made with ❤️ for creators and entrepreneurs</p>
+            </div>
         </div>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
