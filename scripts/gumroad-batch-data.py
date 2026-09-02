@@ -1,0 +1,66 @@
+"""
+Gumroad batch product creation script.
+Creates products 3-11 as drafts with files uploaded.
+"""
+import json
+import time
+
+# Product data for products 3-11 (index 2-10 in the JSON)
+products = [
+    {
+        "name": "AI Coding Assistant Pack - 50 Prompts for Developers",
+        "price": 9.99,
+        "description": "50+ prompts to supercharge your coding workflow. From debugging to documentation to deployment.\n\nWhat's inside:\n- Code generation templates\n- Debugging and optimization prompts\n- Unit test generators\n- API documentation templates\n- Docker and CI/CD configs\n- Git commit message generators\n- Code review frameworks\n- README templates\n\nPerfect for:\n- Software developers\n- DevOps engineers\n- Technical writers\n- CS students\n- Freelance developers\n\nWorks with: Any programming language\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-3/prompts.md"
+    },
+    {
+        "name": "AI Marketing Master Pack - 50 Prompts for Copywriting & Campaigns",
+        "price": 9.99,
+        "description": "50+ prompts to create high-converting marketing copy and campaigns in minutes.\n\nWhat's inside:\n- Facebook and Instagram ad copy\n- Email subject line generators\n- Brand positioning statements\n- Sales page copy templates\n- Content marketing calendars\n- Social media growth strategies\n- Press release templates\n- Affiliate program structures\n\nPerfect for:\n- Marketers and copywriters\n- Small business owners\n- E-commerce stores\n- Agency owners\n- Content creators\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-4/prompts.md"
+    },
+    {
+        "name": "AI Writing Assistant Pack - 50 Prompts for Fiction & Creative Writing",
+        "price": 9.99,
+        "description": "50+ prompts to help you write novels, short stories, screenplays, and more.\n\nWhat's inside:\n- Novel chapter outlines\n- Character profile generators\n- Dialogue writing prompts\n- Plot twist generators\n- Writing style guides\n- Book proposal templates\n- Screenplay format examples\n- Poetry theme ideas\n\nPerfect for:\n- Novelists and authors\n- Screenwriters\n- Creative writing students\n- Content creators\n- Bloggers\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-5/prompts.md"
+    },
+    {
+        "name": "AI Productivity Pack - 50 Prompts for Time Management & Planning",
+        "price": 9.99,
+        "description": "50+ prompts to help you plan, organize, and execute projects efficiently.\n\nWhat's inside:\n- Daily schedule templates\n- Weekly review frameworks\n- Project management plans\n- Meeting agenda templates\n- Goal-setting systems\n- Time-blocking schedules\n- Habit tracker designs\n- Delegation checklists\n- Decision matrices\n\nPerfect for:\n- Entrepreneurs and founders\n- Project managers\n- Freelancers\n- Students\n- Anyone wanting to get more done\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-6/prompts.md"
+    },
+    {
+        "name": "AI Social Media Manager Pack - 50 Prompts for Strategy & Content",
+        "price": 9.99,
+        "description": "50+ prompts to manage social media accounts, create content calendars, and grow audiences.\n\nWhat's inside:\n- 30-day content calendar templates\n- Instagram caption generators\n- TikTok script ideas\n- Twitter/X thread frameworks\n- LinkedIn content strategies\n- Pinterest pin descriptions\n- Social media policy templates\n- Crisis response plans\n- Influencer outreach templates\n\nPerfect for:\n- Social media managers\n- Small business owners\n- Influencers\n- Marketing agencies\n- Content creators\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-7/prompts.md"
+    },
+    {
+        "name": "AI SEO Expert Pack - 50 Prompts for Search Engine Optimization",
+        "price": 9.99,
+        "description": "50+ prompts to help you rank higher, get more organic traffic, and optimize your website.\n\nWhat's inside:\n- Keyword research strategies\n- SEO content outlines\n- Meta description generators\n- Link building outreach templates\n- SEO audit checklists\n- Technical SEO reports\n- Local SEO strategies\n- Schema markup templates\n- Competitor analysis prompts\n\nPerfect for:\n- SEO specialists\n- Bloggers and content creators\n- Small business owners\n- Marketing teams\n- Web developers\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-8/prompts.md"
+    },
+    {
+        "name": "AI Entrepreneur Pack - 50 Prompts for Startups & Growth Hacking",
+        "price": 9.99,
+        "description": "50+ prompts to validate ideas, build MVPs, and grow your startup.\n\nWhat's inside:\n- Startup idea validation frameworks\n- MVP planning templates\n- Customer interview scripts\n- Pricing strategy tools\n- Growth hacking experiments\n- Fundraising pitch decks\n- Partnership proposals\n- Revenue model canvases\n- Startup metrics dashboards\n\nPerfect for:\n- Startup founders\n- Aspiring entrepreneurs\n- Small business owners\n- Consultants\n- Investors\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-9/prompts.md"
+    },
+    {
+        "name": "AI Education Pack - 50 Prompts for Teaching & Course Creation",
+        "price": 9.99,
+        "description": "50+ prompts for educators, course creators, and students.\n\nWhat's inside:\n- Lesson plan templates\n- Study guide generators\n- Quiz question banks\n- Course outlines\n- Teaching rubrics\n- Student feedback templates\n- Homework assignments\n- Lecture transcript outlines\n- Training manuals\n\nPerfect for:\n- Teachers and professors\n- Online course creators\n- Students\n- Corporate trainers\n- Tutors\n\nInstant download. Lifetime access. Free updates.",
+        "file_path": "C:/Users/asus/ai-prompt-store/products/prompt-pack-10/prompts.md"
+    },
+    {
+        "name": "Complete AI Prompt Bundle - All 10 Packs (500+ Prompts)",
+        "price": 27.99,
+        "description": "Get all 10 prompt packs at once and save 70%. That's 500+ expert prompts covering content creation, business, coding, marketing, writing, productivity, social media, SEO, entrepreneurship, and education.\n\nInstant download. Lifetime access. Free updates.\n\n**This bundle includes all prompt packs combined into one comprehensive collection.**",
+        "file_path": "BUNDLE"  # Special handling needed
+    }
+]
+
+print(json.dumps(products, indent=2))
