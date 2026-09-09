@@ -1,52 +1,74 @@
-# AI Social Media Manager Pack - Prompts
+# AI Social Media Manager Pack - 50 Expert Prompts
 
-1. Create a 30-day content calendar
-2. Write Instagram captions for [NICHE]
-3. Create TikTok video scripts
-4. Write Twitter/X thread ideas
-5. Create LinkedIn content strategy
-6. Write Pinterest pin descriptions
-7. Create a social media policy template
-8. Write a crisis response plan
-9. Create an influencer outreach template
-10. Write a community management guide
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Content Calendars & Strategy
+
+1. "You are a social media strategist. Build a 30-day content calendar for [BRAND] on [PLATFORM] targeting [AUDIENCE] with the goal of [GOAL: followers, leads, sales]. Mix 40% educational, 25% engagement, 20% behind-the-scenes, 15% promo. Output a table: date, content pillar, format, hook, caption summary, and CTA."
+2. "Act as a channel prioritization expert. My business is [BUSINESS TYPE] with [HOURS/WEEK] available for social. Compare Instagram, TikTok, LinkedIn, X, YouTube, and Pinterest for my audience [AUDIENCE]: where they actually are, content fit, and time cost. Recommend a primary and secondary channel only, and tell me what to ignore without guilt."
+3. "You are a brand voice translator. My brand voice is [VOICE: e.g., playful, expert, warm]. Show me exactly how it sounds on each platform: [LIST PLATFORMS]. For each: 2 example captions for the same [ANNOUNCEMENT], do/don't examples, emoji policy, and the adaptation of tone for that platform's culture."
+4. "Act as a content pillar architect. Design 4-5 content pillars for [BRAND] in [NICHE]: the pillar name, the audience pain it serves, 5 post ideas under each, and the ratio per week. Pillars must balance value-giving and offer-making. Present as a reusable planning grid."
+5. "You are a social media competitive analyst. Analyze [COMPETITOR]'s presence on [PLATFORM]: their posting cadence, top-performing content themes, engagement style, and offer strategy. Tell me the 3 things they do that I should NOT copy, the gap they leave open, and my angle to own that gap."
+6. "Act as a launching strategist. Plan the social launch of [PRODUCT] over 3 weeks for [AUDIENCE]: week 1 awareness (teasers, problem content), week 2 launch (announcement, demos, social proof), week 3 sustain (FAQs, UGC, last call). Daily post-by-post plan with format and goal per post."
+7. "You are a seasonal content planner. Build my [QUARTER/SEASON] content plan for [BRAND]: key dates and holidays that fit (not force-fit), 5 seasonal content series ideas, the evergreen content that runs between, and the audit of last season's performance to inform this plan."
+8. "Act as a small-budget social strategist. My budget is $[AMOUNT]/month for a [BUSINESS TYPE]. Allocate it: organic content creation, boosting/promotion, tools, and one experiment. Give the posting cadence I can sustain with [HOURS/WEEK], and what a realistic growth expectation looks like at this budget for [NICHE]."
+
+## Platform-Specific Content
+
+9. "You are an Instagram content specialist. Create a week of varied Instagram content for [BRAND]: 2 Reels scripts (hook, delivery, CTA), 2 carousel posts (slide-by-slide text), 1 story sequence with a poll, and 1 static post with caption. Every post serves a different pillar: [LIST PILLARS]. Include hashtag strategy (3 sizes: broad, niche, branded)."
+10. "Act as a TikTok creative director. Write 3 TikTok scripts for [BRAND] using 3 formats: a trending-format adaptation, a myth-busting, and a behind-the-scenes. Each: 3-second hook, on-screen text plan, delivery notes (energy, pacing), and CTA. Designed to be filmed on a phone in under 20 minutes each."
+11. "You are a LinkedIn content strategist for [ROLE: founder, consultant, recruiter]. Write 5 LinkedIn posts for [PERSONA]: 1 contrarian take, 1 lesson from a failure, 1 how-to with specific steps, 1 client story (anonymized), 1 industry prediction. Each: strong first line, white space formatting, a question ending. No hashtag spam."
+12. "Act as a X/Twitter thread writer. Write a [NUMBER]-post thread on [TOPIC] for [AUDIENCE]: post 1 earns the click (promise + credibility), middle posts deliver one idea each with an example, final post CTA. Every post under 280 characters and self-contained. Include the version optimized for reposting."
+13. "You are a YouTube content strategist. Plan my first 10 YouTube videos for [CHANNEL THEME] targeting [AUDIENCE]: titles optimized for search + curiosity, thumbnail concept for each, the 30-second hook approach, and the upload cadence. Identify which 2 videos are most likely to compound and why."
+14. "Act as a Pinterest growth specialist. My niche is [NICHE]. Design my Pinterest system: 5 board themes with keyword-optimized names, weekly pin volume, the pin template styles (3), title/description formula with keywords, and the 30-day seasonal pinning calendar. Pinterest is a search engine - treat it like one."
+15. "You are a Facebook group/community specialist. Design a community strategy for [BRAND]: whether a group beats a page for my goal [GOAL], the group name and promise, weekly engagement rituals, content mix, the onboarding flow for new members, and moderation rules. Include the 5 posts for launch week."
+16. "Act as a cross-posting optimizer. Here is my latest [CONTENT PIECE]. Adapt it for [PLATFORMS] - don't copy-paste: for each platform, restructure the hook, length, formatting, and CTA for how that platform behaves. Show each version ready to paste, and note what you cut for each platform and why."
+17. "You are a story content specialist. Design my Instagram/Facebook story strategy for [BRAND]: the daily story cadence, the 5 reusable story formats (poll, this-or-that, behind-the-scenes, Q&A, tip), the highlight structure for profile organization, and the DM-conversion story that turns viewers into [CUSTOMER ACTION]."
+18. "Act as a content localization specialist. My audience includes [MARKET/LANGUAGE]. Advise on adapting my content: translate vs. transcreate (when each is right), cultural adjustments for [SPECIFIC MARKET], which humor/references won't travel, and the practical workflow for a team of [SIZE]."
+
+## Copywriting & Captions
+
+19. "You are a caption copywriter. Write 10 captions for [POST: product photo, milestone, tip] in [BRAND VOICE]: 5 short (under 150 characters), 5 longer storytelling. Each with a different hook type: question, bold statement, story open, list tease, and direct callout. Mark the strongest 2 and explain why."
+20. "Act as a hook specialist. My posts die in the first line. Write 20 scroll-stopping first lines for [TOPIC/PRODUCT] across 5 categories: curiosity gap, bold claim, story, specific number, and direct address. Then teach me the pattern behind each category so I can generate my own."
+21. "You are a CTA copywriter. My posts get engagement but no action. Write 15 CTAs for [DESIRED ACTION] ranging from soft (save this) to hard (book now - 2 spots left), organized by funnel stage: awareness, consideration, conversion. Include the placement rule: where in the caption each belongs."
+22. "Act as a bio/profile copywriter. Rewrite my [PLATFORM] bio for [NAME/BRAND]: who I help, what result, proof, and one CTA in under 150 characters. Give 5 variations in different tones, plus the name-field, link strategy, and pinned-post recommendations that match the bio promise."
+23. "You are a social proof copywriter. Turn these raw customer quotes into caption-ready social proof: [PASTE QUOTES]. Keep it honest - light polish only, no invented details. Format 3 ways: standalone proof post, woven into a story post, and as a comment-reply to a skeptic. Mark any edit you made and why."
+24. "Act as an entertainment-value writer. My educational content is dry. Take this post: [PASTE POST]. Rewrite it 3 ways: with humor, with a mini-story wrapper, and with pattern-interrupting formatting. Keep the core teaching intact. Explain what changed so I can repeat it."
+25. "You are a caption series writer. Create a recurring caption format for [BRAND] that builds habit with followers: a named weekly series (e.g., 'Fix-It Friday'), the template structure, 4 example entries, and why series work (predictability + anticipation). Include how to refresh the series before it goes stale."
+
+## Engagement & Community Growth
+
+26. "You are a comment-section strategist. My posts get views but shallow comments. Design my engagement system: the caption-ending question types that actually get answers, my reply strategy (first hour matters), the comment-to-DM pathway, and how to handle negative comments publicly vs. privately. Include 10 reply templates in [BRAND VOICE]."
+27. "Act as a community growth specialist. Grow my [PLATFORM] audience from [CURRENT] to [GOAL] in [TIMEFRAME] without ads or follow-for-follow. Build the plan: content (what to double down on), engagement (where to be visible daily - whose posts to genuinely engage with), collaboration (2 monthly), and the 3 metrics that matter more than follower count."
+28. "You are a collaboration strategist. Find me collaboration formats for [BRAND] + [PARTNER TYPE]: giveaway (rules that don't attract freeloaders), joint live, content swap, bundle, or co-created series. For each: the pitch to send, the value split, and how to measure if it worked. Include the DM pitch script."
+29. "Act as a DM relationship builder. Design my DM strategy for [ROLE: sales-led founder, coach]: the initiation messages that don't feel cold, the conversation cadence that respects boundaries, moving from chat to offer without being pushy, and the follow-up system. Include 5 message templates for the natural entry points (story reply, question, event)."
+30. "You are an employee advocacy strategist. My team of [SIZE] could amplify our brand. Build the advocacy program: the simple content they can share (no forced scripts), the monthly internal briefing, the recognition loop that keeps participation voluntary, and the guardrails (what not to share). Realistic ask: 15 minutes/week per person."
+31. "Act as a reply-guy strategist. Design my daily 30-minute engagement routine for growth on [PLATFORM]: whose content to engage with (competitor audiences, adjacent niches, ideal customers), how to write comments that earn profile clicks (add value, don't compliment), and the tracking to know if it's working."
+32. "You are a user-generated content catalyst. My customers are silent. Design the UGC engine: the in-product ask (when and how), the prompt that makes sharing easy ('show us your [USE CASE]'), the incentive that's not always money, the rights-request template, and how to celebrate contributors so others follow."
+
+## Analytics, Tools & Optimization
+
+33. "You are a social media analyst. My last 30 days of content: [PASTE METRICS OR DESCRIBE]. Analyze: which pillar/format/time performed and why, the pattern in my flops, and what the data says to double down on vs. cut. Then rebuild next month's calendar based on evidence, with the hypothesis we're testing."
+34. "Act as a metrics translator. I report social results to [STAKEHOLDER: boss, client] who cares about revenue. Translate my metrics: which are vanity (followers, impressions) vs. value (saves, DMs, link clicks, conversions), and how to present monthly results in a one-page report that connects social activity to business outcomes."
+35. "You are an A/B testing planner for social. My hypothesis: [e.g., video outperforms carousels for reach]. Design the test: what to hold constant, the 2 variants, how long to run given [POSTING CADENCE], what result would confirm/deny, and the follow-up test. Honest about what social platform algorithms make hard to test reliably."
+36. "Act as a social tooling advisor. My stack for a [TEAM SIZE] managing [PLATFORMS]: recommend tools for scheduling, design, video editing, link tracking, and analytics with a monthly budget of $[BUDGET]. For each: what it replaces, the free alternative, and when the paid version earns its cost. Include the workflow diagram in text."
+37. "You are an algorithm literacy coach. Explain how [PLATFORM]'s current algorithm actually works in plain English: the signals it optimizes for, what 'the algorithm hates' myths get wrong, and the 5 practical behaviors that align with it for [CONTENT TYPE]. No hacks - just durable alignment."
+38. "Act as a social listening strategist. Set up my listening for [BRAND] in [INDUSTRY]: the 15 terms to monitor (brand, competitors, category pain phrases), the triage rules (respond/engage/log), the weekly synthesis ritual, and how listening feeds 3 content ideas per week. Include the response templates for praise, complaint, and question."
+39. "You are a crisis communication specialist. [NEGATIVE SITUATION: e.g., bad review going viral, product complaint thread] is happening on [PLATFORM]. Write the response plan: assess first (respond vs. let it pass), the public response (accountability + action, no corporate speak), the DM escalation script, and the internal brief. Include what NOT to post."
+40. "Act as a content repurposing engineer. My best long-form piece: [DESCRIBE/PASTE]. Extract everything: 5 standalone social posts, 3 story sequences, 1 carousel outline, 1 short-video script, 1 email, and a quote card. Each must carry the core idea without requiring the original. Output as a fill-in calendar week."
+
+## Paid Social & Conversion
+
+41. "You are a paid social strategist. My $[BUDGET]/month for [PRODUCT] to [AUDIENCE]: recommend the platform with reasoning, the campaign structure (prospecting, retargeting, retention), the budget split, and the creative volume needed. Set realistic expectations for CPM/CPC in [NICHE] and when to kill vs. scale."
+42. "Act as an ad creative brief writer. Write the creative brief for a [PLATFORM] ad promoting [OFFER] to [AUDIENCE]: the one message, the hook options (3), visual direction, the objection to pre-handle, and the CTA. Brief must be so clear that a designer and editor can produce 3 variants without asking questions."
+43. "You are a social-to-sales funnel designer. My followers like my content but don't buy [PRODUCT]. Design the conversion path: the free bridge (lead magnet, challenge, quiz), the nurture content sequence, the offer presentation post/email, and the enrollment mechanism. Map every step from follower to customer with the content piece at each step."
+44. "Act as a retargeting specialist. Design my retargeting for [PRODUCT]: the audiences (engaged 30d, video 50%, profile visitors, abandoned checkout), the message per audience (they're at different temperatures), the frequency caps, and the exclusion rules to stop wasting money on people who already bought."
+45. "You are an influencer negotiation advisor. I'm paying a [PLATFORM] creator $[AMOUNT] for [DELIVERABLES]. Write the negotiation prep: fair rate benchmarks for [NICHE/SIZE], the terms to lock (usage rights, exclusivity, timeline, revision rounds), the red flags in their profile, and the contract must-haves."
+46. "Act as a social commerce strategist. My product [PRODUCT] sells at $[PRICE]. Set up social selling on [PLATFORM]: shoppable posts setup, the content mix that sells without being salesy (demo, UGC, offer), the live selling event format, and the DM-based sales script for [PLATFORM] with the 5 message templates."
+
+## Trends, Video & Innovation
+
+47. "You are a trends analyst for social. What's currently working in [NICHE] on [PLATFORM]: 5 emerging formats or patterns, why they work (the underlying psychology), and how to adapt each for [BRAND] without chasing every trend. Include a 'trend filter': the 3 criteria before we jump on anything."
+48. "Act as a short-form video producer. Plan my sustainable video system with [HOURS/WEEK]: the batch filming day structure (shot list, setups, B-roll), the editing workflow that takes under 30 minutes per video, the 5 repeatable video formats that don't need trends, and the posting cadence across [PLATFORMS]."
+49. "You are a live video strategist. Plan my monthly live format for [BRAND] on [PLATFORM]: the show concept and name, the recurring structure (segments, timing), the promotion sequence (3 days before), engagement mechanics during, and the post-live repurposing (clips, quotes, follow-up offer). Include the run-of-show template."
+50. "Act as a social media risk manager. Audit my social presence for risks: the old posts that aged badly, the compliance issues for [INDUSTRY: e.g., finance, health], the password/2FA gaps, the single-person dependency (what if I'm offline 2 weeks), and the exit strategy documentation. Give me the 30-day mitigation checklist."

@@ -1,52 +1,71 @@
-# AI Writing Assistant Pack - Prompts
+# AI Writing Assistant Pack - 50 Expert Prompts
 
-1. Write a novel chapter outline
-2. Create character backstories
-3. Write dialogue between [CHARACTERS]
-4. Create a plot twist idea
-5. Write a blog post in [AUTHOR VOICE]
-6. Create a writing style guide
-7. Write a book proposal outline
-8. Create a screenplay format scene
-9. Write a poetry collection theme
-10. Create a creative writing exercise
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Story Structure & Plotting
+
+1. "You are a developmental editor. My story idea: [PREMISE]. Structure it as a 3-act outline with the inciting incident at 10-12%, midpoint reversal at 50%, and climax at 90%. Give each act a one-paragraph summary plus a scene list (10-15 beats) with the emotional state of the protagonist at each beat."
+2. "Act as a story structure expert. Analyze my plot: [SUMMARIZE PLOT]. Identify the stakes ladder - are they escalating every 25% of the story? Point out any stretch where the protagonist is passive, and rewrite 3 beats to force active choices with irreversible consequences."
+3. "You are a plotting coach. I'm stuck at the midpoint of [STORY: describe where you are]. Diagnose the 4 most common midpoint failures that fit my symptoms, identify which one I have, and give 3 divergent ways forward with the ripple effects each would create for my ending."
+4. "Act as a genre specialist. My [GENRE] novel needs to deliver on genre promises. List the 5 obligatory scenes and 5 conventions of [GENRE], check my synopsis against them: [PASTE SYNOPSIS], and show which promises are unmet and how to satisfy them without becoming formulaic."
+5. "You are a subplots architect. My main plot is [MAIN PLOT]. Design 3 subplots that mirror or complicate the theme [THEME]: one relationship subplot, one internal subplot, and one world subplot. For each: how it starts, crosses the main plot twice, and resolves in a way that changes the ending's meaning."
+6. "Act as an endings specialist. My story is [PREMISE] and my planned ending is [ENDING]. Test the ending against: is it earned (set up earlier), surprising but inevitable, proportional to the stakes, and does the protagonist cause it? If it fails any test, propose 2 stronger endings and what to plant now to earn them."
+7. "You are a series planner. My standalone story: [SUMMARIZE]. Design a 3-book arc: the overarching conflict, what each book resolves vs. carries forward, per-book stakes that escalate, and the character engine (what internal wound heals across the series). Flag the biggest risk of book 2 sag."
+8. "Act as a pacing surgeon. Here is my chapter-by-chapter outline: [PASTE]. Chart the tension curve and mark the 3 flattest stretches. For each, prescribe either a scene cut, a merge, a timeline compression, or a new complication - and show the revised beat."
+
+## Character Development
+
+9. "You are a character psychologist. Build a full profile for my protagonist: [BASIC DESCRIPTION]. Include: childhood wound that formed them, want vs. need, lie they believe, how the wound shaped their career/relationships, defense mechanisms, and the exact moment in the story when the lie cracks. Ground it in the 3 behaviors we'll see on the page."
+10. "Act as a character voice coach. Create distinct dialogue voices for these 3 characters: [DESCRIBE CHARACTERS]. For each: vocabulary level, sentence length rhythm, pet phrases, what they never say, topic that changes their speech, and a 5-line dialogue sample where all three are talking - it should be identifiable from voice alone."
+11. "You are an antagonist designer. My hero is [HERO]. Create an antagonist who is the hero's dark mirror: their backstory that justifies their goal, why they believe they're right, the philosophy that opposes the hero's, 3 escalating moves, and the humanizing detail that makes readers uncomfortable agreeing with them."
+12. "Act as a supporting cast strategist. My protagonist's journey: [SUMMARIZE]. Cast 6 supporting characters, each with a narrative function (ally, mirror, threshold guardian, complicator, confidant, foil). For each: how they serve the theme, their own mini-arc, and the scene where they earn their place in the story."
+13. "You are a character arc specialist. Track my protagonist's arc through [STORY]: [PASTE CHAPTER SUMMARY]. Map: starting belief → pressure events → dark night → new truth. Identify any scene where they act out of character to serve the plot, and rewrite it so the plot follows the character instead."
+14. "Act as a relationship dynamics expert. Design the central relationship of my story between [CHARACTER A] and [CHARACTER B]: the initial misimpression each has of the other, the friction engine, 3 escalation moments, the false defeat, and the changed dynamic at the end. Include subtext for the key confrontation scene."
+15. "You are a grief and emotion consultant. My character experiences [MAJOR LOSS/EVENT]. Write the emotional aftermath realistically across 5 stages the character moves through (not linear): what they suppress, the trigger that breaks through, how grief warps their decisions in the plot, and how other characters misread them."
+16. "Act as a character sheet auditor. Here is my character sheet: [PASTE]. Interrogate it like a casting director: what's cliché, what's vague, what contradiction is unexplored, and what detail would an actor grab onto? Rewrite the 3 weakest entries into specific, playable traits."
+
+## Dialogue & Prose Craft
+
+17. "You are a dialogue editor. Rewrite this conversation to carry subtext: [PASTE DIALOGUE]. Keep the surface topic, but make each character want something they won't say directly. Use interruption, deflection, and objects in the scene. Show the rewrite and annotate the 4 key subtext moves you made."
+18. "Act as a dialogue mechanic. My characters sound alike: [PASTE 3 EXCERPTS]. Diagnose the sameness (syntax, content, rhythm), then rewrite each excerpt so each character has an unmistakable fingerprint, and give me a reusable 'voice card' for each character."
+19. "You are a prose stylist. Analyze this passage's rhythm and sound: [PASTE PARAGRAPH]. Rewrite it 3 ways - one sparse (Hemingway), one lyrical (Ursula K. Le Guin), one propulsive (thriller pacing) - and explain the technique behind each version so I can choose deliberately."
+20. "Act as a showing-vs-telling coach. Here is my draft: [PASTE 300 WORDS]. Convert every 'telling' sentence into a 'showing' moment: filter words cut, internal states externalized through action/body language/dialogue, and description doing double duty. Present a clean rewrite and list the conversions you made."
+21. "You are a scene-level dramatist. This summary needs to be a scene: [PASTE SUMMARY]. Write it as a full scene with goal-conflict-disaster structure, sensory grounding in [SETTING], dialogue that escalates, and a turn at the end. Include what the POV character notices that reveals their emotional filter."
+22. "Act as a fight/action scene choreographer. Write a fight between [CHARACTER A, with skill level] and [CHARACTER B, skill level] in [LOCATION]. Ground it in the location's hazards, show skill differences through tactics not adjectives, break it with dialogue and interior thought, and make the winner pay a cost. 600 words."
+23. "You are a description specialist. My setting is [SETTING]. Write 3 description passages of the same place through 3 different emotional filters (afraid, nostalgic, furious) using only details a person in that state would notice. Max 100 words each. Then extract the reusable principle."
+24. "Act as a line editor for impact. Here is my scene ending: [PASTE]. Optimize the final 3 lines for a chapter-turn: cut anything that softens the landing, reposition the strongest word to the end, and offer 3 alternative closing lines with different hooks (question, threat, revelation)."
+25. "You are a filter-word exterminator. Edit this passage: [PASTE 500 WORDS]. Remove filter words (saw, felt, seemed, realized, watched), crutch words, and redundant stage direction. Keep meaning and voice, target a 15% word-count reduction, and list the 5 worst habits found so I can watch for them."
+
+## Worldbuilding & Setting
+
+26. "You are a worldbuilding architect. My world has [MAGIC/TECH/POWER SYSTEM: describe]. Design its rules: source, costs, limits, who can use it and why, the exploitable loophole, and the societal consequences (economy, law, religion, warfare). Then show 3 plot problems this system creates and 3 it solves."
+27. "Act as a setting researcher. My story is set in [PLACE, ERA]. Build a sensory research kit: 10 period-accurate details across smell, sound, texture, and taste; 5 social rules a character would never break; 2 anachronisms writers of this era typically make; and 3 objects that can anchor any scene."
+28. "You are a culture designer for fiction. Create the culture of [GROUP] in my world: values, taboos, honor system, greetings, curse words, funeral rites, and what they find funny. Then show one scene where an outsider violates a taboo and the reader understands the stakes without exposition."
+29. "Act as a map-and-scale consultant. My story spans [LOCATIONS]. Build a travel and geography reference: distances, travel times by [TRANSPORT], seasons, and how geography shapes conflict and trade. Flag any place where my plot timeline is geographically impossible and suggest fixes."
+30. "You are an economics-of-fiction expert. My world's economy runs on [DESCRIBE]. Follow the money: who produces, who trades, who taxes, where wealth concentrates, and what scarcity drives the conflict. Then identify how my villain's plan exploits this economy and one plothole it creates."
+
+## Nonfiction & Professional Writing
+
+31. "You are a book proposal consultant. I'm writing a nonfiction book about [TOPIC] for [AUDIENCE]. Draft the proposal skeleton: hook, market need, competing titles (3 with differentiation), author platform assessment, annotated table of contents with a 2-line pitch per chapter, and sample chapter opening (500 words)."
+32. "Act as a memoir structure coach. My life events: [PASTE 10-15 BULLETS]. Find the story: the through-line question, the scenes vs. summary ratio, where to open (not at the beginning), what to omit even though it happened, and the reflection cadence. Give me a 12-chapter structure."
+33. "You are a ghostwriting editor. Interview-free, shape this raw material into a bylined article: [PASTE NOTES/TRANSCRIPT]. Keep the author's actual phrases (mark them), organize by argument not chronology, add transitions, and hold a 1,200-word limit. Flag the 3 places where I need a quote or fact from the author."
+34. "Act as a speechwriter. Write a [LENGTH]-minute speech for [OCCASION] to [AUDIENCE] with core message [MESSAGE]. Structure: cold-open hook, 3 pillars with one story each, callback ending. Include stage directions (pause, emphasis) and a contingency cut list if we run long. Conversational, not literary."
+35. "You are a personal essay mentor. My essay topic: [TOPIC + PERSONAL ANGLE]. Structure it as: scene that embodies the tension, braided narrative and reflection, a turn where understanding changes, and an ending that answers 'so what' without moralizing. Draft 600 words in first person, present tense for the opening scene."
+36. "Act as a business book editor. My business book's big idea: [IDEA]. Pressure-test the idea like an acquisitions editor: what's actually new, what's the one-sentence takeaway, which chapter is the book really about, what would a reviewer attack, and what case study would make it undeniable. Then restructure the outline around the strongest chapter."
+37. "You are a freelance writing career advisor. I write [TYPE: e.g., features, copy, technical] and want to reach $[INCOME GOAL]. Build the plan: positioning in a niche, portfolio pieces to create (3 with specs), pitch targets (10 publication types), the pitch email template, and a rate card with 3 tiers."
+38. "Act as an op-ed writer. Turn my expertise on [TOPIC] into an 800-word op-ed for [PUBLICATION TYPE]: newspeg first paragraph, thesis by paragraph 2, evidence with numbers, the counterargument addressed honestly, and a prescriptive ending. Avoid both-situdes and hedge words."
+39. "You are a developmental editor for self-help. My manuscript teaches [METHOD]. Edit the structure against how people actually change: does each chapter end with a practice, is there a progression of difficulty, where does theory overweigh practice, and what's the 7-day quick-win plan to add? Give a revision checklist of 12 items."
+40. "Act as a technical-to-accessible translator. Rewrite this technical explanation for [AUDIENCE]: [PASTE TECHNICAL TEXT]. Rules: no jargon without inline definition, one idea per paragraph, concrete analogy within the first 3 sentences, and keep it under [WORD COUNT]. Show which technical truths you simplified and any accuracy tradeoffs."
+
+## Editing, Publishing & Career
+
+41. "You are a revision strategist. My draft is [WORD COUNT] words and I know it has problems but can't see them. Give me a 3-pass revision plan: pass 1 (structure - what to cut/reorder), pass 2 (scene - stakes and emotion), pass 3 (line - voice and economy), each with 5 diagnostic questions and a time-box. Order it so early passes can't be skipped."
+42. "Act as a first-page doctor. Here is my opening: [PASTE FIRST 500 WORDS]. Evaluate against what agents check in the first page: character, voice, problem, world clarity, and promise. Cut anything before the first intriguing line, and offer 3 alternative first lines from later in my draft."
+43. "You are a query letter specialist. Write a query for my novel: [TITLE, GENRE, WORD COUNT] about [PITCH IN 2-3 SENTENCES]. Structure: personalized opening to [AGENT], hook with character + choice + stakes, bio line, closing. 250 words max, no rhetorical questions, no theme statements - pitch the story."
+44. "Act as a publishing pathway advisor. My book: [GENRE, WORD COUNT, STATUS]. Compare traditional publishing, small press, and self-publishing for my goals [GOALS + TIMELINE]: realistic timeline, income mechanics, and control tradeoffs. Then give the next 3 concrete actions for the path that fits - including what to prepare this month."
+45. "You are a beta reader coordinator. Design my beta reading round for [BOOK]: how many readers, what mix (genre fans, craft readers, target audience), the questionnaire (10 questions that get honest feedback not praise), how to instruct readers to mark where they stop reading, and the triage system for contradictory feedback."
+46. "Act as a synopsis writer. My novel: [PASTE 3-PARAGRAPH SUMMARY]. Write a 1-page single-spaced synopsis in present tense: opening conflict, 3 major turning points with spoilers included, climax, resolution. Include character motivations at each turn. No rhetorical flourishes - clarity over style."
+47. "You are a writing productivity coach. My situation: [HOURS AVAILABLE, CURRENT OUTPUT, DEADLINE]. Design a sustainable writing system: session structure (warm-up, sprint, note-out), weekly word targets that survive a bad week, a recovery protocol after missing days, and the tracking metric that isn't word count."
+48. "Act as a freelance client manager. My client keeps [PROBLEM: e.g., scope creeping, slow feedback, late payment]. Write the professional boundary-setting message for this exact situation, a scope-change policy to attach to new contracts, and a polite fire-the-client email. Include the rate increase script with a 30-day notice."
+49. "You are a writing contest and submission strategist. My strongest pieces: [DESCRIBE 2-3 PIECES]. Build a 90-day submission plan: 10 target venues (literary magazines, contests, anthologies) matched to each piece with deadlines, the cover note template, and a tracking system for rejections with a rule for when to retire or revise a piece."
+50. "Act as an author brand builder. I write [GENRE/NICHE] and want readers to find me. Build the minimal platform: bio in 3 lengths (25/50/100 words), website one-pager structure, 2 content channels that fit my genre, and a reader magnet idea. Everything must be maintainable in [HOURS] per week - plan for the writing to come first."

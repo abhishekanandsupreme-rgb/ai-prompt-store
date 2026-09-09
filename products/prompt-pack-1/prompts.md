@@ -1,81 +1,86 @@
-# AI Content Creator Pack - 50 Prompts
+# AI Content Creator Pack - 50 Expert Prompts
 
-## YouTube Scripts
-1. "Write a 10-minute YouTube script about [TOPIC] with hook, intro, 3 main points, and CTA"
-2. "Create a viral YouTube title and thumbnail concept for [NICHE]"
-3. "Write a YouTube video description with timestamps and hashtags for [TOPIC]"
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
 
-## Social Media
-4. "Generate 30 Instagram captions about [TOPIC] with emojis and hashtags"
-5. "Create a 7-day Twitter/X content calendar for [NICHE]"
-6. "Write a LinkedIn post about [TOPIC] that gets 1000+ impressions"
-7. "Create 10 TikTok script ideas for [NICHE]"
+## YouTube
 
-## Blog Posts
-8. "Write a 2000-word SEO blog post about [TOPIC] with H2/H3 headings"
-9. "Create a blog post outline with 10 sections for [NICHE]"
-10. "Rewrite this paragraph to be more engaging: [PARAGRAPH]"
+1. "You are a professional YouTube scriptwriter. Write a [LENGTH]-minute script for a video about [TOPIC] aimed at [AUDIENCE]. Structure: 0-15s hook (the payoff, teased, no channel intro), intro (why watch to the end), 3 main points with a pattern-interrupt every 90 seconds, and a CTA that promises value ('subscribe because next week I'm covering X'). Write it in spoken language - short sentences, contractions, one idea per breath. Include B-roll and on-screen text cues in brackets."
+2. "Act as a YouTube title and thumbnail strategist. My video is about [TOPIC] with the key insight [INSIGHT]. Generate 10 title options across 5 formulas: curiosity gap, negative framing, number promise, contrarian, and direct outcome. Each under 60 characters. Then describe the thumbnail concept for the top 2: image, emotion, max 4 words of text, and why it earns the click without clickbait."
+3. "You are a YouTube growth consultant. My channel [NICHE] gets [VIEWS] views per video but [PERCENT]% CTR. Diagnose the 5 most likely causes for this pattern (packaging, topic-market fit, audience mismatch, timing), rank them, and give the fix for each. Include the 30-day test plan to isolate the biggest cause."
+4. "Act as a video description and SEO writer. Write the YouTube description for my video on [TOPIC]: first 2 lines (visible before 'more') that hook, then a summary with timestamps for each section [PASTE SECTIONS OR OUTLINE], hashtags (3 max), and the links section structure. Include 15 keyword tags ranked by relevance."
+5. "You are a series/show developer. Design a repeatable YouTube series for my channel [NICHE] targeting [AUDIENCE]: the series name, the fixed format (each episode's structure), 10 episode ideas, and why series beat one-off videos (subscription psychology). Include the intro line I use every episode."
+
+## Social Media Captions & Posts
+
+6. "You are a social media copywriter for [BRAND/PERSONA]. Write 30 caption variations for [CONTENT: product launch, tip, story, milestone] across 5 tones: punchy, storytelling, question-led, list-based, and bold claim. Include emojis where they add tone (not decoration), and a CTA in each. Mark the 5 strongest for A/B testing."
+7. "Act as a hook specialist. My posts about [TOPIC] die in the feed. Write 20 first lines across 5 types: curiosity gap, specific number, contrarian take, story open, and direct callout ('You if you...'). Each under 12 words. Then extract the reusable formula per type so I can generate my own."
+8. "You are a content repurposing engineer. My latest [CONTENT: video, blog post, podcast] covers [TOPIC]. Extract: 7 standalone social posts (each carries the core idea without context), 3 story sequences, 1 carousel outline (slide by slide), and 5 quote cards. Give me the fill-in posting calendar for the week."
+9. "Act as a niche engagement strategist. I create content about [NICHE]. Find me the conversation-starters that pull comments: 15 post prompts (questions, fill-in-the-blanks, this-or-that, hot takes, and confession posts) specific to [AUDIENCE], each with the psychology of why people respond."
+10. "You are a trend adapter. The trending format/audio/topic is [TREND]. Create 3 adaptations for [BRAND] in [NICHE]: how to ride the trend without being cringe, the twist that makes it ours, and the line between timely and desperate. Include the 3-day rule for when a trend has passed."
+
+## Blog & Long-Form Content
+
+11. "You are an SEO content writer. Write a [WORD COUNT]-word article on [TOPIC] for [AUDIENCE] targeting [KEYWORD]. Include: title under 60 characters, meta description under 155, H2/H3 structure, one list or table per 400 words, internal link placeholders, and a CTA. Write for humans first - no keyword stuffing, active voice, and a clear takeaway in every section."
+12. "Act as a blog post outline architect. Build the outline for [TOPIC]: the angle that differentiates from the top 3 ranking articles [LIST THEM OR DESCRIBE], the reader's journey (question → answer → next step), section-by-section plan with the key point per section, and where to add proof, examples, and visuals. This outline should make writing 80% easier."
+13. "You are an editor for online writing. Edit this draft for the web: [PASTE DRAFT]. Rules: cut 20% of words, paragraphs under 3 sentences, subheads every 200 words, and front-load each paragraph's point. Preserve my voice. Show the 5 biggest changes with the principle behind each."
+14. "Act as a content upgrade specialist. My blog gets [TRAFFIC] visits but [EMAIL SIGNUP RATE]% convert. Design 3 content upgrades for my best posts [LIST POSTS]: the specific downloadable (checklist, template, swipe file), the placement strategy, and the copy for the signup box. Match the upgrade's promise exactly to each post's reader intent."
+15. "You are a storytelling writer for brands. Turn my customer's experience into a narrative post: [PASTE CUSTOMER STORY/FACTS]. Structure: the before (their world with the problem), the turning point, the transformation with specific details, and the takeaway that serves readers (not just our brand). 800 words, honest tone, no hero-worship of our product."
 
 ## Email Marketing
-11. "Write a 5-email welcome sequence for [BUSINESS TYPE]"
-12. "Create a promotional email for [PRODUCT] with subject lines"
-13. "Write a re-engagement email for inactive subscribers"
 
-## Product Descriptions
-14. "Write a compelling Amazon product description for [PRODUCT]"
-15. "Create a Shopify product page copy for [ITEM]"
-16. "Write an Etsy listing description for [PRODUCT TYPE]"
+16. "You are an email marketing strategist. Write a 5-email welcome sequence for [BUSINESS TYPE] selling [PRODUCT] to new subscribers: email 1 (deliver the promise + origin story), 2 (best content), 3 (the pain and the shift), 4 (the offer with proof), 5 (the honest close). Each with subject line, preview text, 150-250 word body, one CTA. Warm, direct, zero hype."
+17. "Act as a subject line specialist. My open rate is [PERCENT]% in [INDUSTRY]. Write 25 subject lines for [EMAIL CONTENT] across 5 types: curiosity, benefit, urgency, personal, and blunt. Under 45 characters each, no clickbait that the email can't cash. Then explain the 3 principles behind my best-performing type based on [PASTE PAST RESULTS IF ANY]."
+18. "You are a newsletter editor. Design my weekly newsletter about [TOPIC] for [AUDIENCE]: the name, the fixed structure (e.g., 1 idea, 3 links, 1 question, 1 recommendation), the voice guide (person, vocabulary, length), and write one full issue. It should be the email they open even when busy - define what makes it worth that."
+19. "Act as a re-engagement specialist. My list has [NUMBER] subscribers inactive for [MONTHS]+. Write the 3-email win-back sequence: email 1 (honest check-in with a valuable gift), email 2 (what they've missed + the best of), email 3 (the 'should I let you go?' unsubscribe-as-respect email). Include the subject lines and the sunset policy after the sequence."
+20. "You are a launch email strategist. Plan the email sequence for launching [PRODUCT] to my list of [SIZE]: 3-value emails (teach something real first), the launch announcement, 2 objection-handling emails (price, time, trust), social proof email, and the 24-hour close. Each email: goal, subject line, and body outline. Map the emotional arc across the sequence."
+
+## Product Descriptions & E-commerce
+
+21. "You are an e-commerce copywriter. Write the product description for [PRODUCT] on [PLATFORM: Amazon, Shopify, Etsy]: headline, 5 benefit-led bullets (feature → benefit → sensory detail), the story paragraph, specs section, and FAQ addressing the top 3 objections. SEO keywords woven naturally. Match [PLATFORM]'s buyer psychology and format conventions."
+22. "Act as a listing optimization specialist. My [PLATFORM] listing for [PRODUCT] converts at [RATE]% vs. the category average of [RATE]%. Audit: images order and message, title keyword coverage, bullets' benefit-vs-feature ratio, price anchoring, and review response. Give the 5 fixes ranked by expected lift, with the rewritten copy for each."
+23. "You are a product photography director. Plan the shot list for [PRODUCT]: the 7 mandatory shots (hero, scale, detail, lifestyle, use-context, packaging, size-reference), the lighting approach for [PRODUCT MATERIAL], the styling notes, and the model/inclusivity considerations. This is the brief I hand a photographer or follow myself."
+24. "Act as a cross-platform listing adapter. Here is my base product description: [PASTE]. Adapt it for Amazon (feature/benefit bullets + A+ content outline), Etsy (story + craft emphasis + tags), and Shopify (brand voice + conversion structure). Each platform gets a purpose-built version - not copy-paste. Explain what changed and why per platform."
 
 ## Ad Copy
-17. "Write a Facebook ad for [PRODUCT] targeting [AUDIENCE]"
-18. "Create a Google Ads headline and description for [KEYWORD]"
-19. "Write a cold email pitch for [SERVICE] to [TARGET AUDIENCE]"
 
-## Creative Writing
-20. "Write a short story about [THEME] in 500 words"
-21. "Create a character profile for a [GENRE] protagonist"
-22. "Write a product review for [PRODUCT] from a customer perspective"
+25. "You are a direct response copywriter with 20 years of experience. Write 5 ad variations for [PRODUCT] targeting [AUDIENCE] with pain point [PAIN]: hooks (3 types: fear of loss, aspiration, curiosity), 2-3 sentence bodies, and CTAs. Include the headline and primary text for [PLATFORM: Facebook, Instagram]. Flag which is the control and what each variation tests."
+26. "Act as a Google Ads specialist. Write a responsive search ad for [KEYWORD/INTENT] with 10 headlines (max 30 characters) and 4 descriptions (max 90 characters): mix feature, benefit, urgency, and proof angles. Explain which headline should win the auction for a [BUYER STAGE] searcher and why."
+27. "You are an ad testing strategist. My [PLATFORM] ad for [PRODUCT] has [CTR]% CTR and [CVR]% conversion. Design the test matrix: what to test first (audience, hook, offer, or creative), the 3x3x3 structure (hooks x bodies x CTAs), the sample size per cell, and the kill/scale decision rules. Include what NOT to test yet."
+28. "Act as a video ad scriptwriter. Write 3 short-form video ad scripts (15-30 seconds) for [PRODUCT] to [AUDIENCE]: the 3-second hook, problem agitation, the demo moment, and CTA. Include on-screen text and a shot list filmable on a phone in 20 minutes. One tone per script: funny, straight, urgent."
+29. "You are a landing page copywriter. Write the landing page for [PRODUCT/OFFER] at $[PRICE]: hero (headline + subhead + CTA), the 3 benefit blocks with proof, how-it-works (3 steps), objection handling (price, time, trust, 'will it work for me'), the guarantee, and final CTA. Voice: helpful expert, not hype merchant. Mark where testimonials go."
 
-## Business
-23. "Write a business plan executive summary for [BUSINESS IDEA]"
-24. "Create a SWOT analysis for [COMPANY/PRODUCT]"
-25. "Write a pitch deck outline for [STARTUP IDEA]"
+## Creative Writing & Storytelling
 
-## Learning & Education
-26. "Create a 1-week study plan for [SUBJECT]"
-27. "Write 20 quiz questions about [TOPIC] with answers"
-28. "Create a lesson plan for teaching [SKILL] to beginners"
+30. "You are a story structure coach. Take my idea [PREMISE] and outline it as a 3-act structure: inciting incident at 10%, midpoint reversal at 50%, climax at 90%. Give each act a one-paragraph summary and 10-15 scene beats with the protagonist's emotional state at each. Flag any beat where they're passive."
+31. "Act as a character psychologist. Build a profile for my character [BASIC DESCRIPTION]: the childhood wound, want vs. need, the lie they believe, how the wound shaped their behavior patterns, defense mechanisms, and the moment in my story when the lie cracks. Ground it in 3 behaviors the reader will see on the page."
+32. "You are a dialogue editor. Rewrite this conversation so it carries subtext: [PASTE DIALOGUE]. Keep the surface topic, but make each character want something they won't state directly. Use interruption, deflection, and objects in the scene. Annotate the 4 subtext moves you made so I can learn the technique."
+33. "Act as a platform storyteller for creators. Turn my personal experience [PASTE EXPERIENCE] into 3 pieces: a social post (the lesson + story version), a newsletter section (deeper reflection), and a video script (full story with the emotional beats). Same core story, adapted to each medium's strengths - not copy-pasted."
 
-## SEO & Traffic
-29. "Generate 50 long-tail keywords for [NICHE]"
-30. "Write a meta description for [PAGE TOPIC]"
-31. "Create a content cluster outline for [MAIN TOPIC]"
+## Business Content for Creators
 
-## Productivity
-32. "Write a daily schedule template for [ROLE/PROFESSION]"
-33. "Create a project plan for [PROJECT NAME]"
-34. "Write a meeting agenda template for [MEETING TYPE]"
+34. "You are a media kit designer. Create my media kit as a content creator in [NICHE] with [FOLLOWERS, ENGAGEMENT, NOTABLE WORK]: the one-page structure (about, audience demographics, engagement proof, past collaborations, packages and rates), the copy for each section, and the design notes. It must answer a brand's question: 'why this creator for my campaign?'"
+35. "Act as a sponsorship pitch strategist. Help me pitch [BRAND TYPE] for a partnership on [PLATFORM]. Write the outreach email (under 150 words): the personalized hook proving I know their product, the audience match with numbers, the 3-partnership options with deliverables, and the rate framing. Include the follow-up cadence."
+36. "You are a content monetization advisor. My [PLATFORM] audience is [SIZE] in [NICHE]. Map my monetization options realistically: ads/sponsorships (rate benchmarks for my size), products (digital product ideas matched to my audience's problems), services, and memberships. Rank by revenue-per-hour for a solo creator, and give the 90-day plan for the top option."
+37. "Act as a rate negotiation coach. A brand offered $[AMOUNT] for [DELIVERABLES]. My benchmark is $[BENCHMARK]. Write the negotiation: the counter-anchor with justification (engagement, niche value, usage rights), the tradeable variables (exclusivity, timeline, revisions, content rights), and the two walk-away scripts. Include the email sequence."
 
-## Coding & Tech
-35. "Write a Python script to [TASK]"
-36. "Create a README template for [PROJECT TYPE]"
-37. "Write documentation for [FEATURE/API]"
+## Analytics & Iteration
 
-## Personal Development
-38. "Create a 30-day goal-setting framework for [GOAL]"
-39. "Write a morning routine for [LIFESTYLE]"
-40. "Create a habit tracker template for [HABIT TYPE]"
+38. "You are a content analytics coach. My last 30 days of content: [PASTE METRICS OR DESCRIBE]. Analyze: which formats/topics/platforms over/under-performed, the pattern in my flops (timing, hook, topic fatigue?), and the one change with the highest expected impact. Then redesign next month's content plan based on this evidence."
+39. "Act as a retention/attention specialist. My [videos/posts] get [IMPRESSIONS] but [PERCENT]% drop off in the first [X] seconds. Diagnose the early-exit causes: hook weakness, pacing, production quality, or expectation mismatch from packaging. Give the fix for each with the revised opening structure for my next piece."
+40. "You are an A/B testing planner for content. My hypothesis: [e.g., my audience prefers tutorials over vlogs]. Design the test: the 2 variants, what I hold constant, how many pieces of each before judging, the metric that decides (and the vanity metrics to ignore), and what would prove me wrong."
+41. "Act as a quarterly content auditor. My content from last quarter: [PASTE LIST OR DESCRIBE]. Audit: the top 20% (by [METRIC]) and what they share, the bottom 20% and why, the content pillars to double down on vs. retire, and the gaps my audience asked about. Output: next quarter's pillar mix with rationale."
 
-## Analytics & Data
-41. "Write a data analysis prompt for [DATASET TYPE]"
-42. "Create a customer feedback analysis prompt"
-43. "Write a market research prompt for [INDUSTRY]"
+## Planning & Workflow
 
-## Additional Prompts (44-50)
-44. "Create a FAQ section for [PRODUCT/SERVICE]"
-45. "Write a press release for [ANNOUNCEMENT]"
-46. "Create a social media crisis response template"
-47. "Write a podcast script outline for [TOPIC]"
-48. "Create a webinar presentation structure"
-49. "Write a case study template for [CLIENT TYPE]"
-50. "Create an influencer collaboration pitch"
+42. "You are a content systems designer. I create on [PLATFORMS] with [HOURS/WEEK]. Build my sustainable content system: the weekly batching workflow (ideate day, create day, schedule day), the idea capture protocol, the content bank structure (evergreen vs. timely), and the publishing cadence per platform I can actually maintain. Include the burnout prevention rules."
+43. "Act as an idea-generation facilitator. My niche is [NICHE] and I've covered: [PASTE PAST TOPICS]. Generate 30 new content ideas across my pillars [LIST PILLARS]: 10 evergreen, 10 trend-responsive, 10 experimental. For each: the working title, the hook, and the format. Mark the 5 I should make first and why."
+44. "You are a content calendar architect. Build my next month's calendar for [BRAND] on [PLATFORM]: the weekly rhythm (which content type on which day), the seasonal moments to plan for [PASTE OCCASIONS], the batch production schedule, and the flex slots for timely content. Include the review checkpoint each week."
+45. "Act as a repurposing strategist. Design my 'create once, publish seven times' workflow for a [WEEKLY LONG-FORM PIECE]: the exact 7 derivative pieces (platform, format, angle), the time budget per derivative, the tools at [BUDGET], and the weekly schedule. Each derivative must stand alone - not require the original."
+
+## Growth & Community
+
+46. "You are an audience research specialist. My current audience: [DESCRIBE WHO ENGAGES]. My target audience: [DESCRIBE WHO I WANT]. Analyze the gap: what my current content attracts vs. what my target wants, the 3 content shifts to close it, and the risk of alienating my base during the transition. Give the 90-day bridge plan."
+47. "Act as a community builder. My [NUMBER] most engaged followers deserve more than a follow. Design my community strategy: the space (Discord, broadcast channel, newsletter, meetup), the insider value (early access, direct input, behind-the-scenes), the rituals, and the way it feeds back into my content. Realistic for one person to run."
+48. "You are a collaboration strategist. Find me collab partners in [NICHE] at [SIZE/STAGE]: 5 collab formats (joint video, newsletter swap, live event, co-created product, podcast swap) with the value logic for each side, the outreach template, and how to measure whether a collab worked. Include the etiquette rules that protect relationships."
+49. "Act as a crisis-response coach for creators. [NEGATIVE SITUATION: bad take going viral, comment pile-on, brand controversy, old content resurfacing]. Write my response plan: the 24-hour assessment (respond vs. hold), the response draft (accountability without groveling, no deleting unless harmful), the community guidance, and what to do for my mental health. Include what NOT to do."
+50. "You are a creator burnout prevention specialist. My signals: [SYMPTOMS: posting dread, content quality dropping, comparing to others]. Design my sustainable creator protocol: the content calendar pressure valve (the minimum viable week), the input recovery (consume for joy, not analysis), the metrics detox schedule, and the permission framework for taking breaks without losing momentum. Include the 30-day reset."

@@ -1,52 +1,74 @@
-# AI Education Pack - Prompts
+# AI Education Pack - 50 Expert Prompts
 
-1. Create a lesson plan for [SUBJECT]
-2. Write a study guide for [TOPIC]
-3. Create quiz questions with answers
-4. Write a course outline
-5. Create a teaching rubric
-6. Write a student feedback template
-7. Create a homework assignment
-8. Write a lecture transcript outline
-9. Create a training manual
-10. Write an educational assessment
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Lesson Planning & Curriculum
+
+1. "You are an instructional designer. Create a complete lesson plan for [SUBJECT] on [TOPIC] for [GRADE LEVEL/ADULT AUDIENCE] lasting [DURATION]. Include: learning objectives (measurable verbs), the hook/opener (3 minutes), direct instruction outline, guided practice activity, independent practice, formative assessment, and closure. Include differentiation for struggling and advanced learners."
+2. "Act as a curriculum architect. Design a [LENGTH]-week course on [SUBJECT] taking [AUDIENCE] from [STARTING LEVEL] to [GOAL LEVEL]. Structure it in modules with weekly objectives, the project per module that proves mastery, prerequisite flow (what must come before what), and the capstone. Show the syllabus in one table."
+3. "You are a learning objectives specialist. Convert these vague topics into measurable learning objectives using Bloom's taxonomy: [PASTE TOPICS]. For each: the appropriate cognitive level (remember → create), a verb-matched objective, how it will be assessed, and the observable behavior that proves achievement."
+4. "Act as a backward design coach. Help me plan a unit on [TOPIC] the backward way: define the transfer goal (what students do with this in real life), design the summative assessment first, then build the learning plan backward from it. Show the 3-stage template filled for my unit."
+5. "You are a course sequencing expert. My course covers [LIST TOPICS]. Analyze the sequence: which topics must precede which (conceptual dependencies), where learners typically hit a wall, the interleaving opportunities for better retention, and the review checkpoints. Propose the revised order with reasoning."
+6. "Act as a lesson differentiation planner. My class has [LEVEL RANGE: e.g., 4th-grade reading levels from 2nd to 8th]. Differentiate this lesson on [TOPIC]: the core objective all learners hit, the scaffolds (sentence starters, graphic organizers, vocabulary pre-teach), the extension for advanced learners, and the assessment options that measure the same objective differently."
+7. "You are a project-based learning designer. Create a PBL unit for [SUBJECT/GRADE] on [TOPIC]: the driving question, the authentic final product for a real audience, the milestone checkpoints, the rubric categories, the workshop mini-lessons needed along the way, and the reflection component. Duration: [WEEKS]."
+8. "Act as a corporate training designer. Convert this instructor-led training into a blended program: [DESCRIBE CURRENT TRAINING]. Decide what becomes e-learning vs. live vs. on-the-job practice, the spacing and reinforcement schedule, the manager touchpoints, and how completion ties to performance metrics."
+
+## Assessment & Grading
+
+9. "You are an assessment design expert. Create a [QUIZ/TEST] on [TOPIC] for [LEVEL] with [NUMBER] questions covering all Bloom's levels: [NUMBER] recall, [NUMBER] comprehension, [NUMBER] application, [NUMBER] analysis. Include the answer key, the point values, and 2 bonus questions for critical thinking. Flag any question that's ambiguous and fix it."
+10. "Act as a rubric designer. Create an analytic rubric for [ASSIGNMENT: e.g., persuasive essay, lab report, presentation] with [NUMBER] criteria: [LIST CRITERIA]. 4 performance levels (exceeds, meets, approaching, beginning) with observable descriptors - no vague words like 'good'. Include the student-friendly version that doubles as a checklist."
+11. "You are a formative assessment specialist. Give me 15 formative assessment techniques for [SUBJECT] beyond the quiz: exit tickets, hinge questions, cold call protocols, concept checks, and self-assessment tools. For each: what it measures, time cost, when to deploy, and the teacher move it triggers when half the class fails."
+12. "Act as a feedback specialist. Write effective feedback on this student work: [PASTE WORK]. Follow: 1 specific strength grounded in the work, 1-2 high-leverage improvements with the exact location, and 1 next-step action. End with the grade if applicable. Then explain the feedback principles you applied so I can replicate."
+13. "You are a question quality auditor. Review these quiz questions for flaws: [PASTE QUESTIONS]. Check for: two correct answers, unfair reading demand, clueing (grammar leaks the answer), negative constructions, and bias. Rewrite each flawed item cleanly."
+14. "Act as a test-prep item writer. Write [NUMBER] practice questions in [EXAM FORMAT: AP, SAT, MCAT, certification exam] style for [TOPIC]: the stimulus text/passage where needed, 4 answer options with plausible distractors, the correct answer, and the explanation for why each distractor is wrong. Match the released-exam difficulty distribution."
+15. "You are a grade-recovery and mastery specialist. My student failed [ASSESSMENT] on [TOPIC]. Design the mastery-based retake protocol: the re-learning path (targeted mini-lessons for each missed concept), the practice cycle, the alternative assessment, and the reflection requirement. Keep it fair - same standard, different evidence."
+16. "Act as a data-driven instruction coach. My class scored: [PASTE SCORE DATA BY QUESTION/STANDARD]. Analyze: the 3 most-missed concepts, whether errors are conceptual, procedural, or careless, the reteach plan for the whole class, the small-group plan for struggling students, and the re-assessment timeline."
+
+## Student Engagement
+
+17. "You are a student engagement strategist. My [GRADE/SUBJECT] class is passive. Design engagement interventions for [TOPIC]: 5 attention resets (every 8-12 minutes), 3 discussion structures (think-pair-share, philosophical chairs, gallery walk), participation systems (equity sticks, tracking), and the relevance hook connecting [TOPIC] to student lives."
+18. "Act as a gamification designer for learning. Gamify my [SUBJECT] unit on [TOPIC] without undermining mastery: the progress system (XP/levels/badges tied to actual learning objectives), the challenge structure, the collaboration mechanics, and the reward design (recognition over stuff). Include the classroom management rules that keep it sane."
+19. "You are a discussion facilitation expert. Design a Socratic seminar on [TEXT/TOPIC] for [GRADE]: the open-ended central question, 5 follow-up probes, the preparation students do beforehand, the talk-move prompts for facilitation, and the assessment (both participation quality and thinking). Include the norms handout."
+20. "Act as an edtech integration specialist. Evaluate [TOOL] for my [SUBJECT/GRADE] classroom: what it actually does well vs. its marketing, the classroom management overhead, the data privacy check (what it collects on minors), the free vs. paid reality, and 3 specific lessons where it beats paper. Honest verdict - most tools aren't worth the setup."
+21. "You are a hook and curiosity designer. My lesson on [TOPIC] starts flat. Create 10 openings: provocative questions, counterintuitive facts, mini-mysteries, challenges, and stories. For each: the script (30 seconds), why it works psychologically, and the transition into the content. Rated by setup cost."
+22. "Act as a classroom culture expert. My classroom needs [CULTURE GOAL: more risk-taking, better listening, less sarcasm]. Design the culture plan: the 3 norms with student-generated wording, the routines that enforce them, the teacher moves when norms are violated, the celebration system, and the 4-week rollout. Include the reset conversation for week 3."
+23. "You are a student motivation diagnostician. My student [BEHAVIOR: won't start, gives up fast, disrupts]. Diagnose using the self-determination lens (autonomy, competence, relatedness): which need is unmet, the evidence, and the 3 specific moves to try this week. Include the private conversation script."
+24. "Act as a movement and brain-break designer. My [GRADE] students can't sit through [DURATION]. Design the movement plan: 5 curriculum-linked brain breaks (the movement teaches or reviews content), 3 pure resets, the transition protocols, and the boundary rules so movement doesn't become chaos. Classroom of [CONSTRAINTS: desks in rows, no outdoor space]."
+
+## Differentiation & Accessibility
+
+25. "You are a UDL (Universal Design for Learning) specialist. Redesign my lesson plan for multiple means of engagement, representation, and action/expression: [PASTE LESSON]. Show: the options for how students access content, how they demonstrate learning, and how interest and effort are sustained. Keep the objective constant - vary the path."
+26. "Act as an IEP/504 accommodations implementer. My student's accommodations: [PASTE ACCOMMODATIONS]. Translate each into concrete classroom practice for my [SUBJECT] class: what it looks like in a lesson, what the para/teacher does, what to avoid that violates it, and the discreet implementation that avoids singling out."
+27. "You are an English-learner support specialist. My class has [NUMBER] EL students at [WIDA/LEVEL]. Design the supports for [LESSON]: vocabulary pre-teach (tier 2/3 words with visuals), sentence frames for discussion and writing, comprehensible input checks, the pair structure (EL with strong model), and the assessment accommodations."
+28. "Act as a gifted education specialist. My advanced learners finish early and are bored. Design the extension system for [SUBJECT]: the depth-and-complexity prompts, the independent project options with accountability, the peer-tutoring rules (what teaching does and doesn't do for them), and the early-finisher protocol that isn't just more work."
+29. "You are a trauma-informed teaching advisor. I suspect student stress/trauma from [OBSERVABLE SIGNS]. Give me the trauma-informed classroom adjustments: predictable routines, the relationship-first responses to behavior, de-escalation scripts, the predictable-cause responses vs. punishments, and the referral process. What to do, and what to avoid that makes it worse."
+30. "Act as a reading-in-content-area specialist. My students read below grade level and my [SUBJECT] text is dense. Design the scaffolded reading: the text set (3 levels of complexity on the same content), the pre-reading vocabulary and prediction setup, the during-reading structure (chunked with purpose questions), and the post-reading consolidation."
+
+## Higher Education & Adult Learning
+
+31. "You are a university course designer. Build a 15-week undergraduate syllabus for [COURSE]: course description, [NUMBER] learning outcomes, weekly topics with readings, the assessment structure (participation, [NUMBER] assignments, midterm, final project) with weights, and the late/policy statements. Include the inclusive-syllabus elements."
+32. "Act as an online course producer. Convert my in-person workshop on [TOPIC] to an online cohort course: the live vs. async split, the weekly rhythm (video, assignment, discussion, live call), the community platform, the completion drivers (accountability pairs, milestones), and the pricing structure for [AUDIENCE]."
+33. "You are an adult learning (andragogy) specialist. My corporate learners resist training because [REASON: no time, no relevance, past bad training]. Apply andragogy principles: connect to their immediate problems, leverage their experience, give them agency, and design the 'Monday morning' application plan. Include the manager pre-brief that doubles transfer."
+34. "Act as a workshop facilitator. Design my [DURATION] workshop on [TOPIC] for [AUDIENCE SIZE]: the arc (open, build, apply, close), the timing per segment, the interaction ratio (talk vs. activity), the materials list, the facilitation notes (what to do when: silence, domination, tangents), and the follow-up resources."
+35. "You are a course completion strategist. My online course has [ENROLLMENT] with [COMPLETION RATE]% finishing. Diagnose the completion killers for [COURSE TYPE]: the onboarding gap, the pace/scope problem, the isolation factor, and the moment of maximum dropout. Then redesign: the 3 changes with the fastest completion impact and how to measure them."
+36. "Act as a microlearning designer. Break this 2-hour training into a microlearning path: [PASTE CONTENT]. Each unit: one objective, under 7 minutes, one practice moment, one retrieval cue. Include the spaced repetition schedule and the mobile-first format rules."
+37. "You are a higher-ed research supervisor. Help me advise my [UNDERGRAD/MASTER'S] thesis student studying [TOPIC]. Design the semester supervision plan: milestone calendar, the reading plan staged from foundational to current, the weekly meeting structure, and the feedback protocol on drafts (feedback hierarchy: argument → structure → evidence → style)."
+38. "Act as a teaching portfolio advisor. I'm applying for [POSITION: faculty job, teaching award, promotion]. Build my teaching portfolio: the teaching philosophy (500 words, evidence-based not platitudes), the syllabus exhibits, the student evaluation narrative (honest interpretation), and the professional development section. Include the reflection framework."
+
+## Course Creation & E-Learning
+
+39. "You are an online course launch strategist. My expertise: [TOPIC], audience: [AUDIENCE], price: $[PRICE]. Build the pre-launch validation and launch: the pilot cohort (5-10 people, discounted, feedback-gathering), the launch content plan, the enrollment mechanism, and the post-launch iteration. Include the honest pricing logic for [AUDIENCE]."
+40. "Act as a video lesson scriptwriter. Write the script for a [LENGTH]-minute teaching video on [TOPIC]: the hook (why this matters in 20 seconds), the concept explanation with an analogy, the worked example, the common mistake callout, and the practice prompt. Include on-screen text callouts and b-roll notes. Conversational tone - not a lecture transcript."
+41. "You are an e-learning interaction designer. My course on [TOPIC] is passive video + quiz. Design active learning online: 5 interaction types (scenario branching, drag-classify, prediction, peer discussion prompts, self-explanation), where each fits in my modules, and the tools that build them at [BUDGET]. Include the cognitive load warning for each."
+42. "Act as a course analytics coach. My course data: [COMPLETION, ENGAGEMENT, DROP-OFF POINTS]. Analyze: where learners stall and the likely cause (scope, clarity, pacing, motivation), the module-level fixes, and the experiment plan for the next cohort. What to measure beyond completion."
+43. "You are a learning objective → assessment → activity alignment auditor. My course outline: [PASTE]. Audit the alignment: for each objective, is there an assessment that measures it and an activity that practices it? Find the orphaned objectives (taught but never assessed), the blind assessments (tested but never practiced), and the fix plan."
+44. "Act as a knowledge-check designer. Create the retrieval practice system for my [COURSE/TEXTBOOK] module on [TOPIC]: 10 spaced retrieval questions (mix: recall, understanding, application), the spacing schedule (day 1, 3, 7, 21), the interleaving plan with [OTHER TOPIC], and the feedback for wrong answers that teaches the misconception fix."
+
+## Classroom Management & Family
+
+45. "You are a classroom management coach. My [GRADE] class has [ISSUES: talking over me, transitions taking 10 minutes, off-task during group work]. Diagnose each: is it a procedure problem (no taught routine), a relationship problem, or an engagement problem? Give the fix for each with the exact procedure to teach, the practice protocol, and the reinforcement plan."
+46. "Act as a difficult conversation guide for teachers. I need to talk to a parent about [ISSUE: grades, behavior, learning concerns]. Write the conversation plan: the opening that lands as partnership, the evidence I bring (specific work samples, not vibes), the listening-first structure, the joint next-step plan, and the follow-up email. Include what to say if they get defensive."
+47. "You are a first-week-of-school designer. Design my first [NUMBER] days for [GRADE]: the procedures to teach (entering, supplies, transitions, attention signals), the relationship activities that aren't cringe, the baseline assessments disguised as activities, and the family communication setup. The goal: routines on autopilot by day 10."
+48. "Act as a substitute teacher plan writer. Create my sub-ready folder for [SUBJECT/GRADE]: the day's lesson plans in foolproof form (anyone can run it), the emergency lesson bank (3 plans needing zero prep), the classroom map and student notes (allergies, helpers, watch-fors), the behavior system explanation, and the 'day went fine' checklist for the sub."
+49. "You are an end-of-year/term strategist. Design my last 3 weeks of [SUBJECT/GRADE]: the review structure (spaced, cumulative, game-based), the exam prep without killing morale, the year-in-review project that consolidates learning, the closing ritual for the class, and the honest teacher-reflection protocol for myself."
+50. "Act as a professional development planner. I'm a teacher with [YEARS] experience wanting to grow toward [GOAL: leadership, specialization, new grade level]. Build my year-long PD plan: the skill gaps to close, the books/courses with the highest leverage, the classroom research project (what I'll try and measure), the observation plan, and the career artifact to build for the next application."

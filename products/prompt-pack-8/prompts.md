@@ -1,52 +1,74 @@
-# AI SEO Expert Pack - Prompts
+# AI SEO Expert Pack - 50 Expert Prompts
 
-1. Write a keyword research strategy
-2. Create an SEO content outline
-3. Write meta descriptions for [PAGES]
-4. Create a link-building outreach template
-5. Write an SEO audit checklist
-6. Create a technical SEO report template
-7. Write a local SEO strategy
-8. Create a schema markup template
-9. Write an SEO competitor analysis
-10. Create a content gap analysis
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Keyword Research & Strategy
+
+1. "You are a senior SEO strategist. Build a keyword strategy for [WEBSITE] in [NICHE] targeting [AUDIENCE]. Create a topic map: 5 pillar pages and 20 supporting cluster keywords per pillar with search intent (informational, commercial, transactional) and funnel stage. Present as a table with priority order based on difficulty vs. relevance."
+2. "Act as a long-tail keyword miner. Generate 50 long-tail keyword ideas for [NICHE] organized by intent: problem-aware ('how to fix...'), solution-aware ('best...for...'), and product-aware ('[BRAND] vs...'). For each, add the likely content format that would rank (guide, comparison, listicle, tool page)."
+3. "You are a search intent analyst. For the keyword [KEYWORD], reverse-engineer the intent: what does Google believe searchers want (analyze the pattern of the current top 10 result types)? Then tell me what content format, angle, and page type would actually compete, and whether my [SITE TYPE] has a realistic chance."
+4. "Act as a keyword clustering specialist. Cluster these keywords into content plan groups: [PASTE 30-50 KEYWORDS]. Rules: same intent = one page, different intent = separate page. For each cluster: the target keyword, supporting keywords, page type, and internal linking relationship to other clusters."
+5. "You are a zero-volume keyword strategist. Everyone chases volume. Build my low-competition strategy for [NICHE]: 20 'zero-volume' keywords that signal high buying intent or emerging topics, why they'll matter in 6-12 months, and how to validate them before investing content."
+6. "Act as a competitor keyword gap analyst. My site: [MY SITE]. Competitors: [COMPETITOR 1, 2]. Identify the keyword categories where they rank and I don't: estimate their traffic drivers, find the 15 gap keywords with the best effort-to-reward ratio, and rank them into a 90-day content queue."
+7. "You are a local keyword strategist. My [BUSINESS TYPE] serves [CITY/REGION]. Build the local keyword map: core service + city terms, neighborhoods, emergency/intent modifiers ('near me', 'open now', 'best'), and question keywords for FAQ content. Estimate which map pack vs. organic each targets."
+8. "Act as an international SEO advisor. My site currently targets [COUNTRY] and I want to expand to [MARKET]. Design the hreflang strategy: URL structure options (ccTLD, subdirectory, subdomain) with tradeoffs, which content needs localization vs. translation, and the rollout sequence."
+
+## Content Optimization
+
+9. "You are an SEO content strategist. Create a content brief for the keyword [KEYWORD]: target audience and their intent, word count range based on the current SERP, H2/H3 outline that covers the topic fully, entities and related terms to include, the angle that differentiates from the current top 3, and the internal/external linking plan."
+10. "Act as an on-page optimization specialist. Audit this page for the keyword [KEYWORD]: [PASTE URL OR CONTENT]. Check title tag, H1, heading hierarchy, keyword placement and density, internal links, image alt text, and content completeness vs. competitors. Give fixes ranked by expected impact, and write the improved title and meta description."
+11. "You are a content refresher. Here are my analytics for an old post: [PASTE: URL, traffic trend, current position]. Diagnose why it declined (freshness, competition, intent shift), then rewrite the plan: what to add, update, restructure, and re-date. Give the updated outline and the new title."
+12. "Act as a SERP feature optimizer. For [KEYWORD], tell me which SERP features appear (featured snippet, People Also Ask, video, image pack) and how to win each: snippet-friendly formatting (the exact paragraph/list/table structure), PAA question targets, and schema to implement."
+13. "You are an E-E-A-T optimization expert. My site is in [YMYL NICHE: health, finance, legal]. Audit and improve my E-E-A-T signals: author bios, credentials, citations, about page, editorial policy, and content sourcing. Give me the checklist of what Google's quality raters look for in [NICHE] and my fix list."
+14. "Act as a topical authority architect. I want to own the topic [TOPIC] in [NICHE]. Design the topic cluster: the pillar page's scope, the 15 supporting articles, the internal linking structure (hub-and-spoke), publish order (which builds authority fastest), and how to signal depth over time."
+15. "You are a content pruning specialist. My site has [NUMBER] pages: [DESCRIBE/DELETE PASTE LIST]. Decide for each: keep, improve, consolidate (into a stronger page), redirect, or delete. Give the decision rules so I can apply them myself, then the priority order for a 30-day pruning sprint."
+16. "Act as an AI-search (AEO) optimization specialist. Optimize my content for AI answer engines (ChatGPT search, Perplexity, AI Overviews) for [TOPIC]: the direct-answer paragraph format, the citation-worthy elements (stats, definitions, unique data), how to structure for extraction, and why being quotable matters more than keywords now."
+
+## Technical SEO
+
+17. "You are a technical SEO auditor. Give me the complete audit checklist for [SITE TYPE] in order of typical impact: crawlability, indexation, site architecture, page speed, mobile, duplicate content, canonicals, structured data, and HTTPS. For each check: the tool/command, the red flag threshold, and the fix."
+18. "Act as a Core Web Vitals engineer. My [PAGE TYPE] scores [LCP/FID-CLS VALUES]. Explain each metric in plain English, diagnose the likely causes for my stack ([TECH STACK]), and give the fix plan: image optimization, font loading, script deferral, and layout stability. Prioritized with expected point recovery per fix."
+19. "You are a site architecture strategist. My site structure: [DESCRIBE CURRENT STRUCTURE]. Redesign it for crawl efficiency and topical clarity: URL structure, depth (clicks from homepage), category logic, breadcrumbs, and internal linking conventions. Show the before/after tree and the redirect map for migrations."
+20. "Act as a log file analysis specialist. Walk me through analyzing server logs for SEO: what to pull, how to see Googlebot's actual crawl behavior, the metrics that reveal waste (low-value pages crawled daily), and the 5 most common findings. Give me the analysis workflow and the actions each finding triggers."
+21. "You are an indexation problem doctor. My pages aren't indexing: [DESCRIBE SYMPTOMS]. Diagnose in order: robots.txt blocks, noindex tags, canonicals pointing elsewhere, thin/duplicate content, orphan pages, crawl budget waste. Give me the decision tree with the check command for each node."
+22. "Act as a JavaScript SEO specialist. My site is a [JS FRAMEWORK: React/Vue/Next] SPA. Explain the rendering risks for SEO, then give me the checklist: SSR vs. SSG vs. CSR decision for my content, hydration issues, meta tag management, and how to verify what Google actually sees (the specific tests)."
+23. "You are a schema markup expert. Write the JSON-LD schema for [PAGE TYPE: article, product, local business, recipe, FAQ]: all required and recommended properties for my case, and the extended markup that qualifies for rich results. Validate-ready output with example values filled in for [MY BUSINESS]."
+24. "Act as an SEO migration specialist. I'm migrating [MIGRATION TYPE: domain, redesign, platform, HTTPS]. Write the full migration plan: pre-migration audit and backup, 1:1 redirect mapping rules, the launch checklist, crawl verification steps, and the monitoring protocol for the first 30 days. Include the top 5 migration disasters to avoid."
+25. "You are a crawl budget optimizer. My site has [NUMBER] URLs and [PERCENT]% aren't indexed. Fix the crawl budget: what to block, noindex, or canonicalize; sitemap hygiene; internal linking adjustments; pagination handling; and parameter control. Give the specific robots.txt and meta directives for my situation."
+
+## Link Building & Off-Page
+
+26. "You are a link building strategist. Build a 90-day white-hat plan for [SITE] in [NICHE] with [BUDGET] and [HOURS/WEEK]. Prioritize: digital PR, guest posts, resource page links, broken link building, and unlinked brand mentions - ranked by ROI for my niche. Include the weekly execution cadence and success metrics."
+27. "Act as a digital PR consultant. Create 3 linkable asset ideas for [NICHE]: original data studies, tools/calculators, or definitive guides. For each: the angle journalists will cover, the data source or build effort, 20 target publications, and the outreach pitch email. The asset must be genuinely worth citing."
+28. "You are a broken link building specialist. Walk me through the campaign for [NICHE]: how to find dead resources (footprints, tools), the qualifying criteria (authority, relevance, real broken link), the value-first outreach template, and the follow-up cadence. Include the quality control rules to avoid wasting effort."
+29. "Act as a guest post strategist. My site is in [NICHE]. Build a guest posting system that avoids penalties: 30 target sites with vetting criteria (traffic, editorial quality, relevance), pitch templates with 3 specific article ideas each, and the rules for author bio links and anchor text that keep it natural."
+30. "You are a local citations expert. Build my local SEO off-page for [BUSINESS] in [CITY]: the 30 core citation sources ranked by importance, the NAP consistency rules, the industry-specific directories for [INDUSTRY], and the monthly maintenance cadence. Include the audit of my likely current NAP errors."
+31. "Act as an unlinked mention harvester. My brand [BRAND] gets mentioned without links. Design the harvest: how to find mentions (alerts, searches), the qualification filter, the outreach email that converts at high rates (it's a favor reminder, not a request), and the tracking system."
+32. "You are a backlink risk auditor. Review my link profile for [SITE]: [PASTE OR DESCRIBE]. Identify risky links (spam networks, irrelevant directories, exact-match anchors in bulk, PBN footprints), what to disavow vs. ignore vs. try to remove, and the process to avoid making disavow mistakes that hurt."
+33. "Act as a competitor backlink analyst. Analyze where [COMPETITOR] gets links: their top referring domains, the content that earns links, and the strategies behind their link velocity. Then give me the 10 specific links I should try to earn first and the play for each."
+
+## Local SEO
+
+34. "You are a Google Business Profile strategist. Optimize my [BUSINESS TYPE] profile for [CITY]: the categories and services list, the keyword-natural business description, the Q&A seeding strategy, photo/video plan, the posting cadence, and review generation. Include what actually moves the map pack needle vs. myth."
+35. "Act as a review generation strategist. My [BUSINESS TYPE] has [NUMBER] reviews at [RATING]. Build the review engine: the ask timing (moment of delight), the SMS/email/QR/in-person scripts, the response templates for positive and negative reviews, and the compliance rules (no incentives in [INDUSTRY], no fake reviews)."
+36. "You are a local landing page specialist. Design the city/service page template for [BUSINESS]: the URL structure for [SERVICE] in [CITY], on-page elements, the local proof (reviews, photos, projects), the unique local content that avoids doorway-page thinness, and the internal linking to the money pages."
+37. "Act as a multi-location SEO advisor. My business has [NUMBER] locations. Design the scalable local SEO: location page template, GBP management workflow at scale, review management system, local content localization rules, and the hub page architecture. Include what must be unique per location vs. templated."
+38. "You are a local citation cleanup specialist. My NAP (name, address, phone) is inconsistent across the web: [DESCRIBE THE INCONSISTENCIES]. Give me the cleanup protocol: the master NAP format decision, the audit process (finding all variations), the correction workflow per directory, and the order of operations."
+
+## Analytics, Tools & Reporting
+
+39. "You are an SEO measurement strategist. Set up my SEO measurement for [SITE]: the KPI tree from business outcomes (revenue, leads) to SEO drivers (rankings, CTR, indexed pages), the tool stack for [BUDGET], the monthly reporting cadence, and the one-page report template a non-SEO stakeholder can read."
+40. "Act as a rank tracking specialist. Design my rank tracking for [SITE]: which keywords to track (the tiering: money, pillar, canary), what frequency actually makes sense, the segmentations that matter (device, local vs national, featured snippets), and how to read the noise vs. the signal. Include the alert rules."
+41. "You are a GSC (Google Search Console) analyst. Walk me through the 10 highest-value analyses in GSC: the queries driving clicks I didn't target, pages losing CTR at stable position, the index coverage traps, internal linking insights from the links report, and how to use the performance API for large sites. For each: the exact filter setup."
+42. "Act as an SEO ROI forecaster. My site in [NICHE] with [CURRENT TRAFFIC]. Model the revenue opportunity for ranking #1-3 for [KEYWORD SET]: expected search volume, realistic CTR by position, conversion rate assumptions for [BUSINESS MODEL], and the 12-month projection. Show the math so I can adjust assumptions."
+43. "You are a technical monitoring specialist. Set up my SEO health monitoring: the crawl alerts (indexation drops, robots.txt changes), rank alerts for money keywords, Core Web Vitals regression alerts, and the weekly checklist. Include what to check after site deploys, since most SEO disasters are self-inflicted by devs."
+44. "Act as a penalty recovery diagnostician. My traffic dropped [PERCENT]% on [DATE]. Diagnose in the right order: algorithm update vs. manual action vs. technical breakage. Give me the differential diagnosis checklist, the tools/timestamps to cross-reference, and the response plan for each of the 3 scenarios."
+45. "You are an SEO forecasting realist. Leadership wants 'X% traffic growth in [QUARTER]'. Build an honest forecast for [SITE]: the compounding effect of current efforts, the realistic ramp for new content, the decay of existing pages, and the scenario ranges (conservative/base/optimistic) with the assumptions that drive each."
+
+## Programmatic & Advanced
+
+46. "You are a programmatic SEO strategist. Evaluate programmatic SEO for [BUSINESS]: the data source that makes it legitimate, the page template that serves real intent (not thin doorway pages), the quality control (index rules, unique value per page), and the 3 case-type examples (reviews by X, comparisons, calculators). Tell me honestly if my niche can support it."
+47. "Act as an SEO automation engineer. Audit my workflow for automation: rank tracking, content briefs, internal link suggestions, meta description generation, and reporting. For each: the automation approach, the human checkpoint that must remain, and the tool/API options at [BUDGET]. The goal is 10 hours/week saved without quality loss."
+48. "You are an enterprise SEO governance advisor. My [COMPANY SIZE] org breaks SEO continuously (dev changes, marketing campaigns, migrations). Design the governance: the SEO intake checklist for all site changes, the launch QA process, the education program for devs and content teams, and the escalation path. Include the one-page intake form."
+49. "Act as a SERP volatility interpreter. The [UPDATE NAME/DATE] update just hit and my [NICHE] site moved [DIRECTION]. Give me the framework to interpret it: what this update targeted (based on the pattern of winners/losers in my niche), whether my movement is a correction or collateral, and the 30-day response plan with the priority actions."
+50. "You are an SEO career/business advisor. I'm an SEO specialist wanting to [GOAL: freelance, in-house promotion, agency]. Build my path: the 3 skills to double down on for the next 2 years (AI-era SEO, technical depth, business communication), the portfolio proof to build, and the positioning statement for [TARGET MARKET]."

@@ -1,52 +1,71 @@
-# AI Productivity Pack - Prompts
+# AI Productivity Pack - 50 Expert Prompts
 
-1. Create a daily schedule template
-2. Write a weekly review template
-3. Create a project management plan
-4. Write a meeting agenda template
-5. Create a goal-setting framework
-6. Write a time-blocking schedule
-7. Create a habit tracker system
-8. Write a delegation checklist
-9. Create a decision matrix template
-10. Write a productivity audit
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Planning & Prioritization
+
+1. "You are an executive productivity coach. My role: [ROLE], and this is my current task list: [PASTE TASKS]. Sort everything into a weekly plan using the Eisenhower matrix plus effort estimates. Identify the 3 tasks that create 80% of my outcomes, what to delegate with a handoff note for each, and what to drop entirely with the reason."
+2. "Act as a priority surgeon. My to-do list has [NUMBER] items and I feel paralyzed: [PASTE LIST]. Apply ruthless triage: which 3 matter in 90 days, which are busywork disguised as progress, which are someone else's priority. Give me today's 3-item plan and permission language for declining the rest."
+3. "You are a quarterly planning facilitator. Run me through a 90-day planning session for my goal: [GOAL]. Structure: review of last quarter's wins/misses, choose the single most important objective, break it into monthly milestones, weekly lead measures, and define what 'done' looks like. Output as a one-page plan I can print."
+4. "Act as a goal-setting expert using the WOOP method. My wish: [GOAL]. Walk me through Wish, Outcome, Obstacle, and Plan - make the obstacle internal (a behavior or belief of mine, not circumstances), then create if-then plans for the 2 most likely failure points. End with a 10-word version I can memorize."
+5. "You are an OKR coach for small teams. Help me write OKRs for [TEAM/PERSON] for [QUARTER]: one objective that's inspiring and qualitative, 3 key results that are numeric and time-bound, and the list of what we're explicitly NOT doing this quarter. Then show the weekly check-in ritual with 3 questions."
+6. "Act as a decision-making specialist. I'm torn between [OPTION A] and [OPTION B] for [DECISION CONTEXT]. Build my decision process: criteria that matter (weighted), score both options, list what would change my mind, and identify reversible vs. irreversible. If it's reversible, tell me the fast way to test it."
+7. "You are a capacity planning advisor. My calendar is oversubscribed: [DESCRIBE ROLES AND COMMITMENTS]. Calculate my real available hours after [SLEEP, COMMUTE, FAMILY], then rebuild a sustainable week: focus blocks, meeting windows, admin batch, and buffers. Show what must be renegotiated and with whom."
+8. "Act as a project triage expert. I have these projects running: [PASTE PROJECTS]. Assess each: energy level, deadline, financial impact, and dependency on others. Sequence them, kill or pause the ones that don't survive scrutiny, and design a 'one project at a time' system to prevent this pileup from recurring."
+
+## Time Management Systems
+
+9. "You are a time-blocking architect. Build my ideal week as a time-block template: [WORK HOURS], [ROLES], [RECURRING COMMITMENTS]. Include 2 daily deep-work blocks of 90 minutes, meeting clusters, a shutdown ritual slot, and personal time treated as unmovable. Then give the 3 rules for handling blocks when the day collapses."
+10. "Act as a deep work coach. My focus is destroyed by [INTERRUPTIONS]. Design my deep work protocol: environment setup checklist, startup ritual that triggers flow, session structure (work/break ratio), distraction parking lot system, and a 2-week ramp plan to reach 3 hours of focused work per day."
+11. "You are a calendar auditor. Here is how my week actually went: [PASTE LAST WEEK'S CALENDAR OR DESCRIBE]. Audit it: time on priorities vs. reactive work, meeting load, fragmentation (blocks under 30 min), and energy mismatch (hard work at my low-energy times). Give the 5 surgical changes with the hours each recovers."
+12. "Act as a meeting reducer. My week has [NUMBER] meetings: [LIST THEM]. Apply the decision framework: cancel (async update), shorten (25 min default), batch, or keep. For the canceled ones, draft the async alternative (Loom outline, doc, or Slack thread). Target: cut total meeting hours by 40%."
+13. "You are an energy management specialist. My energy peaks at [TIMES] and crashes at [TIMES]. Design my day around energy, not hours: creative work at peak, admin at trough, social tasks at second peak, and the recovery protocol for the crash. Include a 5-minute energy reset I can do between blocks."
+14. "Act as a Pomodoro/ultradian rhythm coach. Design a focus session system for [WORK TYPE]: session length matched to task type (deep vs. shallow), break activities that actually restore (not phone-scrolling), a daily session target, and the tracking sheet. Address the 3 common failure modes and their fixes."
+15. "You are a morning routine designer. Build a 60-minute morning routine for [LIFESTYLE/ROLE] that optimizes for [OUTCOME: energy, focus, calm]. Sequence: hydration, movement, mind, and one meaningful task. Include the 15-minute minimum version for bad days and the rule that protects it from phone-checking."
+16. "Act as a shutdown ritual specialist. My work bleeds into evenings: [DESCRIBE SITUATION]. Design my end-of-day shutdown: capture loose tasks, review tomorrow's 3 priorities, send the 'I'm done' signal to my brain (physical action), and the boundary phrase for after-hours pings. It must take 15 minutes max."
+17. "You are a context-switching cost analyst. My days are shredded by switching between [PROJECTS/TOOLS]. Calculate the switching cost in my context, then design a batching system: task-type days or half-days, a single intake point, and the WIP limit (max 3 open projects) with rules for exceptions."
+18. "Act as a travel/remote work productivity advisor. I'll be [TRAVELING/WORKING FROM X] for [DURATION] with [CONSTRAINTS: flights, time zones, poor wifi]. Design my travel productivity protocol: what to schedule during flights, the timezone adaptation plan, the reduced-but-sacred minimum workday, and what to explicitly declare a wash."
+
+## Task Execution & Follow-Through
+
+19. "You are an anti-procrastination specialist. I've been avoiding [TASK] for [DURATION]. Diagnose which of the 5 causes it is (unclear next action, perfectionism, fear of judgment, task too big, low meaning), and prescribe the matching intervention, including the exact 10-minute starting action I take today."
+20. "Act as a task breakdown expert. My project: [PROJECT]. Decompose it into a dependency-ordered task list where no task exceeds 25 minutes of focused work or one decision. Mark the single first task I can do in the next hour, and the milestone checkpoints where I stop and review."
+21. "You are a follow-through systems designer. I start strong and abandon projects: [PASTE EXAMPLES]. Diagnose my abandonment pattern (where the energy drops), then design a follow-through system: smaller commitments, visible progress tracker, accountability structure, and the pre-commitment device that makes quitting expensive."
+22. "Act as a habit formation coach. My desired habit: [HABIT], current obstacle: [OBSTACLE]. Design it using habit stacking (after [EXISTING HABIT], I will [NEW HABIT]), make it 2 minutes or less to start, define the minimum viable version, and set up the environment cues. Include a 4-week progression ladder."
+23. "You are a workflow automation consultant. My repetitive tasks: [PASTE TASKS: e.g., expense reports, scheduling, file organization, status updates]. For each: whether to automate, batch, template, or eliminate - with the specific tool and setup steps. Rank by hours saved per month."
+24. "Act as a 'someday/maybe' list cleaner. Here is my someday list: [PASTE]. Apply honest triage: which are actually 'no' (delete with rationale), which need a trigger date, which should become this quarter's project. I need to feel the relief of closure, not guilt - give me the language to let go."
+25. "You are a productivity system auditor. My current system: [DESCRIBE TOOLS/PROCESS]. Audit for over-engineering: which parts exist to feel productive rather than be productive. Design the minimum effective system: one capture point, one weekly review, one daily plan. Tell me what to abandon and what to keep."
+26. "Act as a two-minute rule expander. Give me a rapid triage protocol for incoming work: email, Slack pings, requests, ideas. Decision tree: do now (<2 min), schedule (has a deadline), delegate (not mine), or capture (no action yet). Include the response templates for the 5 most common interruptions in [MY ROLE]."
+27. "You are a deadline recovery specialist. I'm [BEHIND] on [PROJECT] with [TIME REMAINING]. Build the recovery plan: what to cut from scope honestly, renegotiation script for stakeholders, daily non-negotiables, the check-in cadence, and the 'good enough' definition so I stop polishing while behind."
+28. "Act as a body-doubling facilitator. I focus better with others present. Design my virtual body-doubling protocol: session structure (silent check-ins, work sprint, wins round), where to find partners, how to run one for my team, and the script for the 2-minute opening check-in."
+
+## Review & Reflection Systems
+
+29. "You are a weekly review facilitator. Run my weekly review: 1) empty all inboxes (email, notes, Slack), 2) review last week's commitments - kept vs. slipped, 3) choose next week's 3 outcomes, 4) check the calendar ahead, 5) pick the one thing that would make next week a win. Give me the printable checklist and the 45-minute agenda."
+30. "Act as a monthly reflection partner. Guide my month review with these prompts: proudest accomplishment, biggest time sink, what I said yes to that I shouldn't have, energy audit (what drained, what filled), and one experiment to try next month. Keep it to 20 minutes with a 5-line journal template."
+31. "You are a quarterly life audit designer. Build my quarterly audit across 5 areas: health, relationships, work, finances, and growth. For each: rate 1-10, one evidence-based win, one leak, and one next-quarter intention. Include the 3 questions that catch self-deception in each area."
+32. "Act as a metrics-for-humans advisor. I want to track my life without becoming a spreadsheet person. Design a lightweight personal dashboard: 5 numbers max (one per priority area), how to capture each in under 30 seconds daily, the weekly rollup ritual, and the monthly review question: 'is tracking this changing any decision?'"
+33. "You are a lesson-learned facilitator. I just finished [PROJECT/SEASON]. Run my personal retrospective: what worked (keep), what hurt (kill), what surprised me (learn), and what I'll change next time. Turn the top 3 lessons into rules I write in my own words. Close with the one-line motto for the next project."
+34. "Act as a year-in-review architect. Design my annual review in 90 minutes: the 10 highlights reel, the year's implicit theme, goals hit vs. abandoned (and why), the relationships that deepened, and the one word for next year. Format it as a letter from me-today to me-last-year."
+
+## Team & Delegation
+
+35. "You are a delegation coach. I'm doing [TASKS] that others could do. For each task, decide: delegate, automate, or keep (only what truly needs me). For the delegated ones, write the handoff brief: outcome, constraints, deadline, checkpoints, and what decisions the new owner can make without me."
+36. "Act as a manager-of-one advisor for my direct reports. Help me run 1:1s that matter: the 30-minute structure (their agenda first, my items second, growth third), 10 standing questions that surface problems early, the note system to remember what matters to each person, and what to do with recurring 1:1 cancellations."
+37. "You are a team cadence designer. My team of [SIZE] needs an operating rhythm: daily standup (keep/kill/reformat), weekly priority setting, monthly demo, and quarterly planning. Design each: duration, agenda, what's async vs. live, and the anti-pattern to avoid for each ritual."
+38. "Act as a feedback facilitator. I need to give [DIFFICULT FEEDBACK] to [PERSON] about [SITUATION]. Write the conversation script using SBI (situation-behavior-impact), a question that invites their perspective, and the closing that sets expectations. Include the follow-up email template and what to do if they get defensive."
+39. "You are an async communication designer. My team wastes hours in meetings and pings. Build our async norms: what belongs in docs vs. chat vs. meetings, the decision-record format, response-time expectations by channel, the 'no meeting' focus blocks, and the template for a good async update."
+40. "Act as a hiring delegation expert. I'm drowning in work and considering hiring. Build the delegation-first analysis: list my tasks, mark what only I can do, and if delegation is the answer, design the role (responsibilities, outcomes, first 30-day success metrics) before writing the job description."
+
+## Personal Systems & Wellbeing
+
+41. "You are a digital minimalism coach. My attention is shredded by [APPS/FEEDS/DEVICES]. Design my 2-week digital declutter: what to remove from the phone (first 24 hours), what to reinstall deliberately with rules, the notification triage, and the friction-adding setups (grayscale, app limits, logged-out sessions). Address the 3 relapse moments."
+42. "Act as a sleep-hygiene architect for busy people. My sleep issues: [ISSUES]. Build my wind-down protocol matched to a [WAKE TIME]: caffeine cutoff, light exposure plan, the 30-minute wind-down sequence, bedroom setup, and the rule for racing thoughts. Include the 3-tier version for when I'm slammed."
+43. "You are a movement-for-desk-workers specialist. I sit [HOURS] per day. Design my minimum effective movement routine: the hourly 2-minute reset, a 10-minute strength circuit 3x/week requiring zero equipment, the walking-meeting policy, and the progression rule (start embarrassingly small). Include how to track without an app."
+44. "Act as a burnout prevention advisor. My warning signs: [SYMPTOMS: exhaustion, cynicism, inefficacy]. Design my prevention protocol: the weekly capacity check, the recovery menu (what actually restores me in 15/60/240 minutes), the boundary scripts for workload negotiation, and the 3-month plan to make rest structural, not reactive."
+45. "You are a financial-peace-of-mind specialist for productivity. Financial stress is eating my focus: [DESCRIBE SITUATION]. Design the minimum effective money system: the 30-minute monthly money date, automation checklist (bills, savings, debt), the one-page net worth tracker, and the decision rule that ends financial avoidance."
+46. "Act as a learning-systems designer. I want to learn [SKILL] in [TIMEframe] with [HOURS/WEEK] available. Build my learning system: the 80/20 curriculum (what to learn first), weekly practice structure, the feedback loop (how to know I'm improving), and the project that proves competence. Include the anti-collection rule: no new books/courses until applied."
+47. "You are a sabbatical and rest designer. I have [TIME OFF] available. Design rest that actually restores: what kind of tired I am (physical/mental/emotional), the matching rest types, what to avoid (the 'vacation that becomes work'), and the re-entry plan that prevents the post-break crash."
+48. "Act as a life-admin batching specialist. My life admin (bills, appointments, renewals, errands) leaks across my week. Build my admin system: the single capture point, the weekly 30-minute admin block, the annual calendar (when renewals and checkups fall), templates for common calls, and the delegation/automation list for [MY SITUATION]."
+49. "You are a boundaries architect. My energy leaks: [PEOPLE/COMMITMENTS/CHANNELS]. Write my boundary system: the 3 sentences that decline gracefully (soft no, hard no, redirect), the response-time commitments I make publicly, the meeting-acceptance criteria, and the script for renegotiating an existing commitment with [PERSON]."
+50. "Act as a personal operating system integrator. I've tried [PRODUCTIVITY SYSTEMS TRIED] and abandoned them all. Diagnose why each failed for me, then design my personal OS: one capture tool, one daily planning ritual, one weekly review, one monthly reset. It must survive my worst week, not just my best one. Explain each choice in one line."

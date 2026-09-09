@@ -1,52 +1,74 @@
-# AI Entrepreneur Pack - Prompts
+# AI Entrepreneur Pack - 50 Expert Prompts
 
-1. Write a startup idea validation framework
-2. Create a minimum viable product plan
-3. Write a customer interview script
-4. Create a pricing strategy template
-5. Write a growth hacking experiment list
-6. Create a fundraising pitch deck
-7. Write a partnership proposal template
-8. Create a revenue model canvas
-9. Write a startup metrics dashboard
-10. Create an investor update template
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Idea Validation
+
+1. "You are a startup validation expert. My idea: [IDEA] for [AUDIENCE] who [PAIN POINT]. Stress-test it: the 5 riskiest assumptions ranked by uncertainty, the cheapest test for each (under $100 and 1 week), and the kill criteria - what result would make you tell me to stop. Be the friend who saves me 6 months."
+2. "Act as a customer development coach following The Mom Test. Turn my naive questions into learning conversations. Rewrite these questions to avoid leading questions and compliments: [PASTE QUESTIONS]. Then give me the 10-question interview script that surfaces how they actually solve [PROBLEM] today, including how to ask about behavior not opinions."
+3. "You are a market timing analyst. My idea [IDEA] depends on [SHIFT/BEHAVIOR CHANGE]. Assess 'why now': the enabling change (tech, regulation, behavior), the adoption curve position, the competitors who tried and failed before and why, and whether waiting 2 years would be smarter. Verdict with reasoning, not encouragement."
+4. "Act as a pre-mortem facilitator. My startup [IDEA] launches in [MONTHS]. Run the pre-mortem: it's 12 months later and we failed - write the top 10 plausible causes specific to my idea, cluster them into (market, product, founder, execution), and give the prevention plan for the 3 most likely."
+5. "You are a TAM reality-check advisor. My investor deck claims [MARKET SIZE] for [IDEA]. Red-team the number: the top-down vs. bottom-up gap, the difference between market size and gettable revenue, and what a bottom-up calculation for my case actually says. Then tell me the honest number and how to frame it."
+6. "Act as a competitive moat assessor. My [BUSINESS] has [ADVANTAGES]. Evaluate each as a moat: which is a real defensibility (network effect, switching cost, brand, regulation) vs. temporary advantage. Recommend how to invest in deepening the real ones and name the competitor move that would hurt me most."
+7. "You are a pivot coach. My [STARTUP] has [TRACTION ON A, BUT USERS KEEP ASKING FOR B]. Assess the pivot evidence: accidental discovery patterns, the energy signal, the revenue logic of pivot vs. persevere, the sunk cost trap, and the 30-day pivot test that preserves optionality."
+8. "Act as a business idea generator with a filter. My skills: [SKILLS], resources: [RESOURCES], interests: [INTERESTS]. Generate 10 business ideas at the intersection, then kill 7 with the filter: unsexy problem, proven willingness to pay, founder advantage, and reachable first 10 customers. Show the survivors with the wedge strategy for each."
+
+## MVP & Product
+
+9. "You are an MVP coach. My full product vision: [DESCRIBE]. Strip it to the MVP: the one core job users hire it for, the 3 features that deliver that job, everything cut, and the manual-first version ('Wizard of Oz') I could run next week. Define the success metric for the MVP - the one number that proves demand."
+10. "Act as a product requirements writer. Write the PRD for [FEATURE]: problem statement with evidence, target user, user stories with acceptance criteria, out-of-scope list, success metrics, and rollout plan. Keep it to 2 pages a developer could build from without a meeting."
+11. "You are a user onboarding designer. My [PRODUCT] activates at [ACTION]. Design the onboarding funnel: the aha-moment path (minimum steps to value), the friction inventory (what to cut, delay, or make optional), the progressive profiling sequence, and the 3 intervention emails with copy for users who stall at each step."
+12. "Act as a product analytics coach. My MVP gets [SIGNUPS] but [PERCENT]% activate. Build my instrumentation plan: the 5 events that matter, the funnel definition for [PRODUCT], the activation metric, the cohort view I should check weekly, and the 3 hypotheses to test for the biggest leak. Include what NOT to instrument yet."
+13. "You are a product-market fit diagnostician. My signals: [RETENTION, GROWTH, ENGAGEMENT DATA]. Diagnose PMF honestly: the Sean Ellis test framing, retention curve shape (flattening vs. decaying), the 'would be very disappointed if gone' cohort analysis, and the 30/100 growth metrics that matter at my stage."
+14. "Act as a feature prioritization specialist. My backlog: [PASTE 15 FEATURES]. Score with RICE (reach, impact, confidence, effort), then sanity-check against strategy: does the winner serve [STRATEGIC GOAL]? Show the scoring table, the top 3 for next sprint, and the 3 items I should explicitly kill to stop them haunting the backlog."
+15. "You are a no-code MVP advisor. I have [BUDGET] and [TIMEFRAME] and need to validate [IDEA]. Recommend the stack: the tool for [CORE FUNCTION], the duct-tape versions of the expensive parts, the total cost breakdown, and what I should NOT build (use [MANUAL PROCESS] instead). Output the 1-week build plan."
+16. "Act as a product teardown expert. Analyze [COMPETITOR PRODUCT]'s product experience: their onboarding choices, the hook that creates habit, their paywall placement and messaging, what they deliberately don't do, and the 3 weaknesses in their flow my product can exploit."
+
+## Customers & Sales
+
+17. "You are a first-customers strategist. My [PRODUCT] has zero customers. Give me the first-10-customers playbook: where exactly [AUDIENCE] gathers (communities, events, channels), the outreach approach that doesn't feel spammy, the offer (personal onboard, discount, or free for feedback), and the script for the first conversation."
+18. "Act as a pricing page consultant. Design my pricing page for [PRODUCT] with [TIERS]: the tier logic (good-better-best vs. usage), the anchor price placement, feature table that sells, the recommended plan default, and FAQ handling the top 3 objections. Write the actual copy. My costs: [COSTS], competitors: [COMPETITOR PRICING]."
+19. "You are a sales script writer for founders. I hate selling. Write my discovery call script for [PRODUCT] to [BUYER TYPE]: the opening that earns 5 minutes, the 7 diagnostic questions that surface pain, the demo flow that shows value instead of features, and the close that isn't pushy. Include what to say when they say 'let me think about it.'"
+20. "Act as a churn investigator. My [PRODUCT] loses [PERCENT]% of customers per month. Build the churn investigation: the exit survey questions (behavior-anchored, not satisfaction-fluff), the cohort analysis that finds the pattern, the 5 common churn causes for [PRODUCT TYPE] to check, and the save-campaign for the highest-risk segment."
+21. "You are a customer research synthesizer. I interviewed [NUMBER] customers: [PASTE RAW NOTES]. Synthesize: the top 5 recurring pain patterns with frequency, the surprising insight hiding in the noise, the language customers use that should become my marketing copy, and the 3 product decisions this research supports."
+22. "Act as a B2B sales navigator. I sell [PRODUCT] ($[PRICE]) to [ROLE] at [COMPANY TYPE]. Build my pipeline plan: the 30 ideal-customer-profile criteria, the lead sources (referral, community, outbound, content), the weekly prospecting cadence, and the metrics math from [PIPELINE NEEDED] to [REVENUE GOAL]."
+23. "You are a customer success designer. My [PRODUCT] onboards [CUSTOMER TYPE]. Design the CS motion: the welcome flow, the QBR/regular touchpoint structure, the health score signals, the upsell trigger criteria, and the win-back playbook. Include the CS team's first hires' scope when I have [NUMBER] customers."
+24. "Act as an objection-handling specialist. Selling [PRODUCT] to [AUDIENCE], I keep hitting: [PASTE TOP 3 OBJECTIONS]. For each: the real concern underneath the stated one, the reframe that validates without conceding, the proof that dissolves it, and the follow-up asset (case study, guarantee, ROI calculator). Then role-play the 3 exchanges."
+
+## Growth & Marketing
+
+25. "You are a growth loop designer. My [PRODUCT] grows via [CURRENT TACTICS]. Redesign growth as loops instead of funnels: the 3 candidate loops for my product (content, product-led, community, sales-led), the input-action-output-value mechanics of each, the metrics to track the loop's compounding, and the 90-day plan to get the strongest loop turning."
+26. "Act as a launch strategist. My [PRODUCT] launches [DATE]. Build the launch plan: the waitlist nurture sequence, launch-day assets (landing page, demo video, social thread, PH/HN strategy), the 48-hour push schedule, and the post-launch momentum plan. Include the launch checklist and the goal: [GOAL: signups, revenue]."
+27. "You are a content marketing strategist for founders. My [STARTUP] serves [AUDIENCE] who hang out where [CHANNELS]. Build the founder-led content plan: the 3 topics I can own, the weekly cadence I can sustain, the repurposing system, and how content converts (the capture mechanism). Plan for [HOURS/WEEK] available."
+28. "Act as a growth experiment coach. My [METRIC] is flat at [VALUE]. Design the experiment backlog: 10 growth experiments for [PRODUCT] across acquisition, activation, retention, and monetization, each with hypothesis, ICE score, and the measurement plan. Then the 4-week sprint schedule: run, read, decide, iterate."
+29. "You are a referral growth specialist. My [PRODUCT] has [NUMBER] happy users and zero referral flow. Design the referral loop: the trigger moment (peak delight), the two-sided incentive calibrated to my [PRICE/ECONOMICS], the share mechanics (link, content, invite), and the tracking. Include the top-3 failure modes of referral programs."
+30. "Act as a community-led growth strategist. My [PRODUCT]'s users would gather around [TOPIC]. Design the community motion: the space and format, the founding-member recruitment (first 20), the rituals that keep it alive, the community-to-customer path, and the honest assessment of whether community is my growth channel or a distraction."
+
+## Fundraising & Finance
+
+31. "You are a pitch deck doctor. Here is my deck outline: [PASTE OUTLINE]. Diagnose it like a seed-stage investor: does the narrative arc make sense (problem → why now → solution → traction → market → team → ask), which slides answer the wrong question, what's missing that investors will ask anyway. Rewrite the storyline in one sentence per slide."
+32. "Act as a fundraising advisor. My [STARTUP] at [STAGE/TRATION]. Compare bootstrapping, angels, seed funds, and accelerators for my case: dilution math, time cost, what each unlocks beyond money, and the timeline reality. Then the investor targeting list: 20 investors who actually do [STAGE] in [SECTOR]."
+33. "You are a financial model builder for founders. Build a simple [18-MONTH] financial model structure for [STARTUP]: revenue drivers (bottom-up: [GROWTH ASSUMPTIONS]), costs (fixed vs. variable), the runway calculation, and the 3 variables that swing the outcome most. Plain spreadsheet logic a non-financial founder can maintain."
+34. "Act as a unit economics auditor. My [PRODUCT]: CAC $[X], ARPU $[Y], gross margin [Z]%, churn [C]% monthly. Walk through LTV honestly (the 3 calculation methods and which to use), payback period, the LTV:CAC verdict, and which lever is broken vs. merely improvable. Tell me if this is a venture-scale business or a lifestyle one at current economics."
+35. "You are a cap table explainer and negotiation prep coach. I'm raising $[AMOUNT] on [VALUATION/INSTRUMENT]. Explain what I'm giving up in plain terms, then prep the negotiation: the terms that matter (price, board, pro-rata, liquidation preference), what's standard vs. aggressive for [STAGE], and my walk-away framework."
+36. "Act as a burn rate surgeon. My startup burns $[X]/month with $[Y] in the bank. Analyze: the runway reality (including the raise-with-buffer rule), which costs to cut now vs. which cuts kill growth, the 20% scenario, and the monthly burn review ritual. Tell me when to start raising relative to runway honestly."
+37. "You are a grant/non-dilutive funding advisor. My [STARTUP] in [SECTOR/LOCATION]. Identify non-dilutive options: SBIR/Grants/tax credits/competitions relevant to my case, the eligibility snapshot, the application effort vs. award size, and the 90-day calendar to pursue the top 2."
+38. "Act as an investor update writer. My [STARTUP] had [MONTH SUMMARY: wins, misses, metric changes]. Write the monthly investor update: the honest metrics table (growth, cash, runway), 3 wins, 2 misses with lessons, the asks (specific: intros, hiring, help), and next month's priorities. Format: skimmable in 60 seconds."
+
+## Team & Operations
+
+39. "You are a founder hiring coach. My [STARTUP] needs [ROLE] but has [BUDGET CONSTRAINT]. Advise: full-time vs. fractional vs. contractor for this role at my stage, where to source, the trial project that tests real skill, and the offer structure (cash + equity ranges for [STAGE]). Write the job post in 200 words that filters for [TRAIT]."
+40. "Act as a cofounder agreement advisor. I'm starting with [COFOUNDER SCENARIO]. Draft the cofounder conversation: equity split logic (not 50/50 default - contribution, risk, commitment), vesting schedule (the standard 4-year), the decision deadlock mechanism, and exit clauses. The conversation script included - harder than the legal doc."
+41. "You are a remote team operations designer. My [TEAM SIZE] team works [REMOTE/HYBRID]. Design the operating system: the daily/weekly/monthly rituals, the async-first norms (docs before meetings), the tools and the rules for each, the onboarding week-1 plan, and the cultural rituals that prevent isolation. Include the team handbook outline."
+42. "Act as a founder time auditor. My week: [PASTE COMMITMENTS]. I'm doing $10/hour tasks in a founder seat. Audit: what only I can do (vision, key hires, fundraising, top customers), what to delegate with the handoff brief, what to automate, and the founder-mode calendar that protects deep work. Include the escape plan for the founder-bottleneck."
+43. "You are an advisory board builder. My [STARTUP] needs advisors for [GAPS]. Design the advisory equity range (the standard 0.1-1% logic), find the 3 advisor profiles I need first, the advisor agreement expectations (what to ask for monthly), and the outreach message. Advisors are for doors and judgment, not logos."
+44. "Act as a startup legal-compliance checklist advisor. My [STARTUP] at [STAGE] in [INDUSTRY/LOCATION]. Give me the right-sized checklist: entity and IP assignment, contracts I need in place by [MILESTONE], data protection basics for [DATA TYPE], employment compliance for [HIRES], and what can wait vs. what's urgent. No lawyer paranoia - right-sized."
+45. "You are a vendor negotiation coach. I'm negotiating with [VENDOR TYPE: cloud, agency, software] for [SERVICE] at $[AMOUNT]. Prep me: the market rate ranges, the discount levers (term length, case study, volume), the ask script, and the alternatives I should have before the call. Include the email to reopen a price that's already been quoted."
+
+## Resilience, Strategy & Pivots
+
+46. "Act as a failure post-mortem writer. My [VENTURE] failed/shut down. Help me write the honest post-mortem for myself: what I believed that was wrong, what I controlled vs. didn't, the decisions I'd make again, the ones I wouldn't, and the 3 transferable lessons. Extracting maximum learning with minimum self-flagellation."
+47. "You are a founder mental health advisor. I'm [STAGE: pre-revenue, post-launch, post-failure] and showing signs of [SYMPTOMS: exhaustion, anxiety, isolation]. Give me the practical founder-mental-health protocol: the weekly maintenance habits, the decision fatigue countermeasures, the support structure (peers, not just friends), and when and how to get professional help without shame."
+48. "Act as a strategic focus coach. I have [NUMBER] opportunities/business lines and limited time. Apply the focus lens: which one passes the 'would I start it today' test, the 80% that comes from 20% of my activities, the kill list with the emotional reasoning handled, and the next 90 days with one primary focus and one experiment."
+49. "You are an exit planning advisor. My [BUSINESS] at [STAGE] could be interesting to acquirers in [TIMEFRAME]. Explain the exit paths (acqui-hire, strategic, PE, IPO-adjacent) realistically for my size, what acquirers in [INDUSTRY] actually pay for (recurring revenue, team, tech, customers), and the 12-month prep that doubles valuation."
+50. "Act as a 10-year vision facilitator. Run my long-term thinking session: the 10-year desired outcome for [MY BUSINESS/SELF], backcast to the 3-year picture (the version of me/business that makes 10-year inevitable), the 1-year milestones, and the quarterly priorities. Then the weekly question that keeps me honest: 'is what I did this week the bottleneck?'"

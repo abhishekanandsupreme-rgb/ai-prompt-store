@@ -1,52 +1,71 @@
-# AI Marketing Master Pack - Prompts
+# AI Marketing Master Pack - 50 Expert Prompts
 
-1. Write a Facebook ad campaign strategy
-2. Create email subject lines that get 30%+ open rates
-3. Write a brand positioning statement
-4. Create a content marketing calendar
-5. Write a sales page copy that converts
-6. Create a social media growth strategy
-7. Write a press release for [PRODUCT LAUNCH]
-8. Create a customer onboarding sequence
-9. Write a product launch plan
-10. Create an affiliate program structure
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Advertising Copy
+
+1. "You are a direct response copywriter with 20 years of experience. Write 5 Facebook ad variations for [PRODUCT] targeting [AUDIENCE] with pain point [PAIN POINT]. Each ad: attention-grabbing hook, 2-3 sentence body, and CTA. Test one fear-based, one aspiration-based, and one curiosity-based angle. Include recommended headline character counts."
+2. "Act as a Google Ads specialist. Write a responsive search ad for [KEYWORD/INTENT] with 10 headlines (max 30 characters) and 4 descriptions (max 90 characters). Mix feature, benefit, and urgency angles. Then explain which headline should win the auction for a [BUYER STAGE] searcher."
+3. "You are a performance marketer. My [PLATFORM] ad for [PRODUCT] has a CTR of [PERCENT]% but converts at [PERCENT]%. Diagnose the 5 most common causes of this click-to-conversion drop for this product category, ranked by likelihood, with the specific fix and a revised ad or landing page element for each."
+4. "Act as a TikTok creative strategist. Write 3 short-form video ad scripts (30-45 seconds) for [PRODUCT] aimed at [AUDIENCE]. Each script: hook in the first 3 seconds, problem agitation, product demo moment, and CTA. Include on-screen text suggestions and a shot list."
+5. "You are a landing page copywriter. Write the copy for a landing page selling [PRODUCT] at $[PRICE] to [AUDIENCE]. Sections: hero headline + subhead, 3 benefit blocks with proof, objection handling section, and closing CTA. Use the voice of a helpful expert, not a hype merchant. Mark where testimonials and guarantee should go."
+6. "Act as an email retention specialist. Write a 5-email abandoned cart sequence for [STORE TYPE] selling [PRODUCT]. Emails at 1h, 24h, 48h, 72h, and 7 days, each with subject line, preview text, 100-word body, and CTA. Escalate the incentive only in emails 3 and 5. Explain the psychology of each step."
+7. "You are an ad copy tester. Create a testing matrix for [PRODUCT] ads: 3 hooks, 3 bodies, 3 CTAs. Show how these combine into a structured A/B plan, which combinations to run first, what sample size each cell needs for significance, and the decision rule to kill or scale a variant."
+8. "Act as a brand response copywriter. Write copy for [SCENARIO: e.g., price increase announcement, outage apology, competitor comparison backlash] to be sent to [AUDIENCE]. Three versions: short (social), medium (email), long (blog). Tone: accountable and confident. Include a FAQ block of the 4 questions customers will ask."
+
+## Brand & Positioning
+
+9. "You are a brand strategist. Develop a positioning platform for [BUSINESS NAME], a [CATEGORY] for [AUDIENCE]. Include: positioning statement, 3 pillars, brand personality (5 adjectives), voice guidelines with do/don't examples, and a tagline. Differentiate sharply from [TOP COMPETITORS] who position on [THEIR POSITIONING]."
+10. "Act as a naming consultant. Generate 20 name candidates for [PRODUCT/COMPANY] in [CATEGORY] targeting [AUDIENCE]. Organize: descriptive, evocative, invented, and compound names. For your top 5, check: pronunciation ease, domain likelihood, trademark risk, and a one-line rationale. Recommend one."
+11. "You are a messaging architect. Build a messaging hierarchy for [PRODUCT]: primary message, 3 supporting messages, and proof points for each. Then translate the hierarchy for 3 audiences: [AUDIENCE 1], [AUDIENCE 2], [AUDIENCE 3] - same truth, different emphasis. Present as a one-page message house."
+12. "Act as a brand voice designer. Define the voice of [BRAND] in a practical guide: 3 voice principles, 40-50 word vocabulary preferences (words we use vs. avoid), sample rewrites of 3 sentences in our voice, and how the voice flexes across social (looser), email (medium), and support (warmer)."
+13. "You are a category creation strategist. My [BUSINESS] does [CATEGORY] but competes in a red ocean. Assess whether a new category frame is viable: the shift in the market that makes it timely, the new category name, the enemy (old way), and a 12-month plan to own the narrative. Be honest about the risks."
+14. "Act as a rebranding consultant. My [BUSINESS TYPE] has evolved from [OLD FOCUS] to [NEW FOCUS] and our brand no longer fits. Plan a rebrand: what changes (name, look, voice), what stays for continuity, stakeholder-by-stakeholder comms plan, and rollout sequence over 90 days. Include the announcement post."
+15. "You are a brand audit expert. Here is my current marketing: [PASTE EXAMPLES OR DESCRIBE]. Audit consistency across 6 dimensions: visual identity, tone, promise, audience focus, proof, and differentiation. Score each 1-10, show the evidence, and give the 3 fixes that will most improve trust."
+16. "Act as a sustainability/mission brand advisor. My [BUSINESS TYPE] wants to lead with [MISSION: e.g., sustainability, inclusion, giving back] without greenwashing accusations. Build a messaging framework: claims we can make, claims we cannot yet, proof required for each, and the transparency language that builds credibility."
+
+## Content & Email Marketing
+
+17. "You are a content strategist. Build a 3-month editorial calendar for [BLOG/CHANNEL] targeting [AUDIENCE] with goal [GOAL: traffic, leads, community]. Mix: 40% educational, 25% story, 20% product-adjacent, 15% experimental. Output: weekly theme, format, working title, target keyword or hook, and CTA per piece."
+18. "Act as an email newsletter editor. Design a weekly newsletter for [AUDIENCE] around [TOPIC]: name it, define the fixed sections (e.g., main insight, 3 links, one tactic, a question), write the welcome email, and draft one full sample issue in our voice. Include the subject line formula you will reuse every week."
+19. "You are a lead magnet strategist. My [BUSINESS] sells [PRODUCT] at $[PRICE] and needs leads. Design a lead magnet for [AUDIENCE] struggling with [PAIN]: format choice with reasoning, title options, outline, and the nurture sequence (4 emails) that bridges from the magnet to the product."
+20. "Act as a webinar producer. Plan a webinar that generates customers for [PRODUCT]: topic that attracts [AUDIENCE], title, registration page copy, 45-minute agenda with the teach-then-transition structure, 3 emails to fill seats, and the follow-up sequence for attendees vs. no-shows."
+21. "You are a case study writer. Interview-free, write a 700-word case study from these facts: [PASTE CUSTOMER FACTS: industry, problem, solution, results]. Structure: challenge, why previous approaches failed, what we did differently, results with numbers, and client quote (mark where to insert real quote). Avoid marketing fluff - let the numbers sell."
+22. "Act as a repurposing specialist. Take this one piece of content: [PASTE CONTENT]. Repurpose it into: 5 social posts (one per platform), a newsletter section, a 60-second video script, and 3 email snippets. Each piece must stand alone and carry the core idea without requiring the original."
+23. "You are an SEO content writer. Write a [WORD COUNT]-word article on [TOPIC] for [AUDIENCE] targeting keyword [KEYWORD]. Include: title under 60 characters, meta description, H2/H3 structure, one table or list per 500 words, internal link suggestions, and a strong CTA. Write for humans first - no keyword stuffing."
+24. "Act as a content audit specialist. I have [NUMBER] existing pieces: [PASTE LIST OR DESCRIBE]. Audit for: top performers, outdated pieces worth updating, gaps vs. [COMPETITOR]'s content, and pieces to kill. Output a table with action (keep/update/redirect/delete), reason, and priority."
+25. "You are a launch copywriter. Write the full launch sequence for [PRODUCT] launching on [DATE] to a list of [LIST SIZE]: 3-tease emails, launch email, 2 value emails, 24-hour warning, and launch-close. Give each a subject line, preview text, and body outline with the emotional arc labeled (curiosity, desire, urgency, FOMO)."
+
+## Social Media & Community
+
+26. "You are a social media strategist. Build a 30-day content calendar for [BRAND] on [PLATFORM] targeting [AUDIENCE]: daily post type, topic, caption hook, and CTA. Mix: 40% value, 25% engagement (polls, questions), 20% story/behind-scenes, 15% promo. Include 5 fill-in-the-blank templates I can reuse monthly."
+27. "Act as a LinkedIn ghostwriter for [ROLE: e.g., founder, consultant]. Write 5 posts from my experiences: [PASTE 5 BULLETS OF EXPERIENCES]. Each post: scroll-stopping first line, story middle, insight ending, no hashtags spam (max 3), and a question to drive comments. Vary formats: contrarian, lesson, list, mini-case-study."
+28. "You are a short-form video strategist. Create 10 TikTok/Reels scripts for [BRAND] in [NICHE]. Each: 3-second hook, 20-40 seconds of delivery, and CTA. Vary formats (talking head, tutorial, story, myth-busting, POV) and note the trending audio style each would pair with. Scripts must work with zero budget."
+29. "Act as a community manager. Write the playbook for managing [COMMUNITY: e.g., Discord, Facebook group, Circle] for [BRAND]: welcome flow for new members, weekly engagement rituals, content calendar cadence, escalation path for conflict, and 10 response templates for common situations (complaints, spam, competitor mentions, praise)."
+30. "You are a UGC (user-generated content) strategist. Design a UGC engine for [PRODUCT]: how to ask customers to create content, 5 prompt ideas that make participation easy, rights request template, and how to feature UGC in ads vs. organic. Include the DM script for inviting a happy customer to participate."
+31. "Act as a social listening analyst. My brand [BRAND] in [INDUSTRY] needs to find where its audience talks online. Build a listening plan: 15 keywords/hashtags to monitor, which platforms matter for [AUDIENCE], a triage system (respond/engage/ignore), and 5 response templates that sound human, not corporate."
+32. "You are an influencer campaign manager. Plan a micro-influencer campaign for [PRODUCT] with a budget of $[BUDGET]: creator selection criteria, outreach DM template, deliverables package, rate benchmarks for [NICHE] on [PLATFORM], briefing doc, and how to measure beyond vanity metrics."
+33. "Act as a crisis communications manager. [CRISIS SCENARIO: e.g., product recall, viral complaint, executive misstep] hit my [BUSINESS TYPE]. Write: holding statement (2 hours), full response (24 hours), social copy, customer email, and internal talking points. Rules: no speculation, clear next update time, accountability over deflection."
+34. "You are a brand advocacy specialist. Turn my [NUMBER] happy customers into an advocacy engine: how to identify the top 10%, a surprise-and-delight playbook (3 low-cost ideas), a referral ask script that feels like a gift not a chore, and a 90-day calendar of touchpoints that keep advocates warm."
+
+## Growth, Analytics & Optimization
+
+35. "You are a growth marketer. My [BUSINESS TYPE] gets [TRAFFIC/SIGNUPS] per month and converts at [PERCENT]%. Build a growth model: funnel stages with current numbers, the 3 biggest leaks, 5 experiments to fix them ranked by ICE score (impact/confidence/effort), and the instrumentation needed to read results."
+36. "Act as a CRO specialist. My [PAGE TYPE] converts at [PERCENT]%. Propose 7 testable hypotheses for this page in this niche, each with: the psychological principle, the change, expected lift range, and priority. Then write the copy for the winner's variant."
+37. "You are a marketing analyst. I spent $[AMOUNT] last month: [PASTE CHANNEL BREAKDOWN]. Analyze: CAC by channel, contribution margin after CAC, which channel to double vs. kill, and what data I'm missing to make a confident call. Present as an executive summary table with the 3 decisions it supports."
+38. "Act as a retention marketer. My [SUBSCRIPTION/REPEAT-PURCHASE] business has [PERCENT]% 90-day retention. Design a retention program: onboarding milestone sequence, habit-forming hooks, win-back triggers, and sunset policy for dying accounts. Include the metrics dashboard (5 numbers) and the email copy for the one highest-impact trigger."
+39. "You are a funnel copy auditor. Here is my current funnel: [DESCRIBE: ad → page → signup → activation]. Audit each step's copy against one job per step. Find message mismatches between steps, and rewrite the weakest transition. Label each rewrite with the conversion principle it applies."
+40. "Act as an attribution specialist. My business runs [CHANNELS] and last-click attribution says [CHANNEL] drives most revenue. Explain why this may be wrong for my case, which attribution models (position-based, time-decay, MMM-lite) fit my data volume, and a practical 30-day plan to measure incrementality with a holdout test."
+41. "You are a marketing automation architect. Design the automation flows for a [BUSINESS TYPE]: welcome (5 emails), onboarding activation (4 touches), re-engagement (3 emails), and post-purchase (4 emails). For each flow: trigger, timing, goal metric, and exit condition. Then write the subject lines for all 16 emails."
+42. "Act as an experiment designer. I believe [HYPOTHESIS: e.g., adding video will lift conversion]. Design the A/B test: primary metric, minimum detectable effect, required sample size given [TRAFFIC], duration, guardrail metrics, and the pre-registered decision rule. Tell me honestly if my traffic is too small for this test."
+43. "You are a budget allocation strategist. I have $[MONTHLY BUDGET] for a [BUSINESS TYPE] in [INDUSTRY]. Allocate across [CHANNELS] with reasoning by funnel role (capture demand vs. create demand). Give the quarter-by-quarter reallocation rule based on CAC payback, and the 20% reserved for testing with 2 specific experiment ideas."
+44. "Act as a competitive marketing analyst. [COMPETITOR] launched [CAMPAIGN/PRODUCT]. Analyze their likely strategy from public signals: messaging angle, channels, offer structure. Then tell me 3 moves to differentiate rather than copy, and the one segment they are neglecting that I can own."
+
+## Promotions, Sales & Loyalty
+
+45. "You are a promotions strategist. Design a [OCCASION: e.g., Black Friday, anniversary, back-to-school] promotion for [BUSINESS TYPE] selling [PRODUCT]: offer structure (avoid margin-destroying discounts), tiered threshold, urgency mechanics that are honest, email/social cadence for the 10-day window, and the post-promotion plan to avoid a revenue cliff."
+46. "Act as a loyalty program designer. Create a loyalty program for [BUSINESS TYPE] with [CUSTOMER BASE] customers: earn structure, redemption catalog that protects margin, tiers that matter, and expiration policy. Then write the launch email and the 3 lines staff use to explain it in person."
+47. "You are a partnership marketer. Identify 5 brands whose customers look like mine ([DESCRIBE YOUR CUSTOMER]) and design co-marketing with each: the shared asset (webinar, bundle, giveaway, content series), value split, promotional commitments, and the outreach email that gets a yes."
+48. "Act as a pricing promotion analyst. My [PRODUCT] at $[PRICE] has a [PERCENT]% margin and I'm considering [PROMOTION TYPE: discount, bonus, bundle]. Compare the revenue math of each option at [EXPECTED UPLIFT]% volume increase, then recommend the option that protects long-term price integrity and explain why to my team in 5 sentences."
+49. "You are an affiliate program architect. Build an affiliate program for [PRODUCT]: commission structure justified by unit economics, cookie/window policy, tier incentives, the affiliate welcome kit contents, promotional asset checklist, and 10 partner recruitment targets in [NICHE] with the personalized outreach line for each."
+50. "Act as a customer marketing specialist. My customers bought [PRODUCT] and I want the second purchase. Design the post-purchase journey: thank-you moment with a surprise, usage milestone emails, cross-sell timing based on [USAGE/REPURCHASE CYCLE], and the win-back offer for customers dormant [PERIOD]. Write the copy for the single highest-leverage email in the journey."

@@ -1,52 +1,74 @@
-# AI Business Builder Pack - Prompts
+# AI Business Builder Pack - 50 Expert Prompts
 
-1. Write a business plan executive summary
-2. Create a SWOT analysis
-3. Write a market research report
-4. Create a competitive analysis framework
-5. Write a investor pitch deck outline
-6. Create a financial projection template
-7. Write a customer persona for [NICHE]
-8. Create a business model canvas
-9. Write a value proposition statement
-10. Create a go-to-market strategy
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Strategy & Positioning
+
+1. "You are a senior strategy consultant for [INDUSTRY] businesses. My company, [COMPANY NAME], sells [PRODUCT/SERVICE] to [TARGET CUSTOMER] and generates $[ANNUAL REVENUE] per year. Write a business plan executive summary covering the problem, solution, market size, business model, competitive edge, and 12-month milestones. Format: 6 short sections, max 600 words, written to persuade a skeptical investor."
+2. "Act as a strategy advisor. Run a structured SWOT analysis for [COMPANY/PRODUCT] competing in [MARKET]. For each quadrant, list 4 specific items with a 1-10 impact rating and one recommended action per item. Output as a markdown table, then finish with the 3 strategic priorities for the next 90 days."
+3. "You are a business model expert. Build a complete Business Model Canvas for a [BUSINESS IDEA] targeting [AUDIENCE]. Fill all 9 blocks with 2-4 concrete bullets each. End with the 2 riskiest assumptions I should test first and a cheap experiment to validate each within 2 weeks."
+4. "Act as a positioning consultant for [COMPANY NAME], a [BUSINESS TYPE] in [CITY/MARKET]. Write a value proposition using this formula: 'For [TARGET CUSTOMER] who [NEED], we are the [CATEGORY] that [KEY BENEFIT], unlike [COMPETITOR].' Give 3 variations, then recommend the strongest and explain why in 3 bullet points."
+5. "You are a Blue Ocean Strategy practitioner. My [BUSINESS TYPE] competes in a crowded [MARKET]. Apply the Four Actions Framework (eliminate, reduce, raise, create) to help me differentiate from [TOP 3 COMPETITORS]. Present the result as an ERRC grid, then propose one new market positioning statement."
+6. "Act as a competitive intelligence analyst. Compare [MY COMPANY] against [COMPETITOR 1] and [COMPETITOR 2] on pricing, target customer, key features, marketing channels, and brand voice. Output a comparison table, then list 3 gaps I can exploit and 2 threats I must defend against."
+7. "You are a growth strategy advisor for a [BUSINESS TYPE] that has plateaued at $[REVENUE]/year. Diagnose the 5 most likely causes of stagnation for this stage, rank them by probability, and design one turnaround initiative per cause with owner, timeline, and success metric."
+8. "Act as a market entry consultant. A [BUSINESS TYPE] wants to expand from [COUNTRY/REGION] into [NEW MARKET]. Build a market entry plan covering localization, pricing adjustment, regulatory considerations, channel partners, and a phased 6-month rollout. Format: numbered plan with milestones and a go/no-go checklist."
+
+## Market Research & Customer Insight
+
+9. "You are a market research analyst. Size the total addressable market (TAM), serviceable market (SAM), and share obtainable (SOM) for [PRODUCT/SERVICE] aimed at [AUDIENCE] in [GEOGRAPHY]. Show your calculation assumptions step by step, cite the logic for each number, and state the final market size in a summary table."
+10. "Act as a customer insight researcher. Create 3 detailed customer personas for [PRODUCT/SERVICE]: a budget buyer, a mid-market buyer, and a premium buyer. For each include demographics, daily pain points, buying triggers, objections, preferred channels, and a quote in their own words. Format as persona cards."
+11. "You are a trend analyst for the [INDUSTRY] sector. Identify the 5 trends most likely to affect a [BUSINESS TYPE] over the next 24 months. For each trend: describe the evidence, rate the impact (high/medium/low), and give one action my business should take now."
+12. "Act as a survey design expert. Write a 10-question customer survey for [PRODUCT/SERVICE] that measures satisfaction, unmet needs, and willingness to pay. Mix multiple choice, rating scales, and 2 open questions. Include the intro message, and note which question maps to which business decision."
+13. "You are a pricing researcher. Design a Van Westendorp price sensitivity survey (4 questions) plus 2 follow-up questions for [PRODUCT/SERVICE] targeting [AUDIENCE]. Explain how to read the results and at what price point the acceptable range typically intersects for this category."
+14. "Act as a jobs-to-be-done (JTBD) researcher. My product is [PRODUCT]. Map the core functional, emotional, and social jobs customers hire it for, the forces of progress pushing them toward a purchase, and the anxieties and habits holding them back. Present as a JTBD canvas with a one-line job story."
+15. "You are a voice-of-customer analyst. I will paste 20 customer reviews or support tickets about [PRODUCT]. Identify the top 5 recurring themes, cluster them into praise vs. complaint, quantify their frequency, and translate each complaint theme into a product or process improvement suggestion. Here are the reviews: [PASTE REVIEWS]"
+16. "Act as a competitive mystery-shopping planner. Design a step-by-step protocol to evaluate [COMPETITOR'S] sales process: what to ask on their website, in a demo call, and via email, and which signals to record (response time, pricing transparency, follow-up sequence). Deliver as a fill-in-the-blank field worksheet."
+
+## Business Planning & Operations
+
+17. "You are an operations consultant for small businesses. Design a complete operations plan for a [BUSINESS TYPE] with [NUMBER] employees: core workflows, tooling recommendations, quality checkpoints, and a weekly operating rhythm. Format: workflow descriptions plus a Monday-to-Friday management checklist."
+18. "Act as a lean operations coach. My [BUSINESS TYPE] wastes time on [PROBLEM: e.g., manual invoicing, duplicated approvals, inventory errors]. Analyze the likely root causes, propose 5 process fixes ranked by effort-to-impact ratio, and draft the standard operating procedure (SOP) for the top fix."
+19. "You are a project kickoff specialist. Create a project charter for [PROJECT NAME] including objective, scope, out-of-scope items, milestones, risks with mitigation owners, stakeholder list, and a RACI matrix for the 6 most important tasks. Keep it under 700 words so a team can adopt it same-day."
+20. "Act as a vendor management consultant. Build a vendor evaluation scorecard for selecting a [VENDOR TYPE: e.g., software provider, manufacturer, logistics partner]. Criteria: cost, reliability, quality, support, and contract flexibility, weighted for a [BUSINESS TYPE]. Include 5 scoring questions per criterion and a weighted decision formula."
+21. "You are a business systems architect. Recommend a right-sized tech stack for a [BUSINESS TYPE] doing $[REVENUE]/year with [NUMBER] staff: CRM, accounting, project management, email, and file storage. For each tool category give a budget option and a scale-up option, with a one-line reason and monthly cost estimate."
+22. "Act as a risk management advisor. Create a risk register for a [BUSINESS TYPE] covering financial, operational, legal, reputational, and people risks. List 10 specific risks, each with likelihood (1-5), impact (1-5), a mitigation action, and an early-warning signal. Output as a sortable table."
+23. "You are a franchise/scalability consultant. My [BUSINESS TYPE] works in [LOCATION] and I want to replicate it. Tell me which parts of the business must be systematized first, what documentation to write, and the difference between scaling via owned locations, franchising, or licensing for my case. End with a 5-step sequence."
+24. "Act as a business continuity planner. Write a business continuity plan for a [BUSINESS TYPE] covering: 5 most likely disruptions (e.g., [EXAMPLES: supplier failure, key staff exit, platform outage), immediate response steps, communication templates for customers and staff, and a recovery timeline."
+
+## Financial Planning & Pricing
+
+25. "You are a fractional CFO for a [BUSINESS TYPE] with $[REVENUE] annual revenue. Build a 12-month profit and loss forecast with revenue, cost of goods, gross margin, operating expenses by category, and net profit. Present as a month-by-month table and highlight the 3 assumptions that most affect the outcome."
+26. "Act as a pricing strategist. My [PRODUCT/SERVICE] costs $[COST] to deliver and competitors charge $[PRICE RANGE]. Evaluate 3 pricing models for my case (flat, tiered, usage-based), recommend one, and write the price presentation copy that justifies the price without discounting."
+27. "You are a unit economics specialist. Calculate the customer economics for my [BUSINESS TYPE]: assume CAC of $[AMOUNT], average order value of $[AMOUNT], gross margin of [PERCENT]%, and repeat purchase behavior of [FREQUENCY]. Walk through CAC payback period, LTV, LTV:CAC ratio, and tell me which lever to improve first and why."
+28. "Act as a financial controller. Design a simple monthly financial reporting pack for a non-financial founder of a [BUSINESS TYPE]: which 6 numbers to track, where to find each, a healthy benchmark range for [INDUSTRY], and a plain-English explanation of what each number means. Include a one-page template layout."
+29. "You are a cash flow forecaster. Build a 13-week rolling cash flow forecast structure for a [BUSINESS TYPE]: starting cash, weekly inflows by source, outflows by category (payroll, rent, software, taxes), and a running balance. Flag which week is most dangerous and suggest 3 levers to protect cash in a shortfall."
+30. "Act as a funding advisor. My [BUSINESS TYPE] needs $[AMOUNT] to fund [USE OF FUNDS]. Compare bootstrapping, bank loan, SBA loan, revenue-based financing, and equity investment for my situation in a decision table: speed, cost of capital, dilution, and approval odds. Recommend one path and outline the next 3 steps."
+31. "You are a profitability turnaround expert. My [BUSINESS TYPE] has margins of [PERCENT]% and I want to reach 20%. Identify 8 specific margin improvement levers for this business type, estimate the point impact of each, and sequence them into a 90-day improvement plan with weekly checkpoints."
+32. "Act as a financial scenario planner. Model base, pessimistic, and optimistic cases for my [BUSINESS TYPE] over the next 12 months by varying revenue ±[PERCENT]% and costs ±[PERCENT]%. For each case show ending cash, profit, and headcount I can afford, then state the trigger points that should make me switch strategies."
+
+## Sales, Marketing & Growth
+
+33. "You are a sales process designer. Build a 5-stage sales pipeline for a [BUSINESS TYPE] selling [PRODUCT/SERVICE] at $[PRICE POINT]: stages, entry criteria, exit criteria, typical conversion rates between stages, and the single most important action a salesperson takes at each stage."
+34. "Act as a customer journey mapper. Map the journey of [TARGET CUSTOMER] from first hearing about [BUSINESS NAME] through repeat purchase. List every touchpoint, the customer's emotional state, friction points, and one improvement per stage. Format as a table with columns: stage, touchpoint, emotion, friction, fix."
+35. "You are a referral program designer. Create a referral program for a [BUSINESS TYPE] with [CUSTOMER COUNT] customers: the offer structure for both parties, tracking mechanism, launch messaging, and a 30-day rollout plan. Include 3 example referral invitation messages in different tones."
+36. "Act as a partnership strategist. Identify 5 non-competitor businesses that serve [TARGET CUSTOMER] and could co-market with my [BUSINESS TYPE]. For each: name the partner type, the mutually beneficial arrangement, the outreach pitch in 3 sentences, and the expected reach."
+37. "You are a B2B proposal writer. Write a compelling 2-page proposal for [SERVICE] to be delivered for [CLIENT COMPANY] over [TIMELINE] at $[PRICE]. Include executive summary, scope of work, deliverables schedule, pricing table, terms, and a next-steps section that makes signing easy."
+38. "Act as a churn prevention consultant. My [SUBSCRIPTION BUSINESS] loses [PERCENT]% of customers monthly. Diagnose the top 5 churn causes for this business type, design one intervention per cause (e.g., onboarding fix, win-back email, exit survey), and write the copy for the single highest-impact intervention."
+39. "You are an upsell/cross-sell strategist. For a [BUSINESS TYPE] whose customers currently buy [PRODUCT A], design 3 upsell and 3 cross-sell offers with pricing logic, timing in the customer lifecycle, and the exact 3-line pitch script for each. Rank by expected revenue impact."
+40. "Act as a local marketing specialist. Build a 90-day local marketing plan for a [BUSINESS TYPE] in [CITY] with a $[BUDGET] monthly budget: channel mix, weekly cadence, one flagship monthly event or promotion, and a simple tracking sheet to measure cost per new customer."
+
+## Leadership, Teams & Culture
+
+41. "You are an organizational design consultant. Design an org chart for a [BUSINESS TYPE] scaling from [CURRENT HEADCOUNT] to [TARGET HEADCOUNT] employees: which roles to hire in what order, salary ranges per role, and which functions to outsource vs. hire in-house. Justify the first 3 hires."
+42. "Act as a hiring expert. Write a job description for a [ROLE] at a [BUSINESS TYPE]: mission of the role, 5 outcome-based responsibilities, 4 must-have qualifications, 3 nice-to-haves, and 5 interview questions that predict on-the-job performance. Tone: honest and attractive to A-players."
+43. "You are a leadership coach for first-time founders. My challenge is [SITUATION: e.g., delegating, firing a friend, co-founder conflict]. Give me a decision framework for this situation, the 3 mistakes most founders make, a script for the difficult conversation, and a way to measure whether the issue is resolved in 30 days."
+44. "Act as a performance management designer. Create a lightweight quarterly performance review system for a [NUMBER]-person [BUSINESS TYPE]: rating dimensions tailored to [KEY ROLES], self-review questions, manager questions, and a one-page form. It should take under 45 minutes per employee per quarter."
+45. "You are a culture-building advisor for small teams. Suggest 5 low-cost rituals for a remote/hybrid [BUSINESS TYPE] team of [NUMBER] people that reinforce [VALUE: e.g., transparency, customer obsession, craftsmanship]. For each ritual: what it is, cadence, cost, and what behavior it is designed to reinforce."
+46. "Act as a meeting effectiveness consultant. Redesign the meeting rhythm for a [BUSINESS TYPE] leadership team: which recurring meetings to keep, kill, or merge; default agenda for each; and rules for decision-making. Include a one-page operating agreement the team can adopt today."
+47. "You are a delegation coach. I am a founder who currently handles [TASKS YOU HANDLE]. Which tasks should I keep, delegate, or eliminate? For each delegated task, write the handoff brief: outcome definition, constraints, checkpoints, and the decision rights the new owner gets."
+
+## Pitching, Negotiation & Communication
+
+48. "Act as an investor pitch coach. Turn my business - [BUSINESS DESCRIPTION] with [TRACTION METRICS] - into a 10-slide pitch deck outline. For each slide give the headline, 3 bullet points, and the one question investors will ask after seeing it. Order slides for maximum narrative momentum."
+49. "You are a negotiation trainer. I am negotiating [DEAL: e.g., vendor contract, salary, acquisition] and my position is [POSITION]. Give me a preparation sheet: my BATNA, their likely BATNA, 5 tradeable variables beyond price, opening anchor, concession plan, and 3 scripts for common counterparty tactics."
+50. "Act as a business communication editor. Rewrite this message to be clear, confident, and 40% shorter while keeping the tone [TONE: e.g., warm, firm, neutral]: [PASTE MESSAGE]. Then explain the 3 biggest changes you made and the principle behind each so I can apply them myself next time."

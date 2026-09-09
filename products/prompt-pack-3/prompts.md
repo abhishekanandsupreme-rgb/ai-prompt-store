@@ -1,52 +1,71 @@
-# AI Coding Assistant Pack - Prompts
+# AI Coding Assistant Pack - 50 Expert Prompts
 
-1. Write a Python function to [TASK]
-2. Debug this code: [CODE]
-3. Optimize this algorithm: [CODE]
-4. Write unit tests for [FUNCTION]
-5. Create a REST API endpoint
-6. Write a database schema for [USE CASE]
-7. Create a Dockerfile for [APP]
-8. Write a git commit message for [CHANGES]
-9. Create a CI/CD pipeline configuration
-10. Write code documentation for [MODULE]
-11. Customize and use the above patterns for your specific needs
-12. Customize and use the above patterns for your specific needs
-13. Customize and use the above patterns for your specific needs
-14. Customize and use the above patterns for your specific needs
-15. Customize and use the above patterns for your specific needs
-16. Customize and use the above patterns for your specific needs
-17. Customize and use the above patterns for your specific needs
-18. Customize and use the above patterns for your specific needs
-19. Customize and use the above patterns for your specific needs
-20. Customize and use the above patterns for your specific needs
-21. Customize and use the above patterns for your specific needs
-22. Customize and use the above patterns for your specific needs
-23. Customize and use the above patterns for your specific needs
-24. Customize and use the above patterns for your specific needs
-25. Customize and use the above patterns for your specific needs
-26. Customize and use the above patterns for your specific needs
-27. Customize and use the above patterns for your specific needs
-28. Customize and use the above patterns for your specific needs
-29. Customize and use the above patterns for your specific needs
-30. Customize and use the above patterns for your specific needs
-31. Customize and use the above patterns for your specific needs
-32. Customize and use the above patterns for your specific needs
-33. Customize and use the above patterns for your specific needs
-34. Customize and use the above patterns for your specific needs
-35. Customize and use the above patterns for your specific needs
-36. Customize and use the above patterns for your specific needs
-37. Customize and use the above patterns for your specific needs
-38. Customize and use the above patterns for your specific needs
-39. Customize and use the above patterns for your specific needs
-40. Customize and use the above patterns for your specific needs
-41. Customize and use the above patterns for your specific needs
-42. Customize and use the above patterns for your specific needs
-43. Customize and use the above patterns for your specific needs
-44. Customize and use the above patterns for your specific needs
-45. Customize and use the above patterns for your specific needs
-46. Customize and use the above patterns for your specific needs
-47. Customize and use the above patterns for your specific needs
-48. Customize and use the above patterns for your specific needs
-49. Customize and use the above patterns for your specific needs
-50. Customize and use the above patterns for your specific needs
+> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+
+## Code Generation
+
+1. "You are a senior [LANGUAGE] engineer. Write a function that [TASK] with input type [INPUT] and output type [OUTPUT]. Requirements: handle edge cases [EDGE CASES], include type hints, and add docstrings in Google style. After the code, list 3 ways it could fail in production."
+2. "Act as a clean code specialist. Refactor the following [LANGUAGE] code to improve readability and maintainability without changing behavior: [PASTE CODE]. Apply single-responsibility, meaningful names, and guard clauses. Present a before/after diff summary and explain each change in one line."
+3. "You are an API developer. Design and implement a [REST/GraphQL] endpoint for [RESOURCE] in [FRAMEWORK]. Include request validation, authentication check, error responses with proper status codes, and pagination if the list can exceed 100 items. Show the route handler code and 2 example requests."
+4. "Act as a database engineer. Write a [SQL/MongoDB/OTHER] schema for [USE CASE: e.g., multi-tenant SaaS with organizations, users, and invoices]. Include indexes, foreign keys, and constraints. Then show the 3 most frequent queries for this app and verify the schema supports them efficiently."
+5. "You are a scraping/automation engineer. Write a [PYTHON/JS] script that [AUTOMATION TASK: e.g., monitors a webpage and emails on change, renames files by date, syncs CSV to Google Sheets]. Make it idempotent, log failures to a file, and add a retry with exponential backoff. Include setup instructions."
+6. "Act as a CLI builder. Create a command-line tool in [LANGUAGE] that does [TASK]. Include argument parsing, a --help message, input validation, and exit codes. Show example invocations for the 3 most common use cases."
+7. "You are a regex expert. Write a regular expression for [PATTERN DESCRIPTION: e.g., extract tracking numbers, validate phone numbers in multiple formats, parse log lines]. Provide the regex, a plain-English breakdown of each part, and 5 test cases including 2 that should NOT match."
+8. "Act as a data pipeline developer. Write [PYTHON] code that ingests [DATA SOURCE], cleans it (dedupe, type coercion, null handling), and loads it into [DESTINATION]. Structure it as extract/transform/load functions with a main entry point and log a summary of rows processed, rejected, and written."
+
+## Debugging & Optimization
+
+9. "You are a debugging specialist with 15 years of experience in [LANGUAGE]. I get this error: [PASTE ERROR/STACK TRACE] when running [PASTE CODE OR DESCRIBE]. List the 5 most likely root causes ranked by probability, the fastest diagnostic step for each, and the fix for the most likely one."
+10. "Act as a performance engineer. This [LANGUAGE] function is slow: [PASTE CODE]. Profile it mentally: identify the complexity class, the top 3 bottlenecks, and rewrite it with the most impactful optimization. Show old vs. new code and explain the expected speedup and its tradeoffs."
+11. "You are a memory leak detective for [LANGUAGE/RUNTIME]. My [APPLICATION TYPE] grows in memory over [TIME PERIOD] in production. Give me a checklist of the 10 most common leak causes in this stack, how to confirm each with a tool or log pattern, and the standard fix."
+12. "Act as a concurrency expert. This [LANGUAGE] code sometimes produces wrong results under load: [PASTE CODE]. Identify race conditions, deadlocks, or atomicity violations. Rewrite it using [THREADS/ASYNC/LOCKS] correctly and explain what guarantee the new version provides."
+13. "You are a reliability engineer. My [SERVICE] fails intermittently with [SYMPTOM: e.g., timeouts after 30s, sporadic 502s]. Build a systematic debugging plan: hypothesis tree, what evidence to collect at each node (logs, metrics, traces), and how to reproduce the failure deterministically if possible."
+14. "Act as a security code auditor. Review this code for vulnerabilities: [PASTE CODE]. Check specifically for injection flaws, broken authentication, sensitive data exposure, and insecure dependencies. For each finding: severity (CVSS-style), vulnerable line, exploitation scenario, and patched code."
+15. "You are an API contract debugger. My frontend calls [ENDPOINT] and gets [UNEXPECTED BEHAVIOR] while the backend team says it works. List 6 categories of mismatch to check (serialization, timezones, encoding, headers, pagination, error shape) and a curl command to test each hypothesis."
+16. "Act as a technical debt assessor. Review this module: [PASTE CODE OR FILE LISTING]. Identify the 5 worst debt items (coupling, missing tests, dead code, fragile patterns), rank them by risk-to-effort, and prescribe a 3-step incremental refactor plan that keeps the app shippable at every step."
+
+## Testing & Quality
+
+17. "You are a test automation architect. Write [UNIT TEST FRAMEWORK] tests for this function: [PASTE FUNCTION]. Cover the happy path, boundary values, and 3 edge cases. Use arrange-act-assert structure with descriptive test names, and flag any case the current code would fail."
+18. "Act as a TDD coach. I need to build [FEATURE] in [LANGUAGE]. Walk me through red-green-refactor: write the first failing test, the minimal implementation to pass it, then the refactor. Continue the cycle for 4 iterations, showing test and code at each step."
+19. "You are an integration testing specialist. Design an integration test suite for [SERVICE/FEATURE] that talks to [DEPENDENCIES: e.g., database, payment API, email]. Decide what to mock vs. run real, set up test data, and write [FRAMEWORK] code for the 3 most critical cross-component scenarios."
+20. "Act as a QA edge case generator. For this feature: [DESCRIBE FEATURE], generate 20 test scenarios a junior QA would miss: unicode, timezones, concurrency, offline behavior, permission boundaries, and data volume. Prioritize the 5 that would cause the worst production incidents."
+21. "You are a load testing engineer. Write a [K6/LOCUST/JMETER] script that simulates [N] virtual users hitting [ENDPOINTS] for [DURATION]. Define pass/fail thresholds for latency p95, error rate, and throughput, and explain what each metric tells me about scaling."
+22. "Act as a mutation testing advocate. Explain in practical terms how to use mutation testing on this [LANGUAGE] module: [PASTE MODULE]. List 6 mutations a tool would try, which of my current tests would catch each, and the 2 tests I should add to raise my score."
+23. "You are a CI quality gate designer. Configure [CI SYSTEM] checks for a [LANGUAGE] repo: linting, type checking, unit tests, coverage threshold, and build. Include the YAML config and explain which gates should block a merge versus warn, and why."
+24. "Act as a regression detective. A feature worked in version [X] and broke in version [Y]. My repo has [COMMITS]. Give me a bisect-style procedure to find the offending commit efficiently, the git commands at each step, and how to write a regression test once found."
+
+## APIs, Data & Architecture
+
+25. "You are an API designer. Write an OpenAPI 3.0 specification for [SERVICE: e.g., booking system] with endpoints for [OPERATIONS]. Include schemas, required fields, error responses, and auth. Then generate one example request/response pair for every endpoint."
+26. "Act as a system architect. Design the architecture for [SYSTEM: e.g., real-time chat, food delivery app, analytics dashboard] with [EXPECTED SCALE: e.g., 10k DAU]. Cover components, data flow, database choice, caching, and failure modes. Present as a described diagram plus a table of tradeoffs for the 3 biggest decisions."
+27. "You are a data modeling expert. Normalize this spreadsheet data into relational tables: [PASTE COLUMNS/SAMPLE ROWS]. Show 1NF through 3NF steps, final table definitions with keys, and the query to reconstruct the original flat view."
+28. "Act as an integration engineer. Connect [SYSTEM A] to [SYSTEM B] via [WEBHOOK/REST API]. Write the integration plan: auth setup, retry policy, idempotency key design, and the [LANGUAGE] code for the sync worker. Include how to reconcile a drift between systems."
+29. "You are a technical spec writer. Turn this rough feature idea into a build-ready spec: [DESCRIBE FEATURE]. Include user stories with acceptance criteria, API changes, data model changes, error handling, rollout plan, and open questions ranked by blocking severity."
+30. "Act as a migration planner. I need to move from [OLD SYSTEM: e.g., monolith, MySQL, Heroku] to [NEW SYSTEM] with zero downtime. Write the migration plan in phases with a rollback step per phase, the metrics that tell me each phase succeeded, and the total riskiest hour."
+31. "You are a caching strategist. For this [APPLICATION TYPE] with [TRAFFIC PATTERN], decide what to cache, where (CDN, app, database), invalidation strategy, and TTL reasoning. Output a table: data type, cache layer, TTL, invalidation trigger, and staleness risk."
+32. "Act as a schema evolution expert. I must change a production [DATABASE] table used by [CONSUMERS]. Design a backward-compatible migration for [CHANGE: e.g., renaming a column, splitting a table, changing a type] using expand-and-contract: sequence of DDL steps, deployment order, and when to clean up."
+
+## DevOps, CI/CD & Deployment
+
+33. "You are a DevOps engineer. Write a Dockerfile for a [LANGUAGE/FRAMEWORK] app that is small, secure, and fast to build: multi-stage build, non-root user, pinned base image, and health check. Then show the docker-compose.yml wiring it to [DEPENDENCY: e.g., Postgres, Redis]."
+34. "Act as a CI/CD pipeline designer. Create a [GITHUB ACTIONS/GITLAB CI] workflow for a [LANGUAGE] monorepo: lint, test, build, and deploy to [ENVIRONMENT] with environment protections and secrets handled correctly. Comment each step with what it protects against."
+35. "You are an observability engineer. Design monitoring for a [APPLICATION TYPE]: the 4 golden signals per service, which alerts actually wake someone at 3am (with thresholds), and which dashboards to build first. Include the [PROMQL/QUERY] for the 2 most important alerts."
+36. "Act as an incident response planner. Write the runbook for [FAILURE SCENARIO: e.g., database failover, payment provider outage, region loss] in my [STACK]. Sections: detection, severity classification, immediate actions, comms templates for status page and team, and post-incident review agenda."
+37. "You are a cloud cost optimizer. My [AWS/GCP/AZURE] bill grew [PERCENT]% this quarter for a [APPLICATION TYPE]. List the 8 most common causes for this pattern, the exact console/CLI check for each, and expected savings sorted by effort."
+38. "Act as an environment configuration auditor. Review how my app manages config across [ENVIRONMENTS]. Propose a secrets management approach for [STACK] with least-privilege access, rotation policy, and a migration path away from .env files. Include example tool config for [VAULT/AWS SECRETS MANAGER/DOPPLER]."
+39. "You are a zero-downtime deployment expert. My [APPLICATION TYPE] currently deploys with [CURRENT METHOD: e.g., manual ssh, 5-minute outage]. Design a blue-green or rolling deployment for my [INFRA], including database migration coordination, smoke tests, and instant rollback."
+40. "Act as a Git workflow consultant. My team of [SIZE] keeps breaking [BRANCHING MODEL]. Design a right-sized branching strategy: branch naming, commit message convention, PR review rules, and merge checks. Include the exact commands or repo settings to enforce it."
+
+## Code Review, Docs & Developer Experience
+
+41. "You are a staff engineer doing code review. Review this pull request: [PASTE DIFF]. Categorize findings as blocking, important, or nit. For each: line reference, reasoning grounded in maintainability or correctness, and a suggested fix. End with what the author did well - be specific."
+42. "Act as a documentation engineer. Write a README for [PROJECT] following this outline: what it is, quickstart in under 5 commands, configuration table, common errors with fixes, and contribution guide. Audience: [AUDIENCE: e.g., new hires, open-source users]. Keep the quickstart copy-pasteable."
+43. "You are an API documentation writer. Turn this endpoint code into reference docs: [PASTE CODE]. Include description, parameters table, auth requirements, request/response examples for success and each error code, rate limits, and a curl example. Match the tone of Stripe docs."
+44. "Act as an onboarding guide author. Create a first-week onboarding plan for a new [ROLE] joining a [STACK] codebase: day-1 environment setup with exact commands, day-2 code walkthrough order (which modules first and why), day-3 first good-first-issue, and a glossary of our 10 internal terms: [LIST TERMS]."
+45. "You are a changelog and release notes writer. Turn these commits into user-facing release notes for version [X.Y.Z]: [PASTE COMMITS]. Group by added/changed/fixed, write from the user's perspective (what changed for them, not what we did), and add an upgrade note for breaking changes."
+46. "Act as a technical decision record (ADR) facilitator. We are deciding between [OPTION A] and [OPTION B] for [DECISION]. Write an ADR: context, considered options with tradeoff tables, decision criteria, chosen option, and consequences including what would make us revisit."
+47. "You are a developer experience auditor. My team complains [COMPLAINTS: e.g., slow tests, flaky builds, unclear errors]. Diagnose the 5 most common DX killers in a [STACK] repo, measure each with a metric, and give a 30-day improvement plan with before/after targets."
+48. "Act as a code style arbiter. Design a linting and formatting setup for [LANGUAGE] that ends style debates: tool choices, the 10 rules that matter most with a one-line rationale each, and the CI enforcement config. State what to leave unlinted and why."
+49. "You are a refactoring storyteller. I need to convince my team to invest [TIME] refactoring [MODULE]. Write the case: current cost in numbers (bugs, onboarding time, velocity), proposed target design, phased plan that ships value each week, and the risks of doing nothing. One page max."
+50. "Act as a legacy code translator. Explain this legacy [LANGUAGE] code to a modern developer: [PASTE CODE]. Provide: what it does in plain English, the implicit business rules it encodes, landmines (side effects, global state), and a safe modernization path in 3 steps."
