@@ -217,6 +217,7 @@ DONE=0
 while IFS=$'\t' read -r n name price file slug; do
   [ "$n" = "n" ] && continue
   slug="${slug%$'\r'}"; name="${name%$'\r'}"
+  [ "$n" -lt "$START_FROM" ] && continue
   if [ -n "$ONLY" ] && [ "$n" != "$ONLY" ]; then continue; fi
 
   # idempotency skip
