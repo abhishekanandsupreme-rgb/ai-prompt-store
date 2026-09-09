@@ -1,0 +1,8 @@
+# Publish pipeline scratch/state (scripts/publish-now/)
+scripts/publish-now/.meta-*.json
+scripts/publish-now/.payloads.tsv
+scripts/publish-now/.payload-list.py
+scripts/publish-now/publish-results.tsv
+
+# Python
+__pycache__/

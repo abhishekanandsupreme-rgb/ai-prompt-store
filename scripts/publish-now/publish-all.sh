@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 # =============================================================================
-# publish-all.sh — publish all 11 products to Gumroad via the official CLI
+# publish-all.sh — publish all products to Gumroad via the official CLI
+# (product count is dynamic — it comes from scripts/gumroad-product-payloads.json)
 #
 # Uses the installed Gumroad CLI (v2026.09.07) at C:/Users/asus/.local/bin/gumroad.exe
 # (https://github.com/antiwork/gumroad-cli). One CLI call set per product:
 #   1. gumroad products create --name --price --file --description --custom-permalink
-#        --custom-summary --tag ...   -> creates a DRAFT with the file attached
+#        --custom-summary --tag ... [--cover-image path]  -> creates a DRAFT with the file attached
 #        (the CLI uploads the file via the S3 presign flow automatically)
 #   2. capture the product id from the --json output
 #   3. gumroad products publish <id>  -> flips it live
@@ -20,9 +21,9 @@
 #     https://gumroad.com/settings/payments  (else publish is blocked).
 #
 # USAGE
-#   ./publish-all.sh                # all 11 products
+#   ./publish-all.sh                # all products (count = payloads in the JSON)
 #   ./publish-all.sh --start-from 8 # resume from product #8 (after a crash)
-#   ./publish-all.sh --only 11      # just the bundle
+#   ./publish-all.sh --only 14      # just the bundle (last product)
 #   ./publish-all.sh --dry-run      # echo the exact CLI calls, execute nothing
 #
 # IDEMPOTENCY: before creating, runs `gumroad products list --json` and skips
@@ -149,8 +150,13 @@ done < "$HERE/.payloads.tsv"
 
 if [ "$PASS" -ne 1 ]; then echo "Validation FAILED — fix files first."; exit 1; fi
 N_ROWS=$(( $(wc -l < "$HERE/.payloads.tsv") - 1 ))
+N_JSON=$(python -c "import json,sys; print(len(json.load(open(sys.argv[1], encoding='utf-8'))))" "$(W "$PAYLOADS")" 2>/dev/null)
+N_JSON="${N_JSON//$'\r'/}"
+[ -z "$N_JSON" ] && N_JSON="$N_ROWS"
 echo "  $N_ROWS payloads, all files present."
-if [ "$N_ROWS" -ne 11 ]; then echo "  WARNING: expected 11 payloads, found $N_ROWS"; fi
+if [ "$N_ROWS" -ne "$N_JSON" ]; then
+  echo "  WARNING: payload count mismatch — TSV has $N_ROWS rows but JSON has $N_JSON entries."
+fi
 rm -f "$PYLIST"
 
 # bundle staleness check (zip built Aug 22; packs 2-9 were enriched since)
@@ -223,12 +229,12 @@ while IFS=$'\t' read -r n name price file slug; do
   # idempotency skip
   if [ -n "$LIVE_SLUGS" ] && printf '%s' "$LIVE_SLUGS" | grep -qi "^${slug}$\|^${slug}\b"; then
     if printf '%s' "$LIVE_SLUGS" | grep -q "^${slug}"; then
-      echo "[$n/11] SKIP $slug (already exists on the account)"
+      echo "[$n/$N_ROWS] SKIP $slug (already exists on the account)"
       continue
     fi
   fi
 
-  echo "[$n/11] $name  (slug=$slug, price=\$$price)"
+  echo "[$n/$N_ROWS] $name  (slug=$slug, price=\$$price)"
 
   # per-product metadata built by the python step
   META="$HERE/.meta-$n.json"
@@ -247,10 +253,20 @@ while IFS=$'\t' read -r n name price file slug; do
   TAGS="${TAGS//$'\r'/}"
   while IFS= read -r t; do [ -n "$t" ] && TAG_ARGS+=(--tag "$t"); done <<< "$TAGS"
 
+  # optional cover art: products/cover-art/SLUG.png -> extra --cover-image arg
+  # (Windows-style path via cygpath; if the PNG is absent the flag is skipped)
+  COVER_ARG=()
+  COVER_PATH_WIN=""
+  COVER="$REPO/products/cover-art/$slug.png"
+  if [ -f "$COVER" ]; then
+    COVER_PATH_WIN="$(W "$COVER")"
+    COVER_ARG=(--cover-image "$COVER_PATH_WIN")
+  fi
+
   CMD_CREATE=("$GUM" products create --non-interactive --json
               --name "$name" --price "$price" --file "$file"
               --custom-permalink "$slug" --custom-summary "$SUMMARY"
-              --description "$DESC_HTML" "${TAG_ARGS[@]}")
+              --description "$DESC_HTML" "${TAG_ARGS[@]}" "${COVER_ARG[@]}")
   CMD_PUBLISH=("$GUM" products publish --non-interactive --json)
 
   if [ "$DRY_RUN" -eq 1 ]; then
@@ -261,6 +277,7 @@ while IFS=$'\t' read -r n name price file slug; do
     echo "            --price \"$price\" --file \"$(W "$file")\" \\"
     echo "            --custom-permalink \"$slug\" --custom-summary \"${SUMMARY:0:50}...\" \\"
     echo "            --description \"<${#DESC_HTML}-byte HTML>\" ($NTAG tags: $(printf '%s ' "${TAG_ARGS[@]:1:2}" | tr '\n' ' ')...)"
+    [ -n "$COVER_PATH_WIN" ] && echo "            --cover-image \"$COVER_PATH_WIN\" \\"
   else
     # create -> capture id -> publish -> capture url
     OUT=$("${CMD_CREATE[@]}" 2>&1)

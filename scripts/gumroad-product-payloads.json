@@ -140,6 +140,48 @@
     "is_published": true
   },
   {
+    "name": "AI Finance Prompt Pack - 40 Expert Prompts for Analysts, Planners & Fintech",
+    "url_slug": "ai-finance-prompt-pack",
+    "price": 9.99,
+    "original_price": null,
+    "product_type": "Digital Product",
+    "description": "40 expertly crafted AI prompts for finance professionals. Run financial analysis, build forecasts, and draft compliance documents in a fraction of the time.\n\nWhat's inside:\n- Financial statement analysis and DCF valuation prompts\n- 12-month cash flow and 13-week rolling forecast builders\n- Zero-based budget and CapEx request templates\n- Credit memos, term sheets, and loan document drafting\n- AML policy, fraud response, and month-end close checklists\n- Personal finance, retirement, and tax strategy prompts\n- Fintech product, payments, and API monetization prompts\n- Board presentations and investor relations copy\n\nPerfect for:\n- Financial analysts and FP&A managers\n- Accountants and bookkeepers\n- Fintech founders and product managers\n- Financial advisors and planners\n- Small business owners handling their own books\n\nWorks with: ChatGPT, Claude, Gemini, and any AI writing tool\n\nInstant download. Lifetime access. Free updates.",
+    "category": "Business / Finance",
+    "tags": "AI, finance, accounting, FP&A, financial analysis, fintech, budgeting, investing",
+    "file_upload_path": "products/feature-packs/ai-finance-prompt-pack/prompts.md",
+    "is_pay_what_you_want": false,
+    "require_shipping": false,
+    "is_published": true
+  },
+  {
+    "name": "AI Legal Prompt Pack - 40 Expert Prompts for Contracts, Research & Compliance",
+    "url_slug": "ai-legal-prompt-pack",
+    "price": 9.99,
+    "original_price": null,
+    "product_type": "Digital Product",
+    "description": "40 expertly crafted AI prompts for legal work. Draft contracts, research case law, and build compliance programs faster.\n\nWhat's inside:\n- Freelance agreements, NDAs, MSAs, and promissory notes drafting\n- Contract red-flag review with risk ratings and revised language\n- IRAC case briefs and legal memorandum templates\n- Deposition outlines and 50-state statute surveys\n- Client intake, retainer agreements, and demand letters\n- GDPR/CCPA policies, DPAs, and whistleblower programs\n- SOC 2, HIPAA, and PCI compliance audit checklists\n- Board resolutions, licensing agreements, and trial prep\n\nPerfect for:\n- Solo and small-firm attorneys\n- In-house counsel and legal ops teams\n- Compliance officers\n- Paralegals and legal assistants\n- Founders handling contracts and compliance themselves\n\nWorks with: ChatGPT, Claude, Gemini, and any AI writing tool. Supports legal work — does not replace advice from a licensed attorney.\n\nInstant download. Lifetime access. Free updates.",
+    "category": "Business / Legal",
+    "tags": "AI, legal, contracts, compliance, law, GDPR, research, law firm",
+    "file_upload_path": "products/feature-packs/ai-legal-prompt-pack/prompts.md",
+    "is_pay_what_you_want": false,
+    "require_shipping": false,
+    "is_published": true
+  },
+  {
+    "name": "AI Real Estate Prompt Pack - 40 Expert Prompts for Agents, Investors & Property Managers",
+    "url_slug": "ai-real-estate-prompt-pack",
+    "price": 9.99,
+    "original_price": null,
+    "product_type": "Digital Product",
+    "description": "40 expertly crafted AI prompts for real estate professionals. Write listings that sell, analyze markets like an investor, and manage properties without the paperwork grind.\n\nWhat's inside:\n- Property descriptions, headlines, and Airbnb/STR listing copy\n- CMA structure and neighborhood market report builders\n- Investment underwriting with cash-on-cash and cap rate math\n- Lease agreements, renewal offers, and rent increase notices\n- Move-in/move-out checklists and tenant retention playbooks\n- Buyer consultation scripts and listing presentations\n- Offer strategy, negotiation, and FSBO conversion scripts\n- 1031 exchange, house hacking, and syndication analysis prompts\n\nPerfect for:\n- Real estate agents and team leads\n- Property investors and landlords\n- Property managers\n- Short-term rental hosts\n- Mortgage brokers and wholesalers\n\nWorks with: ChatGPT, Claude, Gemini, and any AI writing tool\n\nInstant download. Lifetime access. Free updates.",
+    "category": "Business / Real Estate",
+    "tags": "AI, real estate, property, listings, CMA, investing, property management, Airbnb",
+    "file_upload_path": "products/feature-packs/ai-real-estate-prompt-pack/prompts.md",
+    "is_pay_what_you_want": false,
+    "require_shipping": false,
+    "is_published": true
+  },
+  {
     "name": "Complete AI Prompt Bundle - All 10 Packs (500+ Prompts)",
     "url_slug": "complete-ai-prompt-bundle",
     "price": 27.99,
