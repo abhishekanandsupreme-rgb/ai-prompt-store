@@ -38,6 +38,11 @@ set -u
 GUM="C:/Users/asus/.local/bin/gumroad.exe"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # scripts/publish-now
 REPO="$(cd "$HERE/../.." && pwd)"                       # ai-prompt-store
+# python is a NATIVE Windows binary: it needs Windows-style paths, not MSYS
+# /c/... paths. Convert once via cygpath (no-op when cygpath is absent).
+W() { command -v cygpath >/dev/null 2>&1 && cygpath -w "$1" || printf '%s' "$1"; }
+HERE_W="$(W "$HERE")"
+REPO_W="$(W "$REPO")"
 PAYLOADS="$REPO/scripts/gumroad-product-payloads.json"  # names/slugs/tags/descriptions/prices
 READY="$REPO/scripts/gumroad-all-products-ready.json"   # file_path per product (fallback)
 BUNDLE_FILE="$REPO/products/bundle-all-10-packs.zip"
@@ -67,12 +72,15 @@ done
 # -----------------------------------------------------------------------------
 # Helpers
 # -----------------------------------------------------------------------------
-py() { python - "$@"; }   # heredoc-free: read python from a temp file below
-
 PYLIST="$HERE/.payload-list.py"
+PYLIST_W="$HERE_W/.payload-list.py"
 cat > "$PYLIST" <<'EOF'
 import json, re, sys
 from pathlib import Path
+
+# Windows python print() emits \r\n; strip it so the bash TSV read stays clean.
+def out(s):
+    sys.stdout.write(s.replace("\r", "") + "\n")
 
 REPO = Path(sys.argv[1])
 payloads = json.loads((REPO / "scripts/gumroad-product-payloads.json").read_text(encoding="utf-8"))
@@ -101,7 +109,7 @@ def html(text):
     return "\n".join(out)
 
 # slug -> (n, name, price, file_abs, desc_html, summary, tags, slug)
-print("\t".join(["n", "name", "price", "file", "slug"]))
+out("\t".join(["n", "name", "price", "file", "slug"]))
 for i, p in enumerate(payloads, 1):
     name = p["name"]
     raw = p.get("file_upload_path", "") or ""
@@ -118,9 +126,10 @@ for i, p in enumerate(payloads, 1):
     if len(summary) == 220:
         summary = summary.rsplit(" ", 1)[0] + "..."
     tags = [t.strip() for t in str(p.get("tags", "")).split(",") if t.strip()]
-    print("\t".join([str(i), name, str(p["price"]), str(f), p["url_slug"]]))
+    slug = str(p["url_slug"]).strip()
+    out("\t".join([str(i), name, str(p["price"]), str(f), slug]))
     # sidecar per product for the bash loop (desc html, summary, tags)
-    (REPO / "scripts/publish-now/.meta-%d.json" % i).write_text(
+    (REPO / ("scripts/publish-now/.meta-%d.json" % i)).write_text(
         json.dumps({"html": html(desc), "summary": summary, "tags": tags}), encoding="utf-8")
 EOF
 
@@ -128,7 +137,7 @@ EOF
 # 1. Validate payloads & files (always, even in --dry-run)
 # -----------------------------------------------------------------------------
 echo "=== Validating payloads + files (offline) ==="
-python "$PYLIST" "$REPO" > "$HERE/.payloads.tsv" || { echo "payload parse failed"; exit 1; }
+python "$PYLIST_W" "$REPO_W" > "$HERE/.payloads.tsv" || { echo "payload parse failed"; exit 1; }
 
 PASS=1
 while IFS=$'\t' read -r n name price file slug; do
@@ -145,7 +154,7 @@ if [ "$N_ROWS" -ne 11 ]; then echo "  WARNING: expected 11 payloads, found $N_RO
 rm -f "$PYLIST"
 
 # bundle staleness check (zip built Aug 22; packs 2-9 were enriched since)
-python - "$REPO" <<'EOF'
+python - "$REPO_W" <<'EOF'
 import zipfile, sys
 from pathlib import Path
 repo = Path(sys.argv[1])
@@ -207,7 +216,7 @@ FAILED=0
 DONE=0
 while IFS=$'\t' read -r n name price file slug; do
   [ "$n" = "n" ] && continue
-  [ "$n" -lt "$START_FROM" ] && continue
+  slug="${slug%$'\r'}"; name="${name%$'\r'}"
   if [ -n "$ONLY" ] && [ "$n" != "$ONLY" ]; then continue; fi
 
   # idempotency skip
@@ -222,25 +231,30 @@ while IFS=$'\t' read -r n name price file slug; do
 
   # per-product metadata built by the python step
   META="$HERE/.meta-$n.json"
+  META_W="$HERE_W/.meta-$n.json"
+  [ -f "$META" ] || META="$HERE_W/.meta-$n.json"
 
   # Build the exact CLI argv (shown in dry-run, executed otherwise)
   TAG_ARGS=()
-  DESC_HTML=$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['html'])" "$META")
-  SUMMARY=$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['summary'])" "$META")
-  TAGS=$(python -c "import json,sys; print('\n'.join(json.load(open(sys.argv[1]))['tags']))" "$META")
+  DESC_HTML=$(python -c "import json,sys; sys.stdout.write(json.load(open(sys.argv[1]))['html'])" "$META_W")
+  SUMMARY=$(python -c "import json,sys; sys.stdout.write(json.load(open(sys.argv[1]))['summary'])" "$META_W")
+  TAGS=$(python -c "import json,sys; sys.stdout.write('\n'.join(json.load(open(sys.argv[1]))['tags']))" "$META_W")
   while IFS= read -r t; do [ -n "$t" ] && TAG_ARGS+=(--tag "$t"); done <<< "$TAGS"
 
   CMD_CREATE=("$GUM" products create --non-interactive --json
               --name "$name" --price "$price" --file "$file"
-              --custom-permalink "$slug" --custom-summary "$summary"
+              --custom-permalink "$slug" --custom-summary "$SUMMARY"
               --description "$DESC_HTML" "${TAG_ARGS[@]}")
   CMD_PUBLISH=("$GUM" products publish --non-interactive --json)
 
   if [ "$DRY_RUN" -eq 1 ]; then
     # echo the create command (with a shortened description for readability)
     SHORT_DESC=$(printf '%s' "$DESC_HTML" | head -c 60)
-    echo "  CREATE: ${CMD_CREATE[*]:0:200}...  [--description \"${SHORT_DESC}...\"]"
-    echo "         (full description: $(printf '%s' "$DESC_HTML" | wc -c) bytes of HTML; ${#TAG_ARGS[@]/$(( ${#TAG_ARGS[@]} / 2 ))/}... )"
+    NTAG=$(( ${#TAG_ARGS[@]} / 2 ))
+    echo "  CREATE: $GUM products create --non-interactive --json --name \"$name\" \\"
+    echo "            --price \"$price\" --file \"$(W "$file")\" \\"
+    echo "            --custom-permalink \"$slug\" --custom-summary \"${SUMMARY:0:50}...\" \\"
+    echo "            --description \"<${#DESC_HTML}-byte HTML>\" ($NTAG tags: $(printf '%s ' "${TAG_ARGS[@]:1:2}" | tr '\n' ' ')...)"
   else
     # create -> capture id -> publish -> capture url
     OUT=$("${CMD_CREATE[@]}" 2>&1)
