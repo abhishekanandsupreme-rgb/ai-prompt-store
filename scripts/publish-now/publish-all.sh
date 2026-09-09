@@ -240,6 +240,11 @@ while IFS=$'\t' read -r n name price file slug; do
   DESC_HTML=$(python -c "import json,sys; sys.stdout.write(json.load(open(sys.argv[1]))['html'])" "$META_W")
   SUMMARY=$(python -c "import json,sys; sys.stdout.write(json.load(open(sys.argv[1]))['summary'])" "$META_W")
   TAGS=$(python -c "import json,sys; sys.stdout.write('\n'.join(json.load(open(sys.argv[1]))['tags']))" "$META_W")
+  # Windows python pipes \r\n; strip CRs so tags never carry a carriage return
+  # into the CLI call (a tag "AI\r" would be created as garbage).
+  DESC_HTML="${DESC_HTML//$'\r'/}"
+  SUMMARY="${SUMMARY//$'\r'/}"
+  TAGS="${TAGS//$'\r'/}"
   while IFS= read -r t; do [ -n "$t" ] && TAG_ARGS+=(--tag "$t"); done <<< "$TAGS"
 
   CMD_CREATE=("$GUM" products create --non-interactive --json

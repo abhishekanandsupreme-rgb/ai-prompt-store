@@ -218,23 +218,23 @@ These 15 prompts came from 10 packs of 50 prompts each — **500+ prompts total*
 
 | # | Pack | What it does for you | Price |
 |---|------|---------------------|-------|
-| 1 | **[AI Content Creator Pack](https://ai-prompt-store.gumroad.com/l/ai-content-creator-pack)** | YouTube scripts, captions, blog posts, and ad copy — never start from a blank page | $9.99 |
-| 2 | **[AI Business Builder Pack](https://ai-prompt-store.gumroad.com/l/ai-business-builder-pack)** | Business plans, SWOTs, and pitch decks drafted in minutes, not weekends | $9.99 |
-| 3 | **[AI Coding Assistant Pack](https://ai-prompt-store.gumroad.com/l/ai-coding-assistant-pack)** | Debug, test, and document code without leaving your editor | $9.99 |
-| 4 | **[AI Marketing Master Pack](https://ai-prompt-store.gumroad.com/l/ai-marketing-master-pack)** | Subject lines and sales copy that convert, built on proven angles | $9.99 |
-| 5 | **[AI Writing Assistant Pack](https://ai-prompt-store.gumroad.com/l/ai-writing-assistant-pack)** | Break writer's block — outline novels, build characters, draft chapters | $9.99 |
-| 6 | **[AI Productivity Pack](https://ai-prompt-store.gumroad.com/l/ai-productivity-pack)** | Schedules, reviews, and decision matrices on autopilot | $9.99 |
-| 7 | **[AI Social Media Manager Pack](https://ai-prompt-store.gumroad.com/l/ai-social-media-manager-pack)** | A month of content planned in one sitting, on any platform | $9.99 |
-| 8 | **[AI SEO Expert Pack](https://ai-prompt-store.gumroad.com/l/ai-seo-expert-pack)** | Keyword research, audits, and outreach without paying an agency | $9.99 |
-| 9 | **[AI Entrepreneur Pack](https://ai-prompt-store.gumroad.com/l/ai-entrepreneur-pack)** | Validate ideas, price them, and grow — before you burn months building | $9.99 |
-| 10 | **[AI Education Pack](https://ai-prompt-store.gumroad.com/l/ai-education-pack)** | Lesson plans, study guides, and quizzes in minutes, not evenings | $9.99 |
+| 1 | **[AI Content Creator Pack](https://abhishekanand31.gumroad.com/l/ai-content-creator-pack)** | YouTube scripts, captions, blog posts, and ad copy — never start from a blank page | $9.99 |
+| 2 | **[AI Business Builder Pack](https://abhishekanand31.gumroad.com/l/ai-business-builder-pack)** | Business plans, SWOTs, and pitch decks drafted in minutes, not weekends | $9.99 |
+| 3 | **[AI Coding Assistant Pack](https://abhishekanand31.gumroad.com/l/ai-coding-assistant-pack)** | Debug, test, and document code without leaving your editor | $9.99 |
+| 4 | **[AI Marketing Master Pack](https://abhishekanand31.gumroad.com/l/ai-marketing-master-pack)** | Subject lines and sales copy that convert, built on proven angles | $9.99 |
+| 5 | **[AI Writing Assistant Pack](https://abhishekanand31.gumroad.com/l/ai-writing-assistant-pack)** | Break writer's block — outline novels, build characters, draft chapters | $9.99 |
+| 6 | **[AI Productivity Pack](https://abhishekanand31.gumroad.com/l/ai-productivity-pack)** | Schedules, reviews, and decision matrices on autopilot | $9.99 |
+| 7 | **[AI Social Media Manager Pack](https://abhishekanand31.gumroad.com/l/ai-social-media-manager-pack)** | A month of content planned in one sitting, on any platform | $9.99 |
+| 8 | **[AI SEO Expert Pack](https://abhishekanand31.gumroad.com/l/ai-seo-expert-pack)** | Keyword research, audits, and outreach without paying an agency | $9.99 |
+| 9 | **[AI Entrepreneur Pack](https://abhishekanand31.gumroad.com/l/ai-entrepreneur-pack)** | Validate ideas, price them, and grow — before you burn months building | $9.99 |
+| 10 | **[AI Education Pack](https://abhishekanand31.gumroad.com/l/ai-education-pack)** | Lesson plans, study guides, and quizzes in minutes, not evenings | $9.99 |
 
 ### Or get everything at once
 
-**[The Complete AI Prompt Bundle — all 10 packs, 500+ prompts, $27.99](https://ai-prompt-store.gumroad.com/l/complete-ai-prompt-bundle)** (72% off buying the packs individually)
+**[The Complete AI Prompt Bundle — all 10 packs, 500+ prompts, $27.99](https://abhishekanand31.gumroad.com/l/complete-ai-prompt-bundle)** (72% off buying the packs individually)
 
 - Browse the full store: https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/
-- Buy on Gumroad: https://ai-prompt-store.gumroad.com
+- Buy on Gumroad: https://abhishekanand31.gumroad.com
 
 Instant download. Lifetime access. Free updates. Works with ChatGPT, Claude, Gemini, and any AI tool.
 
