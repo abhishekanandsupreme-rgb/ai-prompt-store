@@ -13,27 +13,33 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/blog/50-chatgpt-prompts-for-content-creators.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/blog/how-to-write-ai-prompts.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/blog/ai-prompt-engineering-for-developers.html</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/free-teaser.md</loc>
+        <lastmod>2026-09-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/privacy.html</loc>
         <lastmod>2026-09-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
-    </url>
-    <url>
-        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/how-to-write-ai-prompts.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/50-chatgpt-prompts-for-content-creators.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://abhishekanandsupreme-rgb.github.io/ai-prompt-store/ai-prompt-engineering-for-developers.html</loc>
-        <lastmod>2026-09-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 </urlset>
