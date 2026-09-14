@@ -1,86 +1,285 @@
-# AI Content Creator Pack - 50 Expert Prompts
+# AI Content Creator Pack — 50 Expert Prompts
+## YouTube, Social Media, Blogs & Email
 
-> How to use: Copy any prompt below, replace the [BRACKETED] variables with your details, and paste it into ChatGPT, Claude, or Gemini. Each prompt includes a role, context, task, and output format for professional-grade results.
+> Copy-paste ready. Replace [BRACKETS] with your details. Works with ChatGPT, Claude, Gemini, or any LLM.
 
-## YouTube
+---
 
-1. "You are a professional YouTube scriptwriter. Write a [LENGTH]-minute script for a video about [TOPIC] aimed at [AUDIENCE]. Structure: 0-15s hook (the payoff, teased, no channel intro), intro (why watch to the end), 3 main points with a pattern-interrupt every 90 seconds, and a CTA that promises value ('subscribe because next week I'm covering X'). Write it in spoken language - short sentences, contractions, one idea per breath. Include B-roll and on-screen text cues in brackets."
-2. "Act as a YouTube title and thumbnail strategist. My video is about [TOPIC] with the key insight [INSIGHT]. Generate 10 title options across 5 formulas: curiosity gap, negative framing, number promise, contrarian, and direct outcome. Each under 60 characters. Then describe the thumbnail concept for the top 2: image, emotion, max 4 words of text, and why it earns the click without clickbait."
-3. "You are a YouTube growth consultant. My channel [NICHE] gets [VIEWS] views per video but [PERCENT]% CTR. Diagnose the 5 most likely causes for this pattern (packaging, topic-market fit, audience mismatch, timing), rank them, and give the fix for each. Include the 30-day test plan to isolate the biggest cause."
-4. "Act as a video description and SEO writer. Write the YouTube description for my video on [TOPIC]: first 2 lines (visible before 'more') that hook, then a summary with timestamps for each section [PASTE SECTIONS OR OUTLINE], hashtags (3 max), and the links section structure. Include 15 keyword tags ranked by relevance."
-5. "You are a series/show developer. Design a repeatable YouTube series for my channel [NICHE] targeting [AUDIENCE]: the series name, the fixed format (each episode's structure), 10 episode ideas, and why series beat one-off videos (subscription psychology). Include the intro line I use every episode."
+## YouTube (Prompts 1–10)
 
-## Social Media Captions & Posts
+### 1. The Full Video Script
+```
+You are a veteran YouTube scriptwriter with 10M+ views across channels. Write a complete [LENGTH]-minute YouTube script about [TOPIC] for an audience of [AUDIENCE]. Structure: (1) a 15-second hook that makes a specific, surprising promise, (2) context that establishes why this matters NOW, (3) exactly [N] main points, each with a concrete example or mini-story, (4) a pattern interrupt every 90 seconds (question, joke, or visual cue noted in brackets), (5) a CTA that asks for one specific action. Tone: conversational, second-person, no fluff. Mark timestamps and B-roll suggestions inline.
+```
 
-6. "You are a social media copywriter for [BRAND/PERSONA]. Write 30 caption variations for [CONTENT: product launch, tip, story, milestone] across 5 tones: punchy, storytelling, question-led, list-based, and bold claim. Include emojis where they add tone (not decoration), and a CTA in each. Mark the 5 strongest for A/B testing."
-7. "Act as a hook specialist. My posts about [TOPIC] die in the feed. Write 20 first lines across 5 types: curiosity gap, specific number, contrarian take, story open, and direct callout ('You if you...'). Each under 12 words. Then extract the reusable formula per type so I can generate my own."
-8. "You are a content repurposing engineer. My latest [CONTENT: video, blog post, podcast] covers [TOPIC]. Extract: 7 standalone social posts (each carries the core idea without context), 3 story sequences, 1 carousel outline (slide by slide), and 5 quote cards. Give me the fill-in posting calendar for the week."
-9. "Act as a niche engagement strategist. I create content about [NICHE]. Find me the conversation-starters that pull comments: 15 post prompts (questions, fill-in-the-blanks, this-or-that, hot takes, and confession posts) specific to [AUDIENCE], each with the psychology of why people respond."
-10. "You are a trend adapter. The trending format/audio/topic is [TREND]. Create 3 adaptations for [BRAND] in [NICHE]: how to ride the trend without being cringe, the twist that makes it ours, and the line between timely and desperate. Include the 3-day rule for when a trend has passed."
+### 2. Titles That Get Clicked (Without Clickbait)
+```
+You are a YouTube growth strategist. Generate 15 title options for a video about [TOPIC], organized into 5 categories: curiosity-gap, outcome-promise, listicle, question, and contrarian. For each, add a predicted CTR score (1–10) and one sentence on why it works for the [NICHE] audience. Avoid clickbait that overpromises. Then pick your top 3 and explain what makes them beat the rest.
+```
 
-## Blog & Long-Form Content
+### 3. Thumbnail Concept Brief
+```
+Act as a thumbnail designer who has studied MrBeast and Veritasium analytics. For a video titled "[TITLE]", give me 3 thumbnail concepts. For each: the single focal object or face expression, max 3-word overlay text, color palette (high contrast, mobile-legible), and the emotional trigger it pulls. Explain why each would outperform a generic "person smiling at laptop" thumbnail.
+```
 
-11. "You are an SEO content writer. Write a [WORD COUNT]-word article on [TOPIC] for [AUDIENCE] targeting [KEYWORD]. Include: title under 60 characters, meta description under 155, H2/H3 structure, one list or table per 400 words, internal link placeholders, and a CTA. Write for humans first - no keyword stuffing, active voice, and a clear takeaway in every section."
-12. "Act as a blog post outline architect. Build the outline for [TOPIC]: the angle that differentiates from the top 3 ranking articles [LIST THEM OR DESCRIBE], the reader's journey (question → answer → next step), section-by-section plan with the key point per section, and where to add proof, examples, and visuals. This outline should make writing 80% easier."
-13. "You are an editor for online writing. Edit this draft for the web: [PASTE DRAFT]. Rules: cut 20% of words, paragraphs under 3 sentences, subheads every 200 words, and front-load each paragraph's point. Preserve my voice. Show the 5 biggest changes with the principle behind each."
-14. "Act as a content upgrade specialist. My blog gets [TRAFFIC] visits but [EMAIL SIGNUP RATE]% convert. Design 3 content upgrades for my best posts [LIST POSTS]: the specific downloadable (checklist, template, swipe file), the placement strategy, and the copy for the signup box. Match the upgrade's promise exactly to each post's reader intent."
-15. "You are a storytelling writer for brands. Turn my customer's experience into a narrative post: [PASTE CUSTOMER STORY/FACTS]. Structure: the before (their world with the problem), the turning point, the transformation with specific details, and the takeaway that serves readers (not just our brand). 800 words, honest tone, no hero-worship of our product."
+### 4. Video Description with SEO
+```
+Write a YouTube description for a video about [TOPIC] targeting the search phrase "[KEYWORD]". Include: (1) a 2-sentence summary with the keyword in the first line, (2) timestamps for these sections: [SECTIONS], (3) 3 relevant hashtags, (4) a link CTA to [OFFER/CHANNEL], (5) a 30-word boilerplate about the channel [CHANNEL DESCRIPTION]. Keep the first 150 characters click-worthy since that's what shows before "show more".
+```
 
-## Email Marketing
+### 5. Hook Variants (First 15 Seconds)
+```
+You are a retention expert. Viewers decide in 15 seconds whether to stay. Write 8 alternative hooks (under 30 words each) for a video about [TOPIC]. Use these formats: bold claim, shocking stat, story cold-open, question, myth-destruction, "what nobody tells you", result-first, and pattern interrupt. Mark which 2 you'd test first for [AUDIENCE] and why.
+```
 
-16. "You are an email marketing strategist. Write a 5-email welcome sequence for [BUSINESS TYPE] selling [PRODUCT] to new subscribers: email 1 (deliver the promise + origin story), 2 (best content), 3 (the pain and the shift), 4 (the offer with proof), 5 (the honest close). Each with subject line, preview text, 150-250 word body, one CTA. Warm, direct, zero hype."
-17. "Act as a subject line specialist. My open rate is [PERCENT]% in [INDUSTRY]. Write 25 subject lines for [EMAIL CONTENT] across 5 types: curiosity, benefit, urgency, personal, and blunt. Under 45 characters each, no clickbait that the email can't cash. Then explain the 3 principles behind my best-performing type based on [PASTE PAST RESULTS IF ANY]."
-18. "You are a newsletter editor. Design my weekly newsletter about [TOPIC] for [AUDIENCE]: the name, the fixed structure (e.g., 1 idea, 3 links, 1 question, 1 recommendation), the voice guide (person, vocabulary, length), and write one full issue. It should be the email they open even when busy - define what makes it worth that."
-19. "Act as a re-engagement specialist. My list has [NUMBER] subscribers inactive for [MONTHS]+. Write the 3-email win-back sequence: email 1 (honest check-in with a valuable gift), email 2 (what they've missed + the best of), email 3 (the 'should I let you go?' unsubscribe-as-respect email). Include the subject lines and the sunset policy after the sequence."
-20. "You are a launch email strategist. Plan the email sequence for launching [PRODUCT] to my list of [SIZE]: 3-value emails (teach something real first), the launch announcement, 2 objection-handling emails (price, time, trust), social proof email, and the 24-hour close. Each email: goal, subject line, and body outline. Map the emotional arc across the sequence."
+### 6. Short-Form Repurposing (Shorts/Reels/TikTok)
+```
+Take this video script or transcript: [PASTE SCRIPT]. Extract 5 standalone short-form video ideas (30–60 seconds each). For each: a 1-sentence hook, the compressed script with on-screen text suggestions, and why this moment has viral potential. Prioritize moments with high emotion, surprising facts, or contrarian takes.
+```
 
-## Product Descriptions & E-commerce
+### 7. Binge-Watching Series Architecture
+```
+Design a [N]-part YouTube series about [BROAD TOPIC]. Give me: the series promise (why someone watches all parts), each episode's title + one-line content summary + the cliffhanger that carries viewers to the next episode, and the recommended upload cadence. Also note the best entry-point episode for new viewers and how to playlist-order for maximum session time.
+```
 
-21. "You are an e-commerce copywriter. Write the product description for [PRODUCT] on [PLATFORM: Amazon, Shopify, Etsy]: headline, 5 benefit-led bullets (feature → benefit → sensory detail), the story paragraph, specs section, and FAQ addressing the top 3 objections. SEO keywords woven naturally. Match [PLATFORM]'s buyer psychology and format conventions."
-22. "Act as a listing optimization specialist. My [PLATFORM] listing for [PRODUCT] converts at [RATE]% vs. the category average of [RATE]%. Audit: images order and message, title keyword coverage, bullets' benefit-vs-feature ratio, price anchoring, and review response. Give the 5 fixes ranked by expected lift, with the rewritten copy for each."
-23. "You are a product photography director. Plan the shot list for [PRODUCT]: the 7 mandatory shots (hero, scale, detail, lifestyle, use-context, packaging, size-reference), the lighting approach for [PRODUCT MATERIAL], the styling notes, and the model/inclusivity considerations. This is the brief I hand a photographer or follow myself."
-24. "Act as a cross-platform listing adapter. Here is my base product description: [PASTE]. Adapt it for Amazon (feature/benefit bullets + A+ content outline), Etsy (story + craft emphasis + tags), and Shopify (brand voice + conversion structure). Each platform gets a purpose-built version - not copy-paste. Explain what changed and why per platform."
+### 8. Comment-to-Content Pipeline
+```
+Here are real comments from my videos: [PASTE COMMENTS]. Analyze them as a content strategist: (1) identify the 5 most requested topics or unanswered questions, (2) flag any recurring objection or confusion I should address, (3) turn the 3 strongest signals into specific video concepts with working titles and a hook for each.
+```
 
-## Ad Copy
+### 9. Sponsorship Pitch Email
+```
+Write a sponsorship pitch email to [BRAND] for my channel about [NICHE]. Include: a subject line that gets opened, 2-sentence channel intro, my audience data ([SUBS], [VIEWS/MO], [DEMOGRAPHICS]), 3 specific integration ideas that fit their product naturally, and a confident close asking for a 15-minute call. Keep it under 150 words — sponsors skim. No bullet spam.
+```
 
-25. "You are a direct response copywriter with 20 years of experience. Write 5 ad variations for [PRODUCT] targeting [AUDIENCE] with pain point [PAIN]: hooks (3 types: fear of loss, aspiration, curiosity), 2-3 sentence bodies, and CTAs. Include the headline and primary text for [PLATFORM: Facebook, Instagram]. Flag which is the control and what each variation tests."
-26. "Act as a Google Ads specialist. Write a responsive search ad for [KEYWORD/INTENT] with 10 headlines (max 30 characters) and 4 descriptions (max 90 characters): mix feature, benefit, urgency, and proof angles. Explain which headline should win the auction for a [BUYER STAGE] searcher and why."
-27. "You are an ad testing strategist. My [PLATFORM] ad for [PRODUCT] has [CTR]% CTR and [CVR]% conversion. Design the test matrix: what to test first (audience, hook, offer, or creative), the 3x3x3 structure (hooks x bodies x CTAs), the sample size per cell, and the kill/scale decision rules. Include what NOT to test yet."
-28. "Act as a video ad scriptwriter. Write 3 short-form video ad scripts (15-30 seconds) for [PRODUCT] to [AUDIENCE]: the 3-second hook, problem agitation, the demo moment, and CTA. Include on-screen text and a shot list filmable on a phone in 20 minutes. One tone per script: funny, straight, urgent."
-29. "You are a landing page copywriter. Write the landing page for [PRODUCT/OFFER] at $[PRICE]: hero (headline + subhead + CTA), the 3 benefit blocks with proof, how-it-works (3 steps), objection handling (price, time, trust, 'will it work for me'), the guarantee, and final CTA. Voice: helpful expert, not hype merchant. Mark where testimonials go."
+### 10. Video Idea Generator (Data-Informed)
+```
+You are a YouTube strategist for the [NICHE] niche. Generate 20 video concepts ranked by predicted search + suggested-feed potential. For each: title, the search intent or trending signal it rides, and a one-line content angle. Mark the 5 you'd film first if the goal is subscriber growth, and the 5 best for raw views.
+```
 
-## Creative Writing & Storytelling
+---
 
-30. "You are a story structure coach. Take my idea [PREMISE] and outline it as a 3-act structure: inciting incident at 10%, midpoint reversal at 50%, climax at 90%. Give each act a one-paragraph summary and 10-15 scene beats with the protagonist's emotional state at each. Flag any beat where they're passive."
-31. "Act as a character psychologist. Build a profile for my character [BASIC DESCRIPTION]: the childhood wound, want vs. need, the lie they believe, how the wound shaped their behavior patterns, defense mechanisms, and the moment in my story when the lie cracks. Ground it in 3 behaviors the reader will see on the page."
-32. "You are a dialogue editor. Rewrite this conversation so it carries subtext: [PASTE DIALOGUE]. Keep the surface topic, but make each character want something they won't state directly. Use interruption, deflection, and objects in the scene. Annotate the 4 subtext moves you made so I can learn the technique."
-33. "Act as a platform storyteller for creators. Turn my personal experience [PASTE EXPERIENCE] into 3 pieces: a social post (the lesson + story version), a newsletter section (deeper reflection), and a video script (full story with the emotional beats). Same core story, adapted to each medium's strengths - not copy-pasted."
+## Social Media (Prompts 11–22)
 
-## Business Content for Creators
+### 11. The 30-Caption Batch
+```
+Generate 30 Instagram captions for a [ACCOUNT TYPE] in the [NICHE] space. Mix: 10 value tips (under 125 words), 10 relatable/pain-point posts with a light touch, 5 engagement questions, 5 soft-promo posts pointing to [OFFER]. Each caption: hook first line, line breaks for scannability, 1–2 emoji max (no emoji walls), 3–5 niche hashtags at the end (not generic ones like #love). Voice: [VOICE DESCRIPTION].
+```
 
-34. "You are a media kit designer. Create my media kit as a content creator in [NICHE] with [FOLLOWERS, ENGAGEMENT, NOTABLE WORK]: the one-page structure (about, audience demographics, engagement proof, past collaborations, packages and rates), the copy for each section, and the design notes. It must answer a brand's question: 'why this creator for my campaign?'"
-35. "Act as a sponsorship pitch strategist. Help me pitch [BRAND TYPE] for a partnership on [PLATFORM]. Write the outreach email (under 150 words): the personalized hook proving I know their product, the audience match with numbers, the 3-partnership options with deliverables, and the rate framing. Include the follow-up cadence."
-36. "You are a content monetization advisor. My [PLATFORM] audience is [SIZE] in [NICHE]. Map my monetization options realistically: ads/sponsorships (rate benchmarks for my size), products (digital product ideas matched to my audience's problems), services, and memberships. Rank by revenue-per-hour for a solo creator, and give the 90-day plan for the top option."
-37. "Act as a rate negotiation coach. A brand offered $[AMOUNT] for [DELIVERABLES]. My benchmark is $[BENCHMARK]. Write the negotiation: the counter-anchor with justification (engagement, niche value, usage rights), the tradeable variables (exclusivity, timeline, revisions, content rights), and the two walk-away scripts. Include the email sequence."
+### 12. The X/Twitter Content Calendar
+```
+Build a 7-day X/Twitter calendar for [ACCOUNT] in [NICHE]. For each day: one original insight post, one reply-bait question, one curated share with my take. Then write out all 21 posts in full. Rules: no thread-bait like "a thread 🧵" unless the content earns it; each post stands alone; vary rhythm between short punchy lines and medium takes. Include best posting times for [TIMEZONE/REGION] audience.
+```
 
-## Analytics & Iteration
+### 13. LinkedIn Post That Reads Like a Story
+```
+Write a LinkedIn post about [TOPIC/EXPERIENCE] using the narrative format that performs on LinkedIn: (1) a one-line hook with a specific number or moment, (2) short 1–2 line paragraphs, (3) a turning point, (4) a takeaway that gives the reader something usable, (5) a question to the audience. Target: [AUDIENCE, e.g., founders, marketers]. No hashtag spam (3 max), no "I'm humbled to announce" clichés, no humble-brags.
+```
 
-38. "You are a content analytics coach. My last 30 days of content: [PASTE METRICS OR DESCRIBE]. Analyze: which formats/topics/platforms over/under-performed, the pattern in my flops (timing, hook, topic fatigue?), and the one change with the highest expected impact. Then redesign next month's content plan based on this evidence."
-39. "Act as a retention/attention specialist. My [videos/posts] get [IMPRESSIONS] but [PERCENT]% drop off in the first [X] seconds. Diagnose the early-exit causes: hook weakness, pacing, production quality, or expectation mismatch from packaging. Give the fix for each with the revised opening structure for my next piece."
-40. "You are an A/B testing planner for content. My hypothesis: [e.g., my audience prefers tutorials over vlogs]. Design the test: the 2 variants, what I hold constant, how many pieces of each before judging, the metric that decides (and the vanity metrics to ignore), and what would prove me wrong."
-41. "Act as a quarterly content auditor. My content from last quarter: [PASTE LIST OR DESCRIBE]. Audit: the top 20% (by [METRIC]) and what they share, the bottom 20% and why, the content pillars to double down on vs. retire, and the gaps my audience asked about. Output: next quarter's pillar mix with rationale."
+### 14. The Viral-Format Decoder
+```
+Here's a post that went viral in my niche: [PASTE POST]. Reverse-engineer it: (1) the psychological trigger (status, curiosity, belonging, outrage, utility?), (2) the structural template underneath (fill-in-the-blank version), (3) why it worked for THIS audience specifically, (4) three ways I could adapt the template for [MY NICHE] without copying. End with one adapted draft ready to post.
+```
 
-## Planning & Workflow
+### 15. TikTok Script with Beat Sheet
+```
+Write a 45-second TikTok script about [TOPIC] for [AUDIENCE]. Beat sheet format: 0-2s hook (visual + line), 2-10s setup of the problem, 10-35s the payoff in 3 escalating beats, 35-45s payoff + loop-back or CTA. Include: spoken lines, on-screen text overlays, and camera/gesture notes in brackets. The hook must create a curiosity gap that forces watching to second 10.
+```
 
-42. "You are a content systems designer. I create on [PLATFORMS] with [HOURS/WEEK]. Build my sustainable content system: the weekly batching workflow (ideate day, create day, schedule day), the idea capture protocol, the content bank structure (evergreen vs. timely), and the publishing cadence per platform I can actually maintain. Include the burnout prevention rules."
-43. "Act as an idea-generation facilitator. My niche is [NICHE] and I've covered: [PASTE PAST TOPICS]. Generate 30 new content ideas across my pillars [LIST PILLARS]: 10 evergreen, 10 trend-responsive, 10 experimental. For each: the working title, the hook, and the format. Mark the 5 I should make first and why."
-44. "You are a content calendar architect. Build my next month's calendar for [BRAND] on [PLATFORM]: the weekly rhythm (which content type on which day), the seasonal moments to plan for [PASTE OCCASIONS], the batch production schedule, and the flex slots for timely content. Include the review checkpoint each week."
-45. "Act as a repurposing strategist. Design my 'create once, publish seven times' workflow for a [WEEKLY LONG-FORM PIECE]: the exact 7 derivative pieces (platform, format, angle), the time budget per derivative, the tools at [BUDGET], and the weekly schedule. Each derivative must stand alone - not require the original."
+### 16. Engagement Post (Zero-Promo)
+```
+Write a pure-engagement post for [PLATFORM] about [NICHE TOPIC]: a genuinely useful observation or mini-tip that asks nothing. Goal: comments and shares from [AUDIENCE]. Format: a specific claim or quick win (2 lines max), one line of "how I know" credibility, then a question that's easy to answer but shows the commenter's experience. Draft 3 variants: one provocative, one warm, one data-point.
+```
 
-## Growth & Community
+### 17. Story-Brand Carousel
+```
+Design a 8-slide Instagram carousel telling the story of [CUSTOMER TRANSFORMATION / MY JOURNEY MOMENT]. Slide 1: hook with tension ("The [X] that almost ruined [Y]"). Slides 2-3: the problem getting worse. Slide 4: the turning point. Slides 5-7: the 3 steps or insights that changed it. Slide 8: the result + one-line CTA to [OFFER]. Write the actual text for each slide — max 25 words per slide, headline + supporting line.
+```
 
-46. "You are an audience research specialist. My current audience: [DESCRIBE WHO ENGAGES]. My target audience: [DESCRIBE WHO I WANT]. Analyze the gap: what my current content attracts vs. what my target wants, the 3 content shifts to close it, and the risk of alienating my base during the transition. Give the 90-day bridge plan."
-47. "Act as a community builder. My [NUMBER] most engaged followers deserve more than a follow. Design my community strategy: the space (Discord, broadcast channel, newsletter, meetup), the insider value (early access, direct input, behind-the-scenes), the rituals, and the way it feeds back into my content. Realistic for one person to run."
-48. "You are a collaboration strategist. Find me collab partners in [NICHE] at [SIZE/STAGE]: 5 collab formats (joint video, newsletter swap, live event, co-created product, podcast swap) with the value logic for each side, the outreach template, and how to measure whether a collab worked. Include the etiquette rules that protect relationships."
-49. "Act as a crisis-response coach for creators. [NEGATIVE SITUATION: bad take going viral, comment pile-on, brand controversy, old content resurfacing]. Write my response plan: the 24-hour assessment (respond vs. hold), the response draft (accountability without groveling, no deleting unless harmful), the community guidance, and what to do for my mental health. Include what NOT to do."
-50. "You are a creator burnout prevention specialist. My signals: [SYMPTOMS: posting dread, content quality dropping, comparing to others]. Design my sustainable creator protocol: the content calendar pressure valve (the minimum viable week), the input recovery (consume for joy, not analysis), the metrics detox schedule, and the permission framework for taking breaks without losing momentum. Include the 30-day reset."
+### 18. The Comment Magnet
+```
+Generate 10 posts designed to maximize comments for a [NICHE] account on [PLATFORM]. Each post centers on a debatable-but-safe question, an "unpopular opinion", a "what would you do" scenario, or a fill-in-the-blank. Rank them by expected comment-rate for [AUDIENCE] and flag any with brand-safety risk. No rage-bait.
+```
+
+### 19. Platform-Native Repurposing
+```
+Take this core content: [PASTE CONTENT]. Repurpose it natively (not copy-paste) into: (1) a LinkedIn post (story format), (2) an X thread of 6 posts, (3) an Instagram caption + carousel outline, (4) a TikTok script, (5) a newsletter intro paragraph. Each version must feel born on that platform — different hooks, different lengths, different framing. Label each clearly.
+```
+
+### 20. The Growth Audit
+```
+Act as a social media growth auditor. Here's my account info: [PLATFORM, FOLLOWERS, NICHE, TOP POSTS, WORST POSTS, POSTING FREQUENCY]. Diagnose: (1) why my best posts worked, (2) why my worst didn't, (3) the single biggest growth lever I'm missing, (4) one experiment to run next week with a clear success metric. Be specific — no generic "post consistently" advice.
+```
+
+### 21. DM Response Templates
+```
+Write 5 DM response templates for an account about [NICHE]: (1) replying to a pricing inquiry without over-discounting, (2) responding to a complaint publicly received via DM, (3) following up with someone who ghosted after interest, (4) thanking a super-fan and deepening the relationship, (5) politely declining a collaboration that doesn't fit. Tone: warm, professional, human. Max 4 sentences each.
+```
+
+### 22. The Contrarian Take
+```
+Find the contrarian angle on [TOPIC] in the [NICHE] space: a position that's defensible, genuinely held by some experts, but goes against the mainstream advice. Write it as: (1) the claim in one bold sentence, (2) the 3 strongest pieces of supporting evidence, (3) the honest counter-arguments and my response to each, (4) who should NOT follow this advice. Tone: confident, not aggressive. If no defensible contrarian take exists, say so.
+```
+
+---
+
+## Blog & SEO (Prompts 23–32)
+
+### 23. The 2,000-Word SEO Post
+```
+Write a 2,000-word blog post targeting the keyword "[KEYWORD]" for an audience of [AUDIENCE]. Requirements: (1) a title under 60 characters containing the keyword, (2) a meta description under 155 characters with a click incentive, (3) H2/H3 structure covering the search intent fully — informational, not salesy, (4) one section answering the top "People Also Ask" question for this keyword, (5) natural keyword placement (1-2%) plus 5 semantic/LSI terms, (6) a table or list where it aids scanning, (7) an internal-link placeholder to [RELATED POST], (8) a 100-word conclusion with one CTA to [OFFER]. No fluff paragraphs — every section must earn its place.
+```
+
+### 24. Content Brief Generator
+```
+Create a full content brief for a post targeting "[KEYWORD]": (1) search intent (informational/commercial/navigational) and why, (2) a SERP-informed outline — the sections the current top 10 results all cover, plus 2 sections they all miss (my differentiation), (3) word count recommendation, (4) 5 semantically related terms to include, (5) suggested title variants (3), (6) the one question this post must answer better than anyone to win the ranking.
+```
+
+### 25. The Outline-to-Draft Expansion
+```
+Here's my outline: [PASTE OUTLINE]. Expand it into a full draft. For each outline point, write 100–200 words that: lead with the point's practical payoff, give one concrete example or number, and transition to the next point. Keep my voice: [VOICE DESCRIPTION]. Flag any section where my outline is logically thin with [THIN SECTION — needs your input] so I can fix the thinking, not just the prose.
+```
+
+### 26. The Edit Pass (Clarity + Punch)
+```
+Edit this post for clarity and punch WITHOUT changing my meaning or voice: [PASTE DRAFT]. Apply: (1) kill filler phrases ("in order to", "it's important to note"), (2) break any sentence over 25 words unless the rhythm demands it, (3) replace weak verbs with strong ones, (4) make the first sentence of each paragraph do work, (5) show a before/after diff for the 5 biggest improvements so I learn the patterns. Don't make it sound like AI — make it sound like me on my best day.
+```
+
+### 27. Topical Authority Map
+```
+Build a topical authority map for a site about [NICHE]: (1) the 5 content pillars, (2) for each pillar, 10 article titles arranged as a cluster (1 pillar page + supporting posts that interlink), (3) which pillar to build FIRST and why (search volume vs competition logic), (4) a 90-day publishing order that builds internal links strategically. Output as a table I can turn into an editorial calendar.
+```
+
+### 28. The Update/Refresh Pass
+```
+Here's an older post of mine: [PASTE POST]. It ranks [POSITION] for [KEYWORD]. Refresh it for 2026: (1) flag every dated claim, stat, or dead reference, (2) suggest replacement content where I need current data, (3) add 2 sections the SERP now rewards that the post lacks, (4) rewrite the intro to match current search intent, (5) update the CTA to [CURRENT OFFER]. Keep what still works — don't rewrite for the sake of it.
+```
+
+### 29. Case Study Structure
+```
+Turn this outcome into a case study: [SITUATION, ACTIONS, RESULTS]. Structure: (1) a results-first headline with the number ("How [X] achieved [SPECIFIC RESULT] in [TIMEFRAME]"), (2) the client/context in 3 sentences, (3) the honest starting problem including the emotions, (4) the 3 key moves in order of impact — not chronology, (5) what didn't work (the trust builder), (6) the results with specific numbers, (7) the replicable takeaway for the reader. 800–1,200 words, narrative tone.
+```
+
+### 30. SEO Title + Meta Batch
+```
+Generate 10 SEO title + meta description pairs for a page about [TOPIC] targeting [KEYWORD]. Rules: titles 50–60 characters with the keyword near the front and an emotional or utility hook; metas 140–155 characters that promise a specific benefit, include the keyword once, and end with an implicit or explicit reason to click. No clickbait that the page can't deliver. Rank the 3 strongest for CTR and explain the winner.
+```
+
+### 31. The "People Also Ask" Answer Blocks
+```
+For the keyword "[KEYWORD]", write 8 concise answer paragraphs (40–60 words each) targeting featured-snippet capture, one for each of these questions: [LIST PAA QUESTIONS]. Each answer: the direct answer in the first sentence, then one supporting detail or example. Written so Google can lift the paragraph verbatim. No preamble, no "great question".
+```
+
+### 32. Newsletter-to-Blog Repurposing
+```
+Here's my latest newsletter: [PASTE NEWSLETTER]. Repurpose it into: (1) a standalone blog post with proper H2s and an SEO title targeting [KEYWORD], (2) 3 social posts teasing the key insight, (3) a 60-second short-form video script on the strongest idea. Adapt tone for each — blog = searchable and structured, social = punchy, video = conversational.
+```
+
+---
+
+## Email Marketing (Prompts 33–40)
+
+### 33. The 5-Email Welcome Sequence
+```
+Write a 5-email welcome sequence for new subscribers of [BRAND/NEWSLETTER] about [NICHE]. Email 1 (immediate): deliver the lead magnet [MAGNET], set expectations, one personal story in 150 words. Email 2 (day 2): the biggest mistake in [NICHE] and the shift that fixes it. Email 3 (day 4): a case study or proof story — outcome first. Email 4 (day 6): introduce [PRODUCT/OFFER] as the natural next step, benefits not features. Email 5 (day 8): a soft close with a deadline or bonus, plus a "reply and tell me" question. Subject lines: 2 variants each, under 45 characters, curiosity without spam words. Voice: [VOICE].
+```
+
+### 34. Subject Line Laboratory
+```
+Generate 20 subject lines for an email about [TOPIC/OFFER] for [AUDIENCE]. 5 each of: curiosity gap, specific benefit, curiosity + benefit hybrid, personal/story, and scarcity/honest-urgency. Under 45 characters each. Flag any that risk spam filters (ALL CAPS, "free", !!!). Then mark the 3 you'd A/B test first with your reasoning. Never deceive — the body must deliver what the subject promises.
+```
+
+### 35. The Launch Email (Sales)
+```
+Write a launch email for [PRODUCT] going live to my list of [LIST SIZE] in the [NICHE] space. Structure: (1) subject + preview text that work together, (2) open with the problem the reader felt BEFORE they knew my product existed, (3) introduce the product as the bridge — 3 bullet capabilities each tied to a felt pain, (4) the offer details: [PRICE], [BONUSES], [DEADLINE] with the real reason for it, (5) one clear CTA button text. 250–350 words. One idea, one CTA. No "I'm so excited!!!" energy — write like a trusted expert, not a car salesman.
+```
+
+### 36. The Re-engagement Email
+```
+Write a re-engagement email to subscribers who haven't opened in 90+ days. Tone: honest, zero guilt-tripping. Angle options to draft (pick the best 2): (1) "should I stop emailing you?" permission-based, (2) a genuinely great free resource as a reason to come back, (3) a brief "here's what you missed" with one standout item. Subject line must not look like marketing. End with either a one-click stay or a graceful unsubscribe option. Under 150 words.
+```
+
+### 37. Weekly Newsletter Template
+```
+Design a repeatable weekly newsletter template for [BRAND] about [NICHE] that I can fill in 30 minutes: (1) a 2-line personal opener slot with 3 example openers for different weeks, (2) the core insight section (the one thing worth remembering this week), (3) a "worth your time" section with 3 curated links and my one-line take on each, (4) a quick tip or resource, (5) a P.S. slot that varies (offer, question, or behind-the-scenes). Give the skeleton plus one fully-written example issue on the topic [TOPIC].
+```
+
+### 38. The Cart Recovery Sequence
+```
+Write a 3-email abandoned-checkout sequence for [PRODUCT] at [PRICE]. Email 1 (1 hour): a helpful nudge — "checkout issue?" with a one-click resume link, no pressure. Email 2 (24 hours): handle the top objection ([TOP OBJECTION — e.g., price/fit/trust]) with proof or a FAQ answer, re-link. Email 3 (48 hours): honest close — restate the outcome the buyer wanted, add [BONUS/DISCOUNT IF REAL], one final link. Each under 150 words, subject lines included. Never fake scarcity.
+```
+
+### 39. Personal Outreach Email (1:1)
+```
+Write a personal (non-blast) email to [PERSON] who [CONTEXT — e.g., commented on my post, mentioned a problem my product solves, is a dream collaborator]. Goal: [GOAL — reply/call/purchase]. Rules: under 100 words, reference their specific thing in line one, make one clear small ask, no pitch if the goal is relationship-first. Write 2 versions: one warm/fan-first, one direct/value-first. Include a 3-word follow-up reminder note for if they don't reply in 5 days.
+```
+
+### 40. Email Audit + Deliverability
+```
+Audit my email approach: [PASTE SAMPLE EMAILS + CADENCE + LIST SOURCE]. Diagnose: (1) which emails likely land in Promotions vs Primary and why, (2) subject-line patterns that may be hurting opens, (3) structural issues (length, CTA count, link count per email), (4) cadence problems (gaps, over-mailing), (5) the 3 highest-impact fixes ordered by expected effect. If I'm doing something that's fine-but-looks-wrong (e.g., fewer links), say so — don't invent problems.
+```
+
+---
+
+## Product & Ad Copy (Prompts 41–50)
+
+### 41. Amazon Listing That Converts
+```
+Write an Amazon listing for [PRODUCT] targeting [CUSTOMER]. Include: (1) a title under 200 characters leading with the brand + core benefit + key spec, (2) 5 bullet points — each one a benefit headline in caps followed by the proof/spec, addressing: top use case, differentiation, quality signal, compatibility/size, and guarantee/risk-reversal, (3) a product description in 150 words that tells the usage story, (4) 10 backend search terms people actually type (no repeats from the title). Optimize for skim-reading shoppers.
+```
+
+### 42. Shopify Product Page
+```
+Write a Shopify product page for [PRODUCT]: (1) H1 that states product + primary benefit, (2) a 2-sentence subhead that handles the "is this for me?" question, (3) 4 benefit blocks (headline + 40 words each) mapped to these pains: [PAIN 1-4], (4) a specs/what's-included section, (5) 3 FAQ entries answering real purchase objections, (6) a shipping/returns reassurance block, (7) CTA copy that's specific ("Add to cart — ships in 24h") not generic ("Buy now"). Assume the reader skims: every section must make sense alone.
+```
+
+### 43. Etsy Listing with SEO
+```
+Write an Etsy listing for [HANDMADE/DIGITAL PRODUCT]: (1) a 140-character title packed with real search phrases in natural order (no keyword stuffing), (2) 13 tags (each under 20 chars) mixing product-type, style, occasion, and buyer-intent terms, (3) a description that opens with the gift-angle hook, covers materials/details/size/scent/whatever applies, includes a "why handmade" line, and closes with processing/shipping times, (4) a personal note about [MY STORY] for the last paragraph — Etsy buyers buy the maker.
+```
+
+### 44. Facebook Ad Set (3 Variants)
+```
+Write 3 Facebook ad variants for [PRODUCT] targeting [AUDIENCE]: Variant A — problem-agitate-solve, Variant B — social proof lead, Variant C — contrarian hook. Each: primary text under 125 words (hook before "see more" fold), a headline under 40 characters, and a description line. Include: CTA button recommendation, one suggestion for the creative to pair with each variant, and which variant to test first for a cold [AUDIENCE] audience and why. All claims must be true — no "miracle" language, no fake urgency.
+```
+
+### 45. Google Search Ad (High Intent)
+```
+Write a Google Search campaign for [PRODUCT/SERVICE] targeting the keyword "[KEYWORD]" (high purchase intent). Include: 5 headlines (30 chars max, keyword in at least 2, one with a number, one with a risk-reversal), 4 descriptions (90 chars max, leading with the benefit, one with proof, one with CTA), the final URL path suggestion, and 6 negative keywords to cut wasted spend. Assume searchers know what they want — this ad's job is to win the click over competitors, not to educate.
+```
+
+### 46. Landing Page Wireframe Copy
+```
+Write the full copy for a landing page selling [PRODUCT] to [AUDIENCE]: (1) hero — headline (outcome-focused), subhead (mechanism + time-frame), primary CTA, (2) the 3-step "how it works", (3) 6 benefit blocks with proof placeholders, (4) social proof section structure (which testimonials to collect and what each must show), (5) objection-handling FAQ (6 questions the real hesitators ask), (6) a final CTA section with risk-reversal. Mark where images/videos go with [VISUAL: description]. Copy length tuned for [PRICE POINT] — a $27 product needs far less copy than a $2,000 one.
+```
+
+### 47. Sales Page Opening (Long-Form)
+```
+Write the opening 400 words of a long-form sales page for [PRODUCT] at [PRICE]: enter the conversation already in the reader's head ([THEIR CURRENT PAIN/BELIEF]), agitate honestly without exaggerating, then flip to the new possibility. No "Are you struggling with..." cliché opens. Use short paragraphs, one idea each. End at the transition point where the mechanism/product gets introduced, and note in one line what the NEXT 400 words should cover.
+```
+
+### 48. The Testimonial Extractor
+```
+Turn this raw customer feedback into 3 usable testimonial formats: [PASTE FEEDBACK]. (1) a short punchy pull-quote (under 25 words), (2) a before-after structured story quote, (3) a results-specific stat quote if numbers exist. For each, mark the specific objection it answers for future buyers. If the feedback is too vague to extract a strong testimonial, write the 2 follow-up questions I should send the customer to get the missing specifics.
+```
+
+### 49. Price Increase Announcement
+```
+Write an announcement for a price increase on [PRODUCT] from [OLD] to [NEW] effective [DATE]. Structure: (1) direct subject/heading — no burying the news, (2) the honest reason in one sentence, (3) what existing customers get (grandfathering? bonus? longer access?), (4) the exact deadline and timezone, (5) a last-chance CTA that's firm but not manipulative. Tone: respectful, adult, like telling a friend before a restaurant raises prices. Under 200 words.
+```
+
+### 50. The Launch Announcement Multi-Channel Kit
+```
+Product [PRODUCT] launches [DATE]. Write the complete announcement kit: (1) an email to the existing list, (2) a launch-day X/Twitter thread (6 posts), (3) a LinkedIn post, (4) an Instagram caption, (5) a 30-second teaser video script, (6) a Reddit post that leads with value for r/[SUBREDDIT] and mentions the product only at the end (following each platform's culture — Reddit hates billboards). Same core narrative across all: the problem, why existing solutions fail, what's different here, the offer. Adapt tone per platform; do not just copy-paste.
+```
+
+---
+
+## How to Use This Pack
+
+1. **Match the prompt to the job** — pick the section you need, don't read linearly.
+2. **Fill the [BRACKETS]** — the more specific your inputs, the better the output. Vague in, vague out.
+3. **Iterate** — when the first output is 80% right, reply with what to change ("keep the structure, make it shorter, add a stat") instead of regenerating from scratch.
+4. **Make it yours** — the prompts encode professional structures, but your voice and examples make the content convert.
+
+*License: single user. Resale or redistribution of this pack is not permitted. Questions: [CONTACT].*
